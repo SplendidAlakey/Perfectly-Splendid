@@ -6,10 +6,10 @@ assignees: Footage2-Amply-Pounce
 body: 
   - type: checkboxes
     attributes:
-        label: Make sure that your suggestion is unique and not on the list of rejected mods. //Add the actual link when ready.
+        label: Make sure that your suggestion is unique and not on the list of considered mods: https://github.com/Footage2-Amply-Pounce/Perfectly-Splendid/discussions/2.
         multiple: true
         options:
-  - label: I made sure that my suggestion is unique and is not on the list of rejected mods. //Add the actual link when ready.
+  - label: I made sure that my suggestion is unique and not on the list of considered mods.
     validations:
       required: true
 
