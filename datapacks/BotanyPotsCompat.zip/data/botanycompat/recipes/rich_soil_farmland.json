@@ -1,0 +1,11 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "farmersdelight:rich_soil_farmland"
+  },
+  "display": {
+    "block": "farmersdelight:rich_soil_farmland"
+  },
+  "categories": ["dirt", "farmland"],
+  "ticks": 100
+}
