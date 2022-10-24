@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "structures": [
+    {
+      "structure": "dungeons_arise:illager_fort",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 563835947,
+    "spacing": 860,
+    "separation": 760,
+    "type": "minecraft:random_spread"
+  }
+}
