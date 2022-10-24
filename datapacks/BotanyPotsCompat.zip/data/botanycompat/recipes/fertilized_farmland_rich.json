@@ -1,0 +1,11 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "farmingforblockheads:fertilized_farmland_rich"
+  },
+  "display": {
+    "block": "farmingforblockheads:fertilized_farmland_rich"
+  },
+  "categories": ["dirt", "farmland"],
+  "ticks": 250
+}
