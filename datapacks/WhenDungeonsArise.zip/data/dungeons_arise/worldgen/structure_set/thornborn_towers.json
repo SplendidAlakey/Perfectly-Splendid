@@ -1,0 +1,15 @@
+{
+  "replace": true
+  "structures": [
+    {
+      "structure": "dungeons_arise:thornborn_towers",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 292377166,
+    "spacing": 920,
+    "separation": 870,
+    "type": "minecraft:random_spread"
+  }
+}

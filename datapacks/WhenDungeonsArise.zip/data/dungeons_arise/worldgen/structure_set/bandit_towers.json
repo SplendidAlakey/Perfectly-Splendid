@@ -1,0 +1,15 @@
+{
+  "replace": true
+  "structures": [
+    {
+      "structure": "dungeons_arise:bandit_towers",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1577726152,
+    "spacing": 965,
+    "separation": 935,
+    "type": "minecraft:random_spread"
+  }
+}

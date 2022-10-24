@@ -1,0 +1,15 @@
+{
+  "replace": true
+  "structures": [
+    {
+      "structure": "dungeons_arise:foundry",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 277663662,
+    "spacing": 720,
+    "separation": 660,
+    "type": "minecraft:random_spread"
+  }
+}

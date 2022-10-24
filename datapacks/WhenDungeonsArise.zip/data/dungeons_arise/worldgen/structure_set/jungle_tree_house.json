@@ -1,0 +1,15 @@
+{
+  "replace": true
+  "structures": [
+    {
+      "structure": "dungeons_arise:jungle_tree_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 240573269,
+    "spacing": 760,
+    "separation": 740,
+    "type": "minecraft:random_spread"
+  }
+}
