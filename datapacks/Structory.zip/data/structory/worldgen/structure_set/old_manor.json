@@ -1,0 +1,19 @@
+{
+  "replace": true
+  "structures": [
+    {
+      "structure": "structory:old_manor",
+      "weight": 3
+    },
+    {
+      "structure": "structory:dense_forest_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 22427392,
+    "spacing": 420,
+    "separation": 400,
+    "type": "minecraft:random_spread"
+  }
+}

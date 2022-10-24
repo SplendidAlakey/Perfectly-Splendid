@@ -1,0 +1,15 @@
+{
+  "replace": true
+  "structures": [
+    {
+      "structure": "structory:jungle_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 992963,
+    "spacing": 300,
+    "separation": 280,
+    "type": "minecraft:random_spread"
+  }
+}
