@@ -65,7 +65,7 @@ There's also a chance, that I've already answered your questions here: ---
 **@Credits**: 
 
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
-- [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects) for compatibility datapacks between YUNG's mods and othehrs.
+- [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects) for compatibility datapacks between YUNG's mods and others.
 - [eldeston](https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders) for Super Duper Vanilla Shaders.
 - [EpicCOAwesomeKid](https://www.curseforge.com/minecraft/texture-packs/corrected-mob-heads) for Corrected Mob Heads.
 - [un_roman](https://www.curseforge.com/minecraft/texture-packs/visual-travelers-titles) for Visual Traveler's Titles.
