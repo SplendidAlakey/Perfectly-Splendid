@@ -32,11 +32,16 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     attributes:
       label: Launcher (required)
       description: What launcher are you using?
-      placeholder: _example_: vanilla
+      options:
+        - Prism Launcher
+        - MultiMC
+        - CurseForge app
+        - Vanilla launcher
+        - Other
     validations:
       required: true
 
