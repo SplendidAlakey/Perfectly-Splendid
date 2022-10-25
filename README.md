@@ -12,9 +12,9 @@ Perfectly Splendid is a **Quilt** modpack, that is mainly focused on exploration
 
 ## How to install
 
-The pack is possible to install with any launcher, however I can only fully support 3 methods: Vanilla Launcher; CurseForge app; Prism Launcher.
+The pack is possible to install with any launcher, however, I can only fully support 3 methods: Vanilla Launcher; CurseForge app; Prism Launcher.
 
-Warning MultiMC users: at the time of writing this, MMC has a bug that prevents Narrator Library from working, breaking text-to-speech blocks from Supplementaries. Otherwise MultiMC is fully supported, but you will have to use something else to download the mods.
+⚠ Warning ⚠ MultiMC users: at the time of writing this, MMC has a bug that prevents Narrator Library from working, breaking text-to-speech blocks from Supplementaries. Otherwise MultiMC is fully supported, but you will have to use something else to download the mods.
 
 ### Using Prism Launcher (recommended):
 
