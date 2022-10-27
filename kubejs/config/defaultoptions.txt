@@ -1,4 +1,4 @@
-
+version:3120
 quilt_available_resource_packs:["bedrockwaters/resources","betterbeds/connectedbeds","betterbeds/fancybeds","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","vanilla","extended_drawers/alt","extended_drawers/dev","halfdoors/flatdoorcutters","lambdabettergrass/default","minecraft/supporteatinganimation","__moremcmeta-internal__","mushroom_additions/barebones","programer_art","refabslab:assets","resourcepack.voicechat.black_icons","resourcepack.voicechat.classic_icons","resourcepack.voicechat.white_icons","Snowyspirit Generated Pack","Supplementaries Generated Pack","telepistons/bellows_pistons","telepistons/enable_steam","telepistons/scissor_pistons","telepistons/sticky_sides","file/§6Chests-Reimagined§8-[v1.3].zip","file/Corrected Mob Heads (1.19).zip","file/EnderEyes_1.19_v2.zip","file/Fancy_Beds_V2.1-[1.19].zip","file/Ore+Variants+v2.4.zip","file/Sullys_Peeves.zip","file/§6Torches-Reimagined§8-[v1.2].zip","file/Visual+Titles+1.18.zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip"]
 autoJump:false
 enableVsync:false
