@@ -87,7 +87,6 @@ There's also a chance, that I've already answered your questions here: ---
 ### ⚠ Known issues
 
 <details><summary>Mobs added with Geckolib may have broken animations when using shaders.</summary>
-<p>
 
   **Status**: ❌ Reported. Not fixed. 
 
@@ -95,7 +94,16 @@ There's also a chance, that I've already answered your questions here: ---
 
   **Workarounds**: Disable shaders. 
 
-</p>
+</details>
+
+<details><summary>Creating superflat worlds is not possible.</summary>
+
+  **Status**: ❌ Not reported. Not fixed. 
+
+  **Severity**: Low. 
+
+  **Workarounds**: Disable Terralith. 
+
 </details>
 
 **@Credits**: 
