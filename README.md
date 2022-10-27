@@ -45,7 +45,7 @@ Perfectly Splendid is a **Quilt** modpack, that is mainly focused on exploration
 <p align="center"><img src="https://user-images.githubusercontent.com/86702831/198348392-e7091d44-b6a7-420c-9bc2-0f6e2be219a5.png" width="720">
 <img src="https://user-images.githubusercontent.com/86702831/198348453-9c9be973-8999-44f1-bf7e-a374fafaa4fd.png" width="720"></p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198348792-c3c0a9ce-5397-4405-88ee-66c49a9333fe.png" width="1080"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198348792-c3c0a9ce-5397-4405-88ee-66c49a9333fe.png" width="720"></p>
 
 ## 🔨 Installing the modpack
 
