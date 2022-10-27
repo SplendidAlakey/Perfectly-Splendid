@@ -10,11 +10,42 @@
 
 Perfectly Splendid is a **Quilt** modpack, that is mainly focused on exploration and creativity, while staying true to vanilla. One could call it a kitchen sink modpack, due to the amount of mods included, However, I do try to keep a certain theme going - expanding on what Minecraft is, without turning it into something it isn't. And yet, it's not exactly what you would call a "Vanilla+" pack, as describing it with just a single plus sign would be a big understatement. You won't see crazy questing, leveling or progression in Perfectly Splendid. Instead, you will find yourself in a familiar world full of life, new challenges and lots of amazing blocks to expand your creativity. If you are bored of vanilla, but don't wish to get yourself into massive modpacks quite yet, and vanilla+ doesn't cut it for you, then give Perfectly Splendid a try.
 
---- [insert a pic or possibly a vid here, showcasing the best parts of the pack]
+<h1 align="center"> What to expect from Perfectly Splendid <br></h1>
 
-## What to expect from Perfectly Splendid
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198345713-38f79adb-198d-47dd-a69a-7fa372b136fa.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198345732-559f6e7e-5127-4fca-b175-7234f7c4feac.png" width="480"></p>
 
---- [screenshots with highlight mods and short descriptions]
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198345744-155d055e-5a42-43eb-acce-40fad439f210.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198345757-e0584210-cc7f-472e-bfa8-b2a3ad1e5fba.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198347068-f092c772-59c8-4402-9ddc-9859cffc4788.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198347081-fd48049e-d377-41a9-905e-df4f317dec5d.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198347096-bfc8f11e-4417-445f-8206-f5646f120168.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198347108-9497ef94-5b3e-4910-9a54-7ca27860fa23.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198347476-74c5bf9c-7f54-4a24-8ea4-bd1382d02643.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198347505-26bfd0fc-1560-47fc-b3d0-8904310b32f0.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198347527-d8ced980-5492-4831-9d33-5f6de35034d5.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198347534-66670962-7deb-45c8-8e22-1572727649ad.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198347860-426d05bd-0d01-4d60-a8f7-8c6ffb003e80.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198347880-b997b747-a2b4-4f83-9994-298f30809950.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198347898-af8a79d4-d139-4637-8126-5982218b2311.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198347908-ef7fdeef-0b65-4633-9e3f-06fc6b1dc96d.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198348154-40cabe2f-1599-492c-99de-1b4f9c221369.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198348169-052eb1c7-e667-4b21-af26-2a9c19c5c8f5.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198348182-b7f8fa24-f6fe-4638-b19e-59ae7c9b5413.png" width="480">
+<img src="https://user-images.githubusercontent.com/86702831/198348191-073cb2b0-0e8c-4c74-850b-6aedf512988a.png" width="480"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198348392-e7091d44-b6a7-420c-9bc2-0f6e2be219a5.png" width="720">
+<img src="https://user-images.githubusercontent.com/86702831/198348453-9c9be973-8999-44f1-bf7e-a374fafaa4fd.png" width="720"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/86702831/198348792-c3c0a9ce-5397-4405-88ee-66c49a9333fe.png" width="1080"></p>
 
 ## 🔨 Installing the modpack
 
