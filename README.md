@@ -137,6 +137,18 @@ There's also a chance, that I've already answered your questions here: ---
 
 </details>
 
+</details>
+
+<details><summary>Mooshrooms' mushrooms are flashing.</summary>
+
+  **Status**: ❌ Reported. Not fixed. 
+
+  **Severity**: Medium. 
+
+  **Workarounds**: Open BetterNether mod jar with any archive manager, navigate to ./assets/minecraft/, delete every folder exept optifine and textures, navigate to ./assets/minecraft/textures/ and delete the blocks folder. These are 3D models for mushrooms, that cause flashing on Mooshrooms when used with Sodium. You should check if a texture pack you want to install adds 3D mushrooms, if you decide to add more texture packs to the modpack, and manually remove it as well.
+
+</details>
+
 **@Credits**: 
 
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
