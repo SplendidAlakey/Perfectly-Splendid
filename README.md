@@ -151,6 +151,16 @@ There's also a chance, that I've already answered your questions here: ---
 
 </details>
 
+<details><summary>Tokenable Shulkers have untranslated names in GUI screens.</summary>
+
+  **Status**: ❌ Reported. Not fixed. 
+
+  **Severity**: Low. 
+
+  **Workarounds**: Open the mod's jar, navigate to ./assets/tokenablefurnaces/lang and edit the en_us json. All you have to do is copy all the shulkerbox entries, paste them anywhere you want in the file and remove undescores from its names.
+
+</details>
+
 **@Credits**: 
 
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
