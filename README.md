@@ -6,9 +6,11 @@
 
 <a href="https://www.curseforge.com/LINKGOESHERE"><img src="https://cf.way2muchnoise.eu/versions/IDGOESHERE.svg" alt="CF"></a>
 
+<a href="https://quiltmc.org"><img src="https://github.com/QuiltMC/art/raw/master/brand/svg/quilt_available_dark.svg" width="200"></a>
+
 </h1>
 
-Perfectly Splendid is a **Quilt** modpack, that is mainly focused on exploration and creativity, while staying true to vanilla. One could call it a kitchen sink modpack, due to the amount of mods included, However, I do try to keep a certain theme going - expanding on what Minecraft is, without turning it into something it isn't. And yet, it's not exactly what you would call a "Vanilla+" pack, as describing it with just a single plus sign would be a big understatement. You won't see crazy questing, leveling or progression in Perfectly Splendid. Instead, you will find yourself in a familiar world full of life, new challenges and lots of amazing blocks to expand your creativity. If you are bored of vanilla, but don't wish to get yourself into massive modpacks quite yet, and vanilla+ doesn't cut it for you, then give Perfectly Splendid a try.
+Perfectly Splendid is a **Quilt** modpack, that is mainly focused on exploration, combat and creativity, while staying true to vanilla. One could call it a kitchen sink modpack, due to the amount of mods included, However, I do try to keep a certain theme going - expanding on what Minecraft is, without turning it into something it isn't. And yet, it's not exactly what you would call a "Vanilla+" pack, as describing it with just a single plus sign would be a big understatement. You won't see crazy questing, leveling or progression in Perfectly Splendid. Instead, you will find yourself in a familiar world full of life, new challenges and lots of amazing blocks to expand your creativity. If you are bored of vanilla, but don't wish to get yourself into massive modpacks quite yet, and vanilla+ doesn't cut it for you, then give Perfectly Splendid a try.
 
 <h1 align="center"> What to expect from Perfectly Splendid <br></h1>
 
