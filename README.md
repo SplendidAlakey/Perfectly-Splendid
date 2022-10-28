@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/86702831/197846252-5dc043e1-be93-4bba-8acd-51edc0703c06.png"
+  <img src="https://user-images.githubusercontent.com/86702831/198738857-a34be9b0-8368-46c6-8023-0f471f87adef.png"
 </p>
 
 <h1 align="center"> ❤🧡💛💚💙💜 Perfectly Splendid 💜💙💚💛🧡❤ <br>
