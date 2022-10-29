@@ -98,11 +98,11 @@ The pack was tested on default Java installations shipped with vanilla launcher 
 
 The pack was tested with default Java arguments provided by vanilla launcher and CF app.
 
-Absolute maximum required allocated memory for the pack is 12GB. 
-10GB is recommended, if you use Super Duper Vanilla shaders (default). 
-6-8GB is recommended, if you don't use any shaders. 
-4-8GB is recommended, if your world is pregenerated or you play on a server. 
-The recommended memory allocation for servers is 10-12GB.
+<p> Absolute maximum required allocated memory for the pack is 12GB </p>
+<p> 10GB is recommended, if you use Super Duper Vanilla shaders (default). </p>
+<p> 6-8GB is recommended, if you don't use any shaders. </p>
+<p> 4-8GB is recommended, if your world is pregenerated or you play on a server. </p>
+<p> The recommended memory allocation for servers is 10-12GB. </p>
 
 Recommended arguments to use (add -Xmx and -Xms, if you don't use Prism or MMC):
 ```
