@@ -1,7 +1,8 @@
 ServerEvents.recipes(event => {
 	
     const output = [
-    "minegate:woodcutter"
+    "minegate:woodcutter",
+	"extraalchemy:empty_vial"
 	];
 	
 	output.forEach((output) => {
