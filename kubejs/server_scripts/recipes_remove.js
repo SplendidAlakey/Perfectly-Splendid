@@ -1,10 +1,10 @@
 ServerEvents.recipes(event => {
 	
-    const output = [
+	const output = [
 	"extraalchemy:empty_vial"
 	];
 	
 	output.forEach((output) => {
-        event.remove({ output: output });
+		event.remove({ output: output });
 	});
 });

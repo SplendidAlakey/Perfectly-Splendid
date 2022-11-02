@@ -6,8 +6,8 @@
 
 ServerEvents.recipes(event => {
 	
-    const output = [
-    "mining_dims:mining_teleporter",
+		const output = [
+	"mining_dims:mining_teleporter",
 	"mining_dims:caving_teleporter",
 	"mining_dims:climbing_teleporter",
 	"mining_dims:nethering_teleporter",
@@ -19,88 +19,88 @@ ServerEvents.recipes(event => {
 	];
 	
 	output.forEach((output) => {
-        event.remove({ output: output });
+		event.remove({ output: output });
 	});
 });
 
 ServerEvents.recipes(event => {
 	
 		event.shaped('1x mining_dims:mining_teleporter', [
-    ' L ',
-    'ILI',
-    ' R '
+	' L ',
+	'ILI',
+	' R '
   ], {
-    L: 'minecraft:lapis_block',
-    R: 'minecraft:blaze_rod',
+	L: 'minecraft:lapis_block',
+	R: 'minecraft:blaze_rod',
 	I: 'minecraft:iron_block'
 	});
 	
 		event.shaped('1x mining_dims:caving_teleporter', [
-    ' S ',
-    'ISI',
-    ' R '
+	' S ',
+	'ISI',
+	' R '
   ], {
-    S: 'minecraft:redstone_block',
-    R: 'minecraft:blaze_rod',
+	S: 'minecraft:redstone_block',
+	R: 'minecraft:blaze_rod',
 	I: 'minecraft:iron_block'
 	});
 	
 		event.shaped('1x mining_dims:climbing_teleporter', [
-    ' E ',
-    'AEA',
-    ' R '
+	' E ',
+	'AEA',
+	' R '
   ], {
-    E: 'xps_additions:essence_crystal',
-    R: 'minecraft:blaze_rod',
+	E: 'xps_additions:essence_crystal',
+	R: 'minecraft:blaze_rod',
 	A: 'minecraft:amethyst_block'
 	});
 	
 		event.shaped('1x mining_dims:nethering_teleporter', [
-    ' Q ',
-    'NQN',
-    ' R '
+	' Q ',
+	'NQN',
+	' R '
   ], {
-    Q: 'minecraft:quartz_block',
-    R: 'minecraft:blaze_rod',
+	Q: 'minecraft:quartz_block',
+	R: 'minecraft:blaze_rod',
 	N: 'minecraft:netherite_scrap'
 	});
 	
 		event.shaped('1x mining_dims:hunting_teleporter', [
-    ' C ',
-    'MCM',
-    ' R '
+	' C ',
+	'MCM',
+	' R '
   ], {
-    C: 'conjuring:conjuration_essence',
-    R: 'minecraft:blaze_rod',
+	C: 'conjuring:conjuration_essence',
+	R: 'minecraft:blaze_rod',
 	M: 'minecraft:emerald_block'
 	});
 	
 		event.shaped('1x customportals:weak_enhancer_rune', [
-    'LLL',
-    ' AL',
-    ' L '
+	'LLL',
+	' AL',
+	' L '
   ], {
-    L: 'minecraft:lapis_block',
-    A: 'minecraft:amethyst_block'
+	L: 'minecraft:lapis_block',
+	A: 'minecraft:amethyst_block'
 	});
 	
 		event.shaped('1x customportals:gate_rune', [
-    'WWT',
-    'WNT',
-    'WTT'
+	'WWT',
+	'WNT',
+	'WTT'
   ], {
-    W: 'minecraft:weeping_vines',
-    T: 'minecraft:twisting_vines',
+	W: 'minecraft:weeping_vines',
+	T: 'minecraft:twisting_vines',
 	N: 'minecraft:netherite_block'
 	});
 	
 		event.shaped('1x theoneprobe:creativeprobe', [
-    'RSR',
-    'CGC',
-    'RCR'
+	'RSR',
+	'CGC',
+	'RCR'
   ], {
-    S: 'minecraft:redstone_block',
-    C: 'minecraft:comparator',
+	S: 'minecraft:redstone_block',
+	C: 'minecraft:comparator',
 	R: 'minecraft:repeater',
 	G: 'mcda:gemstone_red'
 	});
