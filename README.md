@@ -151,7 +151,7 @@ There's also a chance, that I've already answered your questions here: ---
 
   **Severity**: Low. 
 
-  **Workarounds**: Open the mod's jar, navigate to ./assets/tokenablefurnaces/lang and edit the en_us json. All you have to do is copy all the shulkerbox entries, paste them anywhere you want in the file and remove undescores from its names. Then add all the missing trapped chests.
+  **Workarounds**: Open the mod's jar, navigate to ./assets/tokenablefurnaces/lang and edit the en_us json. All you have to do is copy all the shulkerbox entries, paste them anywhere you want in the file and remove underscores from its names. After that manually add all the missing trapped chests.
 
 </details>
 
