@@ -1,7 +1,6 @@
 ServerEvents.recipes(event => {
 	
     const output = [
-    "minegate:woodcutter",
 	"extraalchemy:empty_vial"
 	];
 	
