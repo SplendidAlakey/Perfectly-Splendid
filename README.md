@@ -79,9 +79,9 @@ The pack is possible to install with any launcher, however, I can only fully sup
 <p>
 
 1. Install the 1.19.2 version of the game and make sure it works without any mods
-2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.17.5
-3. Navigate to https://cdn.modrinth.com/data/qvIfYCYJ/versions/1RL57ufH/quilted-fabric-api-4.0.0-beta.17%2B0.64.0-1.19.2.jar and download QSL, then put it into the .minecraft/mods folder. If such folder doesn't exist, simply create one.
-4. Navigate to ---, choose the latest version of the pack and scroll down until you see the list of included mods
+2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.17.6
+3. Navigate to https://www.curseforge.com/minecraft/mc-mods/qsl and download QSL, then put it into the .minecraft/mods folder. If such a folder doesn't exist, simply create one.
+4. Navigate to https://www.curseforge.com/LINKGOESHERE, choose the latest version of the pack and scroll down until you see the list of included mods
 5. Download every mod, make sure to use the correct versions, and put them all into the mods folder
 6. Download the modpack file and exctract the "config", "resourcepacks" and "kubejs" folders from it, put them all in .minecraft/
 7. Launch the game using the Quilt profile in the launcher
@@ -113,13 +113,10 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 </p>
 </details>
 
-## Already tried Perfectly Splendid? Would like to report issues or give suggestions? Or, perphaps, you simply have some questions?
+## Already tried Perfectly Splendid? Would like to report an issue or send feedback?
 
-- If you encounter any issues with the pack, you should report it here: ---
-- If you would like to suggest a change to the pack, please open an issue here: ---
-- If you would like to ask a question, use the discussions tab on my GitHub page: ---
-
-There's also a chance, that I've already answered your questions here: ---
+- If you encounter any issues with the pack or have a suggestion, open an issue on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/issues).
+- If you would like to ask a question, use the discussions tab on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions).
 
 ### ⚠ Known issues
 
