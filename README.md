@@ -133,16 +133,6 @@ There's also a chance, that I've already answered your questions here: ---
 
 </details>
 
-<details><summary>Creating superflat worlds is not possible.</summary>
-
-  **Status**: ❌ Not reported. Not fixed. 
-
-  **Severity**: Low. 
-
-  **Workarounds**: Disable Terralith. 
-
-</details>
-
 </details>
 
 <details><summary>Mooshrooms' mushrooms are flashing.</summary>
@@ -155,13 +145,13 @@ There's also a chance, that I've already answered your questions here: ---
 
 </details>
 
-<details><summary>Tokenable Shulkers have untranslated names in GUI screens.</summary>
+<details><summary>Tokenable Shulkers have untranslated names in GUI screens; Tokenable trapped chests use untranslated strings.</summary>
 
   **Status**: ❌ Reported. Not fixed. 
 
   **Severity**: Low. 
 
-  **Workarounds**: Open the mod's jar, navigate to ./assets/tokenablefurnaces/lang and edit the en_us json. All you have to do is copy all the shulkerbox entries, paste them anywhere you want in the file and remove undescores from its names.
+  **Workarounds**: Open the mod's jar, navigate to ./assets/tokenablefurnaces/lang and edit the en_us json. All you have to do is copy all the shulkerbox entries, paste them anywhere you want in the file and remove undescores from its names. Then add all the missing trapped chests.
 
 </details>
 
