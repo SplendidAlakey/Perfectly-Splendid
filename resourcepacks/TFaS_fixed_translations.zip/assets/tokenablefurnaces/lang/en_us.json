@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "block.tokenablefurnaces.christmas_chest_block": "Christmas Chest",
+  "block.tokenablefurnaces.dirt_trapped_chest_block": "Trapped Dirt Chest",
+  "block.tokenablefurnaces.christmas_trapped_chest_block": "Trapped Christmas Chest",
+  "block.tokenablefurnaces.pumpkin_trapped_chest_block": "Trapped Pumpkin Chest",
+  "block.tokenablefurnaces.iron_trapped_chest_block": "Trapped Iron Chest",
+  "block.tokenablefurnaces.gold_trapped_chest_block": "Trapped Gold Chest",
+  "block.tokenablefurnaces.netherite_trapped_chest_block": "Trapped Netherite Chest",
+  "block.tokenablefurnaces.amethyst_trapped_chest_block": "Trapped Amethyst Chest",
+  
+  "container.ironshulker": "Iron Shulker",
+  "container.goldshulker": "Gold Shulker",
+  "container.diamondshulker": "Diamond Shulker",
+  "container.netheriteshulker": "Netherite Shulker",
+  "container.amethystshulker": "Amethyst Shulker"
+}
