@@ -4,6 +4,8 @@
 // Add a recipe for Creative Probe
 // DragonLoot
 // Compatibility recipes between Twigs, Aurora's Decorations and Blockus
+// Compatibility recipes between Comforts and Traveler's Backpack
+// Added tags for chests in Traveler's Backpack recipe
 
 ServerEvents.recipes(event => {
 	
@@ -38,7 +40,7 @@ ServerEvents.recipes(event => {
 
 ServerEvents.recipes(event => {
 	
-		event.shaped('1x mining_dims:mining_teleporter', [
+		event.shaped('mining_dims:mining_teleporter', [
 	' L ',
 	'ILI',
 	' R '
@@ -48,7 +50,7 @@ ServerEvents.recipes(event => {
 	I: 'minecraft:iron_block'
 	});
 	
-		event.shaped('1x mining_dims:caving_teleporter', [
+		event.shaped('mining_dims:caving_teleporter', [
 	' S ',
 	'ISI',
 	' R '
@@ -58,7 +60,7 @@ ServerEvents.recipes(event => {
 	I: 'minecraft:iron_block'
 	});
 	
-		event.shaped('1x mining_dims:climbing_teleporter', [
+		event.shaped('mining_dims:climbing_teleporter', [
 	' E ',
 	'AEA',
 	' R '
@@ -68,7 +70,7 @@ ServerEvents.recipes(event => {
 	A: 'minecraft:amethyst_block'
 	});
 	
-		event.shaped('1x mining_dims:nethering_teleporter', [
+		event.shaped('mining_dims:nethering_teleporter', [
 	' Q ',
 	'NQN',
 	' R '
@@ -78,7 +80,7 @@ ServerEvents.recipes(event => {
 	N: 'minecraft:netherite_scrap'
 	});
 	
-		event.shaped('1x mining_dims:hunting_teleporter', [
+		event.shaped('mining_dims:hunting_teleporter', [
 	' C ',
 	'MCM',
 	' R '
@@ -88,7 +90,7 @@ ServerEvents.recipes(event => {
 	M: 'minecraft:emerald_block'
 	});
 	
-		event.shaped('1x customportals:weak_enhancer_rune', [
+		event.shaped('customportals:weak_enhancer_rune', [
 	'LLL',
 	' AL',
 	' L '
@@ -97,7 +99,7 @@ ServerEvents.recipes(event => {
 	A: 'minecraft:amethyst_block'
 	});
 	
-		event.shaped('1x customportals:gate_rune', [
+		event.shaped('customportals:gate_rune', [
 	'WWT',
 	'WNT',
 	'WTT'
@@ -107,7 +109,7 @@ ServerEvents.recipes(event => {
 	N: 'minecraft:netherite_block'
 	});
 	
-		event.shaped('1x theoneprobe:creativeprobe', [
+		event.shaped('theoneprobe:creativeprobe', [
 	'RSR',
 	'CGC',
 	'RCR'
@@ -205,4 +207,16 @@ ServerEvents.recipes(event => {
 		event.stonecutting('1x twigs:polished_tuff_brick_wall', 'aurorasdeco:polished_tuff');
 		event.smelting('twigs:cracked_polished_tuff_bricks', 'aurorasdeco:polished_tuff');
 		event.shapeless('blockus:polished_tuff_button', ['aurorasdeco:polished_tuff']);
+		
+		event.shaped('travelersbackpack:standard', [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: '#comforts:sleeping_bags'
+	});
 });
