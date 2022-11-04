@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "variants": {
+    "": {
+      "model": "minecraft:block/red_mushroom"
+    }
+  }
+}
