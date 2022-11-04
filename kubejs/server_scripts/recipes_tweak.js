@@ -23,14 +23,12 @@ ServerEvents.recipes(event => {
 	"twigs:polished_calcite_brick_slab",
 	"twigs:polished_calcite_brick_stairs",
 	"twigs:polished_calcite_brick_wall",
-	"twigs:cracked_polished_calcite_bricks",
 	"blockus:polished_tuff_pressure_plate",
 	"blockus:polished_tuff_button",
 	"twigs:polished_tuff_bricks",
 	"twigs:polished_tuff_brick_slab",
 	"twigs:polished_tuff_brick_stairs",
-	"twigs:polished_tuff_brick_wall",
-	"twigs:cracked_polished_tuff_bricks"
+	"twigs:polished_tuff_brick_wall"
 	];
 	
 	output.forEach((output) => {
@@ -159,7 +157,6 @@ ServerEvents.recipes(event => {
 		event.stonecutting('2x twigs:polished_calcite_brick_slab', 'aurorasdeco:polished_calcite');
 		event.stonecutting('1x twigs:polished_calcite_brick_stairs', 'aurorasdeco:polished_calcite');
 		event.stonecutting('1x twigs:polished_calcite_brick_wall', 'aurorasdeco:polished_calcite');
-		event.smelting('twigs:cracked_polished_calcite_bricks', 'aurorasdeco:polished_calcite');
 		
 		event.shaped('blockus:polished_tuff_pressure_plate', [
 	'TT ',
@@ -205,7 +202,6 @@ ServerEvents.recipes(event => {
 		event.stonecutting('2x twigs:polished_tuff_brick_slab', 'aurorasdeco:polished_tuff');
 		event.stonecutting('1x twigs:polished_tuff_brick_stairs', 'aurorasdeco:polished_tuff');
 		event.stonecutting('1x twigs:polished_tuff_brick_wall', 'aurorasdeco:polished_tuff');
-		event.smelting('twigs:cracked_polished_tuff_bricks', 'aurorasdeco:polished_tuff');
 		event.shapeless('blockus:polished_tuff_button', ['aurorasdeco:polished_tuff']);
 		
 		event.shaped('travelersbackpack:standard', [
