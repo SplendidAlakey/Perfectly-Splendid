@@ -132,28 +132,6 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 </details>
 
-</details>
-
-<details><summary>Mooshrooms' mushrooms are flashing.</summary>
-
-  **Status**: ❌ Reported. Not fixed. 
-
-  **Severity**: Medium. 
-
-  **Workarounds**: Open BetterNether mod jar with any archive manager, navigate to ./assets/minecraft/, delete every folder exept optifine and textures, navigate to ./assets/minecraft/textures/ and delete the blocks folder. These are 3D models for mushrooms, that cause flashing on Mooshrooms when used with Sodium. You should check if a texture pack you want to install adds 3D mushrooms, if you decide to add more texture packs to the modpack, and manually remove it as well.
-
-</details>
-
-<details><summary>Tokenable Shulkers have untranslated names in GUI screens; Tokenable trapped chests use untranslated strings.</summary>
-
-  **Status**: ❌ Reported. Not fixed. 
-
-  **Severity**: Low. 
-
-  **Workarounds**: Open the mod's jar, navigate to ./assets/tokenablefurnaces/lang and edit the en_us json. All you have to do is copy all the shulkerbox entries, paste them anywhere you want in the file and remove underscores from its names. After that manually add all the missing trapped chests.
-
-</details>
-
 **@Credits**: 
 
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
