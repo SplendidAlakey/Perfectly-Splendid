@@ -23,7 +23,8 @@ ServerEvents.recipes(event => {
 	"aurorasdeco:mossy_deepslate_brick_slab",
 	"aurorasdeco:mossy_deepslate_brick_wall",
 	"#aurorasdeco:pet_beds",
-	"#aurorasdeco:sleeping_bags"
+	"#aurorasdeco:sleeping_bags",
+	"#aurorasdeco:shelves"
 	];
 	
 	output.forEach((output) => {
