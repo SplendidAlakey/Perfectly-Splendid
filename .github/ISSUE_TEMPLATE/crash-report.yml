@@ -2,7 +2,7 @@ name: Crash report
 about: Minecraft crashes when playing Perfectly Splendid
 title: "[CRASH] "
 labels: 1.19.2, crash
-assignees: Footage2-Amply-Pounce
+assignees: SplendidAlakey
 body: 
   - type: checkboxes
     attributes:
