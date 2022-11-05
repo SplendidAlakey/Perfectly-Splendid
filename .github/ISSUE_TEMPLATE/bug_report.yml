@@ -2,7 +2,7 @@ name: Bug report
 description: Something is not working correctly
 title: '[BUG] '
 labels: 1.19.2, bug
-assignees: Footage2-Amply-Pounce
+assignees: SplendidAlakey
 body: 
   - type: checkboxes
     attributes:
