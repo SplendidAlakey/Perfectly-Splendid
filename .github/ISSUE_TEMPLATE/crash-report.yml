@@ -42,7 +42,7 @@ body:
         - Mac
         - Other
     validations:
-      required: false
+      required: true
   - type: textarea
     id: description
     attributes:
