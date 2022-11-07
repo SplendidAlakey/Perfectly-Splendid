@@ -11,17 +11,17 @@ body:
     attributes:
       label: "Perfectly Splendid version"
       description: What version of Perfectly Splendid are you playing on?
-      multiple: true
+      multiple: false
       options:
         - 0.1
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: launcher
     attributes:
       label: "Launcher"
       description: What launcher are you using?
-      multiple: true
+      multiple: false
       options:
         - Prism Launcher
         - Vanilla launcher
@@ -35,7 +35,7 @@ body:
     attributes:
       label: "OS"
       description: What OS are you on?
-      multiple: true
+      multiple: false
       options:
         - Windows
         - Linux
