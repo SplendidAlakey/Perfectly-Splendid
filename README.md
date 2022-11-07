@@ -137,14 +137,5 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
 - [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects) for compatibility datapacks between YUNG's mods and others.
 - [eldeston](https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders) for Super Duper Vanilla Shaders.
-- [EpicCOAwesomeKid](https://www.curseforge.com/minecraft/texture-packs/corrected-mob-heads) for Corrected Mob Heads.
-- [un_roman](https://www.curseforge.com/minecraft/texture-packs/visual-travelers-titles) for Visual Traveler's Titles.
-- [IcyCrystaI](https://www.curseforge.com/minecraft/texture-packs/ore-variants) for Ore Variants.
-- [GoesBySully](https://www.curseforge.com/minecraft/texture-packs/sullys-peeves) for Sully's Peeves.
-- [Agente_511](https://www.curseforge.com/minecraft/texture-packs/fancy-beds) for Fancy Beds.
-- [Futureazoo](https://www.curseforge.com/minecraft/texture-packs/blinking-ender-eyes) for Blinking Ender Eyes.
-- [Reijvi](https://www.curseforge.com/minecraft/texture-packs/chests-reimagined) for Chests Reimagined.
-- [Reijvi](https://www.curseforge.com/minecraft/texture-packs/torches-reimagined) for Torches Reimagined.
-- [xalixilax](https://www.curseforge.com/minecraft/texture-packs/xalis-enchanted-books) for xali's Enchanted Books.
 
 <h1 align="center"> 🌈 Thank you for playing Perfectly Splendid! 🌈 </h1>
