@@ -7,12 +7,9 @@ body:
 - type: checkboxes
     attributes:
         label: Make sure that your issue is unique and fitting! Duplicates and offtopic issues will be closed.
-        multiple: true
         options:
-  - label: I made sure that my issue is unique and has not been posted before.
-  - label: My issue is about Perfectly Splendid MC Modpack and/or its included mods.
-    validations:
-      required: true
+            - label: I made sure that my issue is unique and has not been posted before.
+            required: true
 - type: dropdown
     attributes:
       label: Minecraft version (required)
