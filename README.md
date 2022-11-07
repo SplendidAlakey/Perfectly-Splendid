@@ -4,7 +4,7 @@
 
 <h1 align="center"> ❤🧡💛💚💙💜 Perfectly Splendid 💜💙💚💛🧡❤ <br>
 
-<a href="https://www.curseforge.com/LINKGOESHERE"><img src="https://cf.way2muchnoise.eu/versions/IDGOESHERE.svg" alt="CF"></a>
+<a href="https://www.curseforge.com/minecraft/modpacks/perfectly-splendid"><img src="https://cf.way2muchnoise.eu/versions/699537.svg" alt="CF"></a>
 
 <a href="https://quiltmc.org"><img src="https://github.com/QuiltMC/art/raw/master/brand/svg/quilt_available_dark.svg" width="200"></a>
 
@@ -55,13 +55,13 @@ If you are bored of vanilla, but don't wish to get yourself into massive modpack
 
 The pack is possible to install with any launcher, however, I can only fully support 3 methods: Vanilla Launcher; CurseForge app; Prism Launcher.
 
-⚠ Warning ⚠ MultiMC users: at the time of writing this, MMC has a bug that prevents Narrator Library from working, breaking text-to-speech blocks from Supplementaries. Otherwise, MultiMC is fully supported, but you will have to use something else to download the mods.
+⚠ Warning ⚠ MultiMC users: at the time of writing this, MMC has a bug, that prevents Narrator Library from working, breaking text-to-speech blocks from Supplementaries. Otherwise, MultiMC is fully supported, but you will have to use something else to download the mods.
 
 <details><summary>Using Prism Launcher (recommended):</summary>
 <p>
 
 1. Download and install Prism Launcher https://prismlauncher.org/download/
-2. Open Prism Launcher, right click anywhere and choose "Create instance"
+2. Open Prism Launcher, right-click anywhere and choose "Create instance"
 3. On the left side panel select "CurseForge", look up Perfectly Splendid and install it
 
 </p>
@@ -77,15 +77,15 @@ The pack is possible to install with any launcher, however, I can only fully sup
 </p>
 </details>
 
-<details><summary>Using vanilla launcher (not preferred):</summary>
+<details><summary>Using vanilla launcher (not recommended):</summary>
 <p>
 
 1. Install the 1.19.2 version of the game and make sure it works without any mods
 2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.17.6
 3. Navigate to https://www.curseforge.com/minecraft/mc-mods/qsl and download QSL, then put it into the .minecraft/mods folder. If such a folder doesn't exist, simply create one.
-4. Navigate to https://www.curseforge.com/LINKGOESHERE, choose the latest version of the pack and scroll down until you see the list of included mods
-5. Download every mod, make sure to use the correct versions, and put them all into the mods folder
-6. Download the modpack file and exctract the "config", "resourcepacks" and "kubejs" folders from it, put them all in .minecraft/
+4. Navigate to https://www.curseforge.com/minecraft/modpacks/perfectly-splendid, choose the latest version of the pack and scroll down until you see the list of included mods
+5. Download every mod, make sure to use the correct versions, and put them all into the mods folder (some mods must be a specific version, to make the process easier find a way to download mods automatically using the pack's zip, rather than manually)
+6. Download the modpack file and extract the "config", "shaderpacks" and "kubejs" folders from it, put them all in .minecraft/
 7. Launch the game using the Quilt profile in the launcher
 
 </p>
@@ -129,6 +129,26 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
   **Severity**: Low. 
 
   **Workarounds**: Disable shaders. 
+
+</details>
+
+<details><summary>First ever launch may crash.</summary>
+
+  **Status**: ❌ Not reported. Not fixed. 
+
+  **Severity**: Low. 
+
+  **Workarounds**: Simply launch the game again, if the error was something like "library is already in use". I think this is due to JumpQuilt technically being run on Forge to download Quilt.
+
+</details>
+
+<details><summary>Visual Traveler's Titles resource pack doesn't apply from KubeJS' default options.</summary>
+
+  **Status**: ❌ Not reported. Not fixed. 
+
+  **Severity**: Low. 
+
+  **Workarounds**: Just enable the pack yourself once in game.
 
 </details>
 
