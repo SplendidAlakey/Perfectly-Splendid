@@ -6,6 +6,16 @@ labels: [
 ]
 assignees: "SplendidAlakey"
 body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: "Perfectly Splendid version"
+      description: What version of Perfectly Splendid are you playing on?
+      multiple: true
+      options:
+        - 0.1
+    validations:
+      required: false
   - type: textarea
     id: description
     attributes:
