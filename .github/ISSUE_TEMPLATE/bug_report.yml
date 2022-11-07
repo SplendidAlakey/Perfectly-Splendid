@@ -56,7 +56,7 @@ body:
     attributes:
       label: "Reproduction steps"
       description: Describe how can the bug be reproduced
-      value: |
+      placeholder: 
         1. Put raw iron ore in a diamond furnace
         2. Start smelting
         3. Notice the time it takes
