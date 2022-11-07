@@ -5,11 +5,11 @@ labels: 1.19.2, bug
 assignees: SplendidAlakey
 body: 
 - type: checkboxes
-    attributes:
-        label: Make sure that your issue is unique and fitting! Duplicates and offtopic issues will be closed.
-        options:
-            - label: I made sure that my issue is unique and has not been posted before.
-            required: true
+  attributes:
+    label: Make sure that your issue is unique and fitting! Duplicates and offtopic issues will be closed.
+    options:
+    - label: I made sure that my issue is unique and has not been posted before.
+      required: true
 - type: dropdown
     attributes:
       label: Minecraft version (required)
