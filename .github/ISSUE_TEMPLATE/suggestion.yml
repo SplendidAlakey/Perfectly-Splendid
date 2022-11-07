@@ -9,8 +9,8 @@ body:
   - type: checkboxes
     id: check
     attributes:
-      label: The suggestion is unique
-      description: Make sure that your suggestion is unique
+      label: "The suggestion is unique"
+      description: Check the following list of considered mods and make sure that your suggestion is unique: https://github.com/SplendidAlakey/Perfectly-Splendid/discussions/2
       options:
         - label: I made sure that my suggestion is unique
           required: true
