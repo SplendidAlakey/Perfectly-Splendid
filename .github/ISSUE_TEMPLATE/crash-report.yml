@@ -1,6 +1,6 @@
-name: "Bug Report"
+name: "Crash Report"
 description: The game crashes when playing Perfectly Splendid.
-title: "[BUG] "
+title: "[CRASH] "
 labels: [
   "crash"
 ]
