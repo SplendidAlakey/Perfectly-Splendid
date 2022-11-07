@@ -41,8 +41,7 @@ body:
     id: logs
     attributes:
       label: "Logs"
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: bash
+      description: Copy your logs from .minecraft/logs/latest.log or .minecraft/crash-reports to a paste service like mclo.gs or GitHub Gists and paste it here.
     validations:
       required: true
   - type: dropdown
