@@ -2,7 +2,7 @@ name: "Suggestion"
 description: I would like to propose a change or addition to the pack.
 title: "[SUGGESTION] "
 labels: [
-  "suggestion"
+  "💡 suggestion"
 ]
 assignees: "SplendidAlakey"
 body:
