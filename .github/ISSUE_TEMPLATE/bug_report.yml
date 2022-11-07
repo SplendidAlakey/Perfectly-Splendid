@@ -5,27 +5,27 @@ labels: 1.19.2, bug
 assignees: SplendidAlakey
 body: 
 - type: checkboxes
-  attributes:
+attributes:
     label: Make sure that your issue is unique and fitting! Duplicates and offtopic issues will be closed.
     options:
     - label: I made sure that my issue is unique and has not been posted before.
-      required: true
+    required: true
 - type: dropdown
   attributes:
     label: Minecraft version (required)
     description: What is the Minecraft version you are playing with?
     options:
         - "1.19.2"
-    validations:
-      required: true
+        validations:
+        required: true
 - type: dropdown
   attributes:
     label: Perfectly Splendid Version (required)
     description: What version of the modpack are you using?
     options:
         - "0.1"
-    validations:
-      required: true
+        validations:
+        required: true
 - type: dropdown
   attributes:
     label: Launcher (required)
@@ -36,8 +36,8 @@ body:
         - CurseForge app
         - Vanilla launcher
         - Other
-    validations:
-      required: true
+        validations:
+        required: true
 - type: input
   attributes:
     label: OS (required)
@@ -51,8 +51,8 @@ body:
     description: A clear and concise description of what's wrong.
     placeholder: 
         _example_: When I'm trying to smelt iron ore in a modded furance, nothing happens.
-    validations:
-      required: true
+        validations:
+        required: true
 - type: textarea
   attributes:
   label: Steps to reproduce (required)
@@ -65,23 +65,23 @@ body:
 
         Actual behavior: ...
         Expected behavior: ... "
-    validations:
-      required: true
+        validations:
+        required: true
 - type: textarea
   attributes:
   label: Screenshots and Videos (optional)
   description: If applicable, add screenshots/videos to help explain your problem.
-     validations:
-      required: false
+        validations:
+        required: false
 - type: textarea
   attributes:
   label: Logs
   description: Navigate to .minecraft/logs, copy the contents of a file called latest.log, paste it to a site like mclo.gs or GitHub Gists.
-     validations:
-      required: true
+        validations:
+        required: true
 - type: textarea
   attributes:
   label: Additional context
   description: If you installed any additional mods and/or changed any settings, list it here.
      validations:
-      required: false
+        required: false
