@@ -1,0 +1,81 @@
+name: "Bug Report"
+description: The game crashes when playing Perfectly Splendid.
+title: "[BUG] "
+labels: [
+  "crash"
+]
+assignees: "SplendidAlakey"
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: "Perfectly Splendid version"
+      description: What version of Perfectly Splendid are you playing on?
+      multiple: true
+      options:
+        - 0.1
+    validations:
+      required: false
+  - type: dropdown
+    id: launcher
+    attributes:
+      label: "Launcher"
+      description: What launcher are you using?
+      multiple: true
+      options:
+        - Prism Launcher
+        - Vanilla launcher
+        - MultiMC
+        - CurseForge app
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      description: What OS are you on?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+        - Other
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Describe exactly what were you doing prior to the game crash.
+      placeholder: I was in the Nether and I died while fighting a wither skeleton...
+    validations:
+      required: true
+  - type: textarea
+    id: reprod
+    attributes:
+      label: "Reproduction steps"
+      description: Describe how can the crash be reproduced
+      value: |
+        1. Go to the Nether
+        2. Find a wither skeleton
+        3. Take damage from it until you die
+        4. ...
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: Copy your logs from .minecraft/logs/latest.log or .minecraft/crash-reports to a paste service like mclo.gs or GitHub Gists and paste it here.
+    validations:
+      required: true
+  - type: textarea
+    id: adds
+    attributes:
+      label: "Additional context"
+      description: If you added any extra mods or changed any settings, please list it here
+      placeholder: I did not add or change anything.
+    validations:
+      required: false
