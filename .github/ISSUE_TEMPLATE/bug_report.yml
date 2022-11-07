@@ -4,6 +4,7 @@ title: "[BUG] "
 labels: [
   "bug"
 ]
+assignees: "SplendidAlakey"
 body:
   - type: textarea
     id: description
