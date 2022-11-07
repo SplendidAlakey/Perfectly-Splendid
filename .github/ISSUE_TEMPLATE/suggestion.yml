@@ -6,6 +6,12 @@ labels: [
 ]
 assignees: "SplendidAlakey"
 body:
+  - type: checkboxes
+    attributes:
+      label: "This issue is unique"
+      options:
+      - label: I have searched the issue tracker and did not find an issue describing my bug.
+      required: true
   - type: textarea
     id: description
     attributes:
