@@ -1,0 +1,16 @@
+name: "Suggestion"
+description: I would like to propose a change or addition to the pack.
+title: "[SUGGESTION] "
+labels: [
+  "suggestion"
+]
+assignees: "SplendidAlakey"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Describe what you would like to add or change about Perfectly Splendid.
+      placeholder: I'd like to add this cool mod _link_ !
+    validations:
+      required: true
