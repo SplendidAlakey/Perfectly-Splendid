@@ -55,11 +55,14 @@ body:
     id: reprod
     attributes:
       label: "Reproduction steps"
-      description: Describe how can the crash be reproduced
-      value: |
+      description: Describe how can the crash be reproduced.
+      placeholder: 
         1. Go to the Nether
+        
         2. Find a wither skeleton
+        
         3. Take damage from it until you die
+        
         4. ...
       render: bash
     validations:
