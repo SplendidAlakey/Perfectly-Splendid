@@ -4,7 +4,7 @@ title: '[BUG] '
 labels: 1.19.2, bug
 assignees: SplendidAlakey
 body: 
-  - type: checkboxes
+- type: checkboxes
     attributes:
         label: Make sure that your issue is unique and fitting! Duplicates and offtopic issues will be closed.
         multiple: true
@@ -13,7 +13,7 @@ body:
   - label: My issue is about Perfectly Splendid MC Modpack and/or its included mods.
     validations:
       required: true
-  - type: dropdown
+- type: dropdown
     attributes:
       label: Minecraft version (required)
       description: What is the Minecraft version you are playing with?
@@ -21,7 +21,7 @@ body:
         - "1.19.2"
     validations:
       required: true
-  - type: dropdown
+- type: dropdown
     attributes:
       label: Perfectly Splendid Version (required)
       description: What version of the modpack are you using?
@@ -29,7 +29,7 @@ body:
         - "0.1"
     validations:
       required: true
-  - type: dropdown
+- type: dropdown
     attributes:
       label: Launcher (required)
       description: What launcher are you using?
@@ -41,14 +41,14 @@ body:
         - Other
     validations:
       required: true
-  - type: input
+- type: input
     attributes:
       label: OS (required)
       description: What OS are you using?
       placeholder: Windows 11
     validations:
       required: true
-  - type: textarea
+- type: textarea
     attributes:
       label: Description (required)
       description: A clear and concise description of what's wrong.
@@ -56,7 +56,7 @@ body:
         _example_: When I'm trying to smelt iron ore in a modded furance, nothing happens.
     validations:
       required: true
-  - type: textarea
+- type: textarea
     attributes:
       label: Steps to reproduce (required)
       description: Describe exactly how to reproduce the issue.
@@ -70,19 +70,19 @@ body:
         Expected behavior: ... "
     validations:
       required: true
-    - type: textarea
+- type: textarea
       attributes:
         label: Screenshots and Videos (optional)
         description: If applicable, add screenshots/videos to help explain your problem.
      validations:
       required: false
-    - type: textarea
+- type: textarea
       attributes:
         label: Logs
         description: Navigate to .minecraft/logs, copy the contents of a file called latest.log, paste it to a site like mclo.gs or GitHub Gists.
      validations:
       required: true
-    - type: textarea
+- type: textarea
       attributes:
         label: Additional context
         description: If you installed any additional mods and/or changed any settings, list it here.
