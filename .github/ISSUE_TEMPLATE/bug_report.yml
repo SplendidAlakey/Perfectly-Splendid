@@ -66,12 +66,14 @@ body:
     attributes:
       label: Steps to reproduce (required)
       description: Describe exactly how to reproduce the issue.
-      placeholder: 
-        _example_: To Reproduce:
-                   1. 
-                   2. 
-                   3. 
-                   4. 
+      value: |  
+        **Steps to reproduce**: 
+        
+        1. ...
+        2. ...
+
+        Actual behavior: ...
+        Expected behavior: ...
     validations:
       required: true
 
