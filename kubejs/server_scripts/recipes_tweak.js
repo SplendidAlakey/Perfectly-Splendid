@@ -6,6 +6,8 @@
 // Compatibility recipes between Twigs, Aurora's Decorations and Blockus
 // Compatibility recipes between Comforts and Traveler's Backpack
 // Added tags for chests in Traveler's Backpack recipe
+// Made some totem recipes more interesting
+// Make MCDW recipe for the stinger use Bumblezone stingers
 
 ServerEvents.recipes(event => {
 	
@@ -28,7 +30,11 @@ ServerEvents.recipes(event => {
 	"twigs:polished_tuff_bricks",
 	"twigs:polished_tuff_brick_slab",
 	"twigs:polished_tuff_brick_stairs",
-	"twigs:polished_tuff_brick_wall"
+	"twigs:polished_tuff_brick_wall",
+	"moretotems:explosive_totem_of_undying",
+	"moretotems:stinging_totem_of_undying",
+	"moretotems:teleporting_totem_of_undying",
+	"mcdw:sword_beestinger"
 	];
 	
 	output.forEach((output) => {
@@ -214,5 +220,44 @@ ServerEvents.recipes(event => {
 	T: 'travelersbackpack:backpack_tank',
 	C: '#c:wooden_chests',
 	B: '#comforts:sleeping_bags'
+	});
+	
+		event.shaped('moretotems:explosive_totem_of_undying', [
+	'BBB',
+	'BUB',
+	'BBB'
+  ], {
+	U: 'minecraft:totem_of_undying',
+	B: 'supplementaries:bomb'
+	});
+	
+		event.shaped('moretotems:stinging_totem_of_undying', [
+	'BBB',
+	'BUB',
+	'BBB'
+  ], {
+	U: 'minecraft:totem_of_undying',
+	B: 'the_bumblezone:bee_stinger'
+	});
+	
+		event.shaped('moretotems:teleporting_totem_of_undying', [
+	'SSS',
+	'SUS',
+	'SSS'
+  ], {
+	U: 'minecraft:totem_of_undying',
+	S: 'waystones:warp_stone'
+	});
+	
+		event.shaped('mcdw:sword_beestinger', [
+	' IB',
+	'GRI',
+	'SG '
+  ], {
+	R: 'mcdw:sword_rapier',
+	B: 'the_bumblezone:bee_stinger',
+	I: 'minecraft:iron_nugget',
+	G: 'minecraft:gold_ingot',
+	S: 'minecraft:stick'
 	});
 });

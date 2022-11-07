@@ -102,6 +102,10 @@ REIEvents.hide('item', event => {
 	'aurorasdeco:stump/wondrouswilds/hollow_stripped_crimson',
 	'aurorasdeco:small_log_pile/wondrouswilds/hollow_stripped_crimson',
 	'aurorasdeco:stump/wondrouswilds/hollow_stripped_warped',
-	'aurorasdeco:small_log_pile/wondrouswilds/hollow_stripped_warped'
+	'aurorasdeco:small_log_pile/wondrouswilds/hollow_stripped_warped',
+	'aurorasdeco:sawmill',
+	'variantcraftingtables:herringbone_mangrove_crafting_table',
+	'mcdw:item_bee_stinger',
+	'charm:totem_of_preserving_holder'
 	])
 })
