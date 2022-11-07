@@ -6,12 +6,6 @@ labels: [
 ]
 assignees: "SplendidAlakey"
 body:
-  - type: checkboxes
-    attributes:
-      label: "This issue is unique"
-      options:
-      - label: I have searched the issue tracker and did not find an issue describing my bug.
-      required: true
   - type: textarea
     id: description
     attributes:
@@ -19,4 +13,10 @@ body:
       description: Describe what you would like to add or change about Perfectly Splendid.
       placeholder: I'd like to add this cool mod _link_ !
     validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: "This issue is unique"
+      options:
+      - label: I have searched the issue tracker and did not find an issue describing my bug.
       required: true
