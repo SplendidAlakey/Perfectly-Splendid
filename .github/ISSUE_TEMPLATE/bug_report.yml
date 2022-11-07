@@ -13,7 +13,6 @@ body:
   - label: My issue is about Perfectly Splendid MC Modpack and/or its included mods.
     validations:
       required: true
-
   - type: dropdown
     attributes:
       label: Minecraft version (required)
@@ -22,7 +21,6 @@ body:
         - "1.19.2"
     validations:
       required: true
-
   - type: dropdown
     attributes:
       label: Perfectly Splendid Version (required)
@@ -31,7 +29,6 @@ body:
         - "0.1"
     validations:
       required: true
-
   - type: dropdown
     attributes:
       label: Launcher (required)
@@ -44,7 +41,6 @@ body:
         - Other
     validations:
       required: true
-
   - type: input
     attributes:
       label: OS (required)
@@ -52,7 +48,6 @@ body:
       placeholder: Windows 11
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: Description (required)
@@ -61,7 +56,6 @@ body:
         _example_: When I'm trying to smelt iron ore in a modded furance, nothing happens.
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: Steps to reproduce (required)
@@ -76,21 +70,18 @@ body:
         Expected behavior: ... "
     validations:
       required: true
-
     - type: textarea
       attributes:
         label: Screenshots and Videos (optional)
         description: If applicable, add screenshots/videos to help explain your problem.
      validations:
       required: false
-      
     - type: textarea
       attributes:
         label: Logs
         description: Navigate to .minecraft/logs, copy the contents of a file called latest.log, paste it to a site like mclo.gs or GitHub Gists.
      validations:
       required: true
-      
     - type: textarea
       attributes:
         label: Additional context
