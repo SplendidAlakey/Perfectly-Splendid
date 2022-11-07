@@ -4,7 +4,7 @@
 
 <h1 align="center"> ❤🧡💛💚💙💜 Perfectly Splendid 💜💙💚💛🧡❤ <br>
 
-<a href="https://www.curseforge.com/minecraft/modpacks/perfectly-splendid"><img src="https://cf.way2muchnoise.eu/versions/perfectly-splendid.svg" alt="CF"></a>
+<a href="https://www.curseforge.com/minecraft/modpacks/perfectly-splendid"><img src="https://cf.way2muchnoise.eu/versions/For%20Minecraft_perfectly-splendid_all.svg" alt="CF"></a>
 
 <a href="https://quiltmc.org"><img src="https://github.com/QuiltMC/art/raw/master/brand/svg/quilt_available_dark.svg" width="200"></a>
 
