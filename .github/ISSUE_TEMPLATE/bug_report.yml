@@ -1,0 +1,73 @@
+name: "Bug Report"
+description: Something is not working correctly.
+title: "[BUG] "
+labels: [
+  "bug"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Describe exactly what you are having issues with
+      placeholder: When I smelt ores in a diamond furnace, it takes too long...
+    validations:
+      required: true
+  - type: textarea
+    id: reprod
+    attributes:
+      label: "Reproduction steps"
+      description: Describe how can the bug be reproduced
+      value: |
+        1. Put raw iron ore in a diamond furnace
+        2. Start smelting
+        3. Notice the time it takes
+        4. ...
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs"
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: bash
+    validations:
+      required: true
+  - type: dropdown
+    id: launcher
+    attributes:
+      label: "Launcher"
+      description: What launcher are you using?
+      multiple: true
+      options:
+        - Prism Launcher
+        - Vanilla launcher
+        - MultiMC
+        - CurseForge app
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      description: What OS are you on?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+        - Other
+    validations:
+      required: false
