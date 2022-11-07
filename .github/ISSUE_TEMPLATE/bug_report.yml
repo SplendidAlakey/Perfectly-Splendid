@@ -67,20 +67,11 @@ body:
       label: Steps to reproduce (required)
       description: Describe exactly how to reproduce the issue.
       placeholder: 
-        _example_: **To Reproduce:**
-
-1. 
-2. 
-3. 
-4. 
-
-**Expected behavior**
-
-A clear and concise description of what you expected to happen.
-
-**Actual behavior**
-
-A clear and concise description of what happens instead.
+        _example_: To Reproduce:
+                   1. 
+                   2. 
+                   3. 
+                   4. 
     validations:
       required: true
 
