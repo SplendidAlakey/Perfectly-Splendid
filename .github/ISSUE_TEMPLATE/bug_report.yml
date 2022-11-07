@@ -71,3 +71,11 @@ body:
         - Other
     validations:
       required: false
+  - type: textarea
+    id: adds
+    attributes:
+      label: "Additional context"
+      description: If you added any extra mods or changed any settings, please list it here
+      placeholder: I did not add or change anything.
+    validations:
+      required: false
