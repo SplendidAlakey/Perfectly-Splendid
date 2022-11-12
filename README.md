@@ -142,16 +142,6 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 </details>
 
-<details><summary>Visual Traveler's Titles resource pack doesn't apply from KubeJS' default options.</summary>
-
-  **Status**: ❌ Not reported. Not fixed. 
-
-  **Severity**: Low. 
-
-  **Workarounds**: Just enable the pack yourself once in game.
-
-</details>
-
 **@Credits**: 
 
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
