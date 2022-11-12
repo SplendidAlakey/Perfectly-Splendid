@@ -39,6 +39,7 @@
 - Eating Animations+.
 - Flower Pots+.
 - Glowing Ender Dragon.
+- Open Parties and Claims.
 - Smooth Font.
 - Visual Shulker Labels.
 
