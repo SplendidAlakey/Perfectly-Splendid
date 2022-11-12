@@ -8,6 +8,9 @@
 // Added tags for chests in Traveler's Backpack recipe
 // Made some totem recipes more interesting
 // Make MCDW recipe for the stinger use Bumblezone stingers
+// Compatibility recipes between Twigs, Blockus and Bamboo Everything
+// Make bundles significantly easier to craft and ingreate coloured bundles with tokens
+// Add wooden chests tag to most recipes that use vanilla chests
 
 ServerEvents.recipes(event => {
 	
@@ -34,7 +37,10 @@ ServerEvents.recipes(event => {
 	"moretotems:explosive_totem_of_undying",
 	"moretotems:stinging_totem_of_undying",
 	"moretotems:teleporting_totem_of_undying",
-	"mcdw:sword_beestinger"
+	"mcdw:sword_beestinger",
+	"twigs:stripped_bamboo_table",
+	"variantbarrels:stripped_bamboo_barrel",
+	"minecraft:bundle"
 	];
 	
 	output.forEach((output) => {
@@ -259,5 +265,291 @@ ServerEvents.recipes(event => {
 	I: 'minecraft:iron_nugget',
 	G: 'minecraft:gold_ingot',
 	S: 'minecraft:stick'
+	});
+	
+		event.shaped('twigs:stripped_bamboo_table', [
+	'SSS',
+	'P P',
+	'P P'
+  ], {
+	S: 'blockus:bamboo_slab',
+	P: 'blockus:bamboo_planks'
+	});
+	
+		event.shaped('variantbarrels:stripped_bamboo_barrel', [
+	'PSP',
+	'P P',
+	'PSP'
+  ], {
+	S: 'blockus:bamboo_slab',
+	P: 'blockus:bamboo_planks'
+	});
+	
+		event.shaped('charm:white_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:white_wool'
+	});
+	
+		event.shaped('charm:orange_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:orange_wool'
+	});
+	
+		event.shaped('charm:magenta_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:magenta_wool'
+	});
+	
+		event.shaped('charm:light_blue_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:light_blue_wool'
+	});
+	
+		event.shaped('charm:yellow_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:yellow_wool'
+	});
+	
+		event.shaped('charm:lime_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:lime_wool'
+	});
+	
+		event.shaped('charm:pink_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:pink_wool'
+	});
+	
+		event.shaped('charm:gray_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:gray_wool'
+	});
+	
+		event.shaped('charm:light_gray_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:light_gray_wool'
+	});
+	
+		event.shaped('charm:cyan_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:cyan_wool'
+	});
+	
+		event.shaped('charm:purple_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:purple_wool'
+	});
+	
+		event.shaped('charm:blue_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:blue_wool'
+	});
+	
+		event.shaped('charm:brown_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:brown_wool'
+	});
+	
+		event.shaped('charm:green_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:green_wool'
+	});
+	
+		event.shaped('charm:red_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:red_wool'
+	});
+	
+		event.shaped('charm:black_bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'minecraft:black_wool'
+	});
+	
+		event.smithing('tokenablefurnaces:iron_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:iron_token_item');
+		event.smithing('tokenablefurnaces:gold_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:gold_token_item');
+		event.smithing('tokenablefurnaces:diamond_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:diamond_token_item');
+		event.smithing('tokenablefurnaces:netherite_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:netherite_token_item');
+		event.smithing('tokenablefurnaces:amethyst_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:amethyst_token_item');
+		event.smithing('tokenablefurnaces:iron_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:omnitoken_item');
+		event.smithing('tokenablefurnaces:gold_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:omnitoken_item');
+		event.smithing('tokenablefurnaces:diamond_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:omnitoken_item');
+		event.smithing('tokenablefurnaces:netherite_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:omnitoken_item');
+		event.smithing('tokenablefurnaces:amethyst_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:omnitoken_item');
+		
+		event.shaped('toms_storage:ts.trim', [
+	'PSP',
+	'SCS',
+	'PSP'
+  ], {
+	P: '#minecraft:planks',
+	S: 'minecraft:stick',
+	C: '#c:wooden_chests'
+	});
+	
+		event.shaped('toms_storage:ts.storage_terminal', [
+	'PRP',
+	'CSG',
+	'PRP'
+  ], {
+	P: '#minecraft:planks',
+	S: 'minecraft:glowstone',
+	C: '#c:wooden_chests',
+	R: 'minecraft:comparator',
+	G: 'minecraft:glass'
+	});
+	
+		event.shaped('toms_storage:ts.open_crate', [
+	'PSP',
+	'PCP',
+	'PTP'
+  ], {
+	P: '#minecraft:planks',
+	S: 'minecraft:stick',
+	C: '#c:wooden_chests',
+	T: '#minecraft:wooden_trapdoors'
+	});
+	
+		event.shaped('toms_storage:ts.inventory_proxy', [
+	'PTP',
+	'TCT',
+	'PTP'
+  ], {
+	P: '#minecraft:planks',
+	C: '#c:wooden_chests',
+	T: '#minecraft:wooden_trapdoors'
+	});
+	
+		event.shaped('toms_storage:ts.inventory_cable_connector', [
+	' QP',
+	'ICE',
+	' DP'
+  ], {
+	P: '#minecraft:planks',
+	Q: 'minecraft:quartz',
+	C: '#c:wooden_chests',
+	I: 'toms_storage:ts.inventory_cable',
+	E: 'minecraft:ender_pearl',
+	D: 'minecraft:diamond'
+	});
+	
+		event.shaped('toms_storage:ts.inventory_cable', [
+	'SPS',
+	'TCT',
+	'SPS'
+  ], {
+	P: '#minecraft:planks',
+	S: 'minecraft:stick',
+	C: '#c:wooden_chests',
+	T: '#minecraft:wooden_trapdoors'
+	});
+	
+		event.shapeless('minecraft:trapped_chest', ['#c:wooden_chests', 'minecraft:tripwire_hook']);
+	
+		event.shaped('aurorasdeco:copper_hopper', [
+	'I I',
+	'I I',
+	' C '
+  ], {
+	C: '#c:wooden_chests',
+	I: 'minecraft:copper_ingot'
+	});
+	
+		event.shaped('extraalchemy:potion_bag', [
+	' B ',
+	'LCL',
+	'LLL'
+  ], {
+	C: '#c:wooden_chests',
+	B: 'minecraft:glass_bottle',
+	L: '#c:leathers'
+	});
+	
+		event.shaped('extended_drawers:single_drawer', [
+	'LPL',
+	'PCP',
+	'LPL'
+  ], {
+	C: '#c:wooden_chests',
+	P: '#minecraft:planks',
+	L: '#minecraft:logs'
+	});
+	
+		event.shaped('extended_drawers:quad_drawer', [
+	'LCL',
+	'CPC',
+	'LCL'
+  ], {
+	C: '#c:wooden_chests',
+	P: '#minecraft:planks',
+	L: '#minecraft:logs'
+	});
+	
+		event.shaped('extended_drawers:double_drawer', [
+	'LPL',
+	'CPC',
+	'LPL'
+  ], {
+	C: '#c:wooden_chests',
+	P: '#minecraft:planks',
+	L: '#minecraft:logs'
+	});
+	
+		event.shaped('bagofholding:leather_bag_of_holding', [
+	'SLS',
+	'LCL',
+	'WLW'
+  ], {
+	C: '#c:wooden_chests',
+	L: '#minecraft:leathers',
+	S: '#minecraft:string',
+	W: '#minecraft:wool'
 	});
 });
