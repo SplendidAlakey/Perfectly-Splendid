@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png"
+  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
 <h1 align="center"> Perfectly Splendid Update 1 (unreleased) <br>
@@ -50,7 +50,8 @@
 
 <details><summary>Updated all mods.</summary>
 
-_placeholder_
+_placeholdermods_
+_placeholderdata_
 
 </details>
 
