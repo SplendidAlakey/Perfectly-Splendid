@@ -82,7 +82,7 @@ body:
       label: "Logs"
       description: Copy your logs from .minecraft/logs/latest.log or .minecraft/crash-reports to a paste service like mclo.gs or GitHub Gists and paste it here.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: adds
     attributes:
