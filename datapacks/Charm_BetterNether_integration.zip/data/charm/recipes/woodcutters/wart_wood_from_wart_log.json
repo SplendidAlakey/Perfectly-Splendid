@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:wart_log"
+    },
+    "result": "betternether:wart_bark",
+    "count": 1
+}
