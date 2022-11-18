@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:pythadendron_log"
+    },
+    "result": "aurorasdeco:stump/betterend/pythadendron",
+    "count": 1
+}

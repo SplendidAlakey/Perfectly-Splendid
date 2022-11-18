@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "expandeddelight:cinnamon_log"
+    },
+    "result": "aurorasdeco:small_log_pile/expandeddelight/cinnamon",
+    "count": 1
+}

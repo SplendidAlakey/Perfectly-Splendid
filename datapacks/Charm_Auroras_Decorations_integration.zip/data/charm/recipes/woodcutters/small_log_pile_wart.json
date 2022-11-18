@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:wart_log"
+    },
+    "result": "aurorasdeco:small_log_pile/betternether/wart",
+    "count": 1
+}

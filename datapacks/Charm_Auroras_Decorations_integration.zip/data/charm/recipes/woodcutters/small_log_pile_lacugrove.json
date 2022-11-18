@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:lacugrove_log"
+    },
+    "result": "aurorasdeco:small_log_pile/betterend/lacugrove",
+    "count": 1
+}

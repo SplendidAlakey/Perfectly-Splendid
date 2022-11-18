@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:white_oak_log"
+    },
+    "result": "aurorasdeco:small_log_pile/blockus/white_oak",
+    "count": 1
+}

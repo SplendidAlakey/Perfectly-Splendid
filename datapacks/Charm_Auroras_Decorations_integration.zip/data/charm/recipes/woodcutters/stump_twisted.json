@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "architects_palette:twisted_log"
+    },
+    "result": "aurorasdeco:stump/architects_palette/twisted",
+    "count": 1
+}

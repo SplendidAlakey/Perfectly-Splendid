@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:tenanea_log"
+    },
+    "result": "aurorasdeco:stump/betterend/tenanea",
+    "count": 1
+}

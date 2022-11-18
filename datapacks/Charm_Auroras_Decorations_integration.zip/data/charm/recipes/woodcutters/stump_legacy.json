@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:legacy_log"
+    },
+    "result": "aurorasdeco:stump/blockus/legacy",
+    "count": 1
+}

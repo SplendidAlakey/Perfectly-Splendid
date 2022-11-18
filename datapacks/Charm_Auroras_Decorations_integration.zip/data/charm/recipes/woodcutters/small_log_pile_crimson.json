@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:crimson_log"
+    },
+    "result": "aurorasdeco:small_log_pile/crimson",
+    "count": 1
+}

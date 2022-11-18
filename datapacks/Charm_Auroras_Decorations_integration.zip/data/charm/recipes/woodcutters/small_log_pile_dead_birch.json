@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "wondrouswilds:dead_birch_log"
+    },
+    "result": "aurorasdeco:small_log_pile/wondrouswilds/dead_birch",
+    "count": 1
+}

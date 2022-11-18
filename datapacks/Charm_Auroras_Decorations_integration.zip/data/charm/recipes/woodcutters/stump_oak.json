@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:oak_log"
+    },
+    "result": "aurorasdeco:stump/oak",
+    "count": 1
+}

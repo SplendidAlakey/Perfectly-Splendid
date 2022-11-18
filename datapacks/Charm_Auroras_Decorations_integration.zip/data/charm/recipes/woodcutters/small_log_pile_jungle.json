@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:jungle_log"
+    },
+    "result": "aurorasdeco:small_log_pile/jungle",
+    "count": 1
+}

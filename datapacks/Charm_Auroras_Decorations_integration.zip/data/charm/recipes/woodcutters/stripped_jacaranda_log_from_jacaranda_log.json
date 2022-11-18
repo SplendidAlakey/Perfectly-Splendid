@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "aurorasdeco:jacaranda_log"
+    },
+    "result": "aurorasdeco:stripped_jacaranda_log",
+    "count": 1
+}

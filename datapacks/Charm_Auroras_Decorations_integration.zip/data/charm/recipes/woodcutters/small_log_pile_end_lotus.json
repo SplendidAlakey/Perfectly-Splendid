@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:end_lotus_log"
+    },
+    "result": "aurorasdeco:small_log_pile/betterend/end_lotus",
+    "count": 1
+}

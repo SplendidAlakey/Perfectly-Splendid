@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "wondrouswilds:dead_jungle_log"
+    },
+    "result": "aurorasdeco:stump/wondrouswilds/dead_jungle",
+    "count": 1
+}

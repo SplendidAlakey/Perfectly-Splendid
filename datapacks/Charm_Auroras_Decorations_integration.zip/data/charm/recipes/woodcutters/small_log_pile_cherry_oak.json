@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "promenade:cherry_oak_log"
+    },
+    "result": "aurorasdeco:small_log_pile/promenade/cherry_oak",
+    "count": 1
+}

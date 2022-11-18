@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "promenade:dark_amaranth_log"
+    },
+    "result": "aurorasdeco:small_log_pile/promenade/dark_amaranth",
+    "count": 1
+}

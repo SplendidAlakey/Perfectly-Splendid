@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:anchor_tree_log"
+    },
+    "result": "aurorasdeco:stump/betternether/anchor_tree",
+    "count": 1
+}

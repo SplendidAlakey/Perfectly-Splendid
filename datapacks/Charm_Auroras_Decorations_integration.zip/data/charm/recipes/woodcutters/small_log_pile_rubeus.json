@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:rubeus_log"
+    },
+    "result": "aurorasdeco:small_log_pile/betternether/rubeus",
+    "count": 1
+}

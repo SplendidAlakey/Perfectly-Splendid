@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:spruce_log"
+    },
+    "result": "aurorasdeco:small_log_pile/spruce",
+    "count": 1
+}

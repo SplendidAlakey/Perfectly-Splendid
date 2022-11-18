@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "wondrouswilds:dead_mangrove_log"
+    },
+    "result": "aurorasdeco:stump/wondrouswilds/dead_mangrove",
+    "count": 1
+}

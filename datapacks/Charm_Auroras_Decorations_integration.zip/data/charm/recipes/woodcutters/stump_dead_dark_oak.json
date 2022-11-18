@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "wondrouswilds:dead_dark_oak_log"
+    },
+    "result": "aurorasdeco:stump/wondrouswilds/dead_dark_oak",
+    "count": 1
+}

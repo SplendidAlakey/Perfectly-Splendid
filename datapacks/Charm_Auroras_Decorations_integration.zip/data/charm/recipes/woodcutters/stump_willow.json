@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:willow_log"
+    },
+    "result": "aurorasdeco:stump/betternether/willow",
+    "count": 1
+}

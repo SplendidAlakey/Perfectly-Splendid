@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:helix_tree_log"
+    },
+    "result": "aurorasdeco:stump/betterend/helix_tree",
+    "count": 1
+}

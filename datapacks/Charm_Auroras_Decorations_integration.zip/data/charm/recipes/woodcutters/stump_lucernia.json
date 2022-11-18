@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:lucernia_log"
+    },
+    "result": "aurorasdeco:stump/betterend/lucernia",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:dragon_tree_log"
+    },
+    "result": "aurorasdeco:small_log_pile/betterend/dragon_tree",
+    "count": 1
+}

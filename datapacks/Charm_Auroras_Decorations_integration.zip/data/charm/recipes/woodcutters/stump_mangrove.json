@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:mangrove_log"
+    },
+    "result": "aurorasdeco:stump/mangrove",
+    "count": 1
+}
