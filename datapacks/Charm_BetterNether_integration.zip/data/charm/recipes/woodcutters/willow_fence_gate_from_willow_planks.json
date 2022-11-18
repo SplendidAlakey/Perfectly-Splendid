@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betternether:willow_planks"
-    },
-    "result": "betternether:willow_fence_gate",
-    "count": 1
-}
