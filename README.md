@@ -142,6 +142,16 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 </details>
 
+<details><summary>Palm and Cherry oak planks have "air" blocks in woodcutter recipes.</summary>
+
+  **Status**: ✅ Fixed in the next update.
+
+  **Severity**: Low. 
+
+  **Workarounds**: If it really bothers you, delete cherry oak and palm json recipes for signs from the compat datapack.
+
+</details>
+
 **@Credits**: 
 
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
