@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:herringbone_crimson_planks"
+    },
+    "result": "aurorasdeco:bench/blockus/herringbone_crimson",
+    "count": 1
+}

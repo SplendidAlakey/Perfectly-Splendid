@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "charm:ebony_planks"
+    },
+    "result": "aurorasdeco:seat_rest/charm/ebony",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:crimson_planks"
+    },
+    "result": "aurorasdeco:seat_rest/crimson",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:oak_planks"
+    },
+    "result": "aurorasdeco:bench/oak",
+    "count": 1
+}

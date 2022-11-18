@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:wart_planks"
+    },
+    "result": "aurorasdeco:bench/betternether/wart",
+    "count": 1
+}

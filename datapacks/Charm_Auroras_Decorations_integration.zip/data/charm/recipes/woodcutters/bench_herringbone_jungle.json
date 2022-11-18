@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:herringbone_jungle_planks"
+    },
+    "result": "aurorasdeco:bench/blockus/herringbone_jungle",
+    "count": 1
+}

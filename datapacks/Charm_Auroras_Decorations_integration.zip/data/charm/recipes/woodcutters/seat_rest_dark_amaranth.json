@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "promenade:dark_amaranth_planks"
+    },
+    "result": "aurorasdeco:seat_rest/promenade/dark_amaranth",
+    "count": 1
+}

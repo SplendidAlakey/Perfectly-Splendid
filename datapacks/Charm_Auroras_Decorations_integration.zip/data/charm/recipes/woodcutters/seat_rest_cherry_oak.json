@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "promenade:cherry_oak_planks"
+    },
+    "result": "aurorasdeco:seat_rest/promenade/cherry_oak",
+    "count": 1
+}

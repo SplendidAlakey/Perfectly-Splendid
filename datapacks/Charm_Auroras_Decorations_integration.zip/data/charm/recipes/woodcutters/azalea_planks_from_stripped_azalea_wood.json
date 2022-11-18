@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "aurorasdeco:stripped_azalea_wood"
+    },
+    "result": "aurorasdeco:azalea_planks",
+    "count": 4
+}

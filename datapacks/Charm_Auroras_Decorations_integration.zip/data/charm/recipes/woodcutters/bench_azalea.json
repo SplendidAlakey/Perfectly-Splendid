@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "aurorasdeco:azalea_planks"
+    },
+    "result": "aurorasdeco:bench/azalea",
+    "count": 1
+}

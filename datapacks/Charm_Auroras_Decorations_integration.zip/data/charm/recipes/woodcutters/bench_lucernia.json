@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:lucernia_planks"
+    },
+    "result": "aurorasdeco:bench/betterend/lucernia",
+    "count": 1
+}

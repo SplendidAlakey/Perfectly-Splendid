@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "aurorasdeco:jacaranda_planks"
+    },
+    "result": "aurorasdeco:jacaranda_door",
+    "count": 1
+}

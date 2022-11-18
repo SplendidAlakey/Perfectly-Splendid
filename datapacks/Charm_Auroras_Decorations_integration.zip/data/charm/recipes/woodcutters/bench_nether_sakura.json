@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:nether_sakura_planks"
+    },
+    "result": "aurorasdeco:bench/betternether/nether_sakura",
+    "count": 1
+}

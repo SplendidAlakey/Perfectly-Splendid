@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:umbrella_tree_planks"
+    },
+    "result": "aurorasdeco:bench/betterend/umbrella_tree",
+    "count": 1
+}

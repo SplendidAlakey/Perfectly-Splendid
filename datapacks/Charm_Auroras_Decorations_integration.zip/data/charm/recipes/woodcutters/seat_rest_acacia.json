@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:acacia_planks"
+    },
+    "result": "aurorasdeco:seat_rest/acacia",
+    "count": 1
+}

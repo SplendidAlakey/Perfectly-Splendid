@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:herringbone_white_oak_planks"
+    },
+    "result": "aurorasdeco:bench/blockus/herringbone_white_oak",
+    "count": 1
+}

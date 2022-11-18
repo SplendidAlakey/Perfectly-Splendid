@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:charred_planks"
+    },
+    "result": "aurorasdeco:seat_rest/blockus/charred",
+    "count": 1
+}
