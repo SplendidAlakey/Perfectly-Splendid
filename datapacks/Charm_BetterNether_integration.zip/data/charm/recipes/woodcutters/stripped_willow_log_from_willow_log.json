@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:willow_log"
+    },
+    "result": "betternether:willow_stripped_log",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:rubeus_bark"
+    },
+    "result": "betternether:stripped_rubeus_bark",
+    "count": 1
+}

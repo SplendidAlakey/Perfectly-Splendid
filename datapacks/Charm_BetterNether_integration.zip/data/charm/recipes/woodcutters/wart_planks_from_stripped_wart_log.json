@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:wart_stripped_log"
+    },
+    "result": "betternether:wart_planks",
+    "count": 4
+}

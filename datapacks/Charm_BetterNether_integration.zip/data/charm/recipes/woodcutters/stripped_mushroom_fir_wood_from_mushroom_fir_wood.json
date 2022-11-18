@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:mushroom_fir_bark"
+    },
+    "result": "betternether:mushroom_fir_stripped_bark",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:stripped_rubeus_bark"
+    },
+    "result": "betternether:rubeus_planks",
+    "count": 4
+}

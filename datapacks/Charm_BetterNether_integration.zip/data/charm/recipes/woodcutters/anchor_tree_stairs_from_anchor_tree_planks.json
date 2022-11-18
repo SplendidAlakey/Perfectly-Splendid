@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:anchor_tree_planks"
+    },
+    "result": "betternether:anchor_tree_stairs",
+    "count": 1
+}

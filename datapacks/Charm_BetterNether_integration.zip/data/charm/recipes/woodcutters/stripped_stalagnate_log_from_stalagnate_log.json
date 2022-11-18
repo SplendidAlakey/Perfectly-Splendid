@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:stalagnate_log"
+    },
+    "result": "betternether:stalagnate_stripped_log",
+    "count": 1
+}

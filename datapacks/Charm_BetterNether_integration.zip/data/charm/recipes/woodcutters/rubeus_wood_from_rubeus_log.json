@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:rubeus_log"
+    },
+    "result": "betternether:rubeus_bark",
+    "count": 1
+}

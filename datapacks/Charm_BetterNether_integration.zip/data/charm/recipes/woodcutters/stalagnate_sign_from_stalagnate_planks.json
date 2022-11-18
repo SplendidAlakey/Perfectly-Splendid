@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:stalagnate_planks"
+    },
+    "result": "betternether:stalagnate_sign",
+    "count": 1
+}
