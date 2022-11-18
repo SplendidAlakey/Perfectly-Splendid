@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:oak_planks"
+    },
+    "result": "aurorasdeco:sign_post/oak",
+    "count": 2
+}

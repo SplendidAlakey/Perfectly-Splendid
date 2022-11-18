@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:legacy_planks"
+    },
+    "result": "aurorasdeco:sign_post/blockus/legacy",
+    "count": 2
+}

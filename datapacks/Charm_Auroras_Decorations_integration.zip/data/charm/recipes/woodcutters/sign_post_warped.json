@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:warped_planks"
+    },
+    "result": "aurorasdeco:sign_post/warped",
+    "count": 2
+}

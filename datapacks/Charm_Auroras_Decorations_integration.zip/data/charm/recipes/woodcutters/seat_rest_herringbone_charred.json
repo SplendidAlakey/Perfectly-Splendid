@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:herringbone_charred_planks"
+    },
+    "result": "aurorasdeco:seat_rest/blockus/herringbone_charred",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:jellyshroom_planks"
+    },
+    "result": "aurorasdeco:sign_post/betterend/jellyshroom",
+    "count": 2
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:rubeus_planks"
+    },
+    "result": "aurorasdeco:sign_post/betternether/rubeus",
+    "count": 2
+}

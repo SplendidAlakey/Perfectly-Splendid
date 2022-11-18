@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:acacia_planks"
+    },
+    "result": "aurorasdeco:sign_post/acacia",
+    "count": 2
+}

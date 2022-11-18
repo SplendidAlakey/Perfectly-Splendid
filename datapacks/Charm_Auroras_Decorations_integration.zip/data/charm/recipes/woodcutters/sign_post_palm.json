@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "promenade:palm_planks"
+    },
+    "result": "aurorasdeco:sign_post/promenade/palm",
+    "count": 2
+}

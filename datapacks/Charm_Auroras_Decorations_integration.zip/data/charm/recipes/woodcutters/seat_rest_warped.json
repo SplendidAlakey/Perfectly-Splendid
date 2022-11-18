@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:warped_planks"
+    },
+    "result": "aurorasdeco:seat_rest/warped",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:mossy_glowshroom_planks"
+    },
+    "result": "aurorasdeco:seat_rest/betterend/mossy_glowshroom",
+    "count": 1
+}

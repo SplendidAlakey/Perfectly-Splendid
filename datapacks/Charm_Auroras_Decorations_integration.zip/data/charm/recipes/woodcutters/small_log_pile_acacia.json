@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:acacia_log"
+    },
+    "result": "aurorasdeco:small_log_pile/acacia",
+    "count": 1
+}

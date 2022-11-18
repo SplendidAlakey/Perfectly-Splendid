@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:dragon_tree_planks"
+    },
+    "result": "aurorasdeco:sign_post/betterend/dragon_tree",
+    "count": 2
+}

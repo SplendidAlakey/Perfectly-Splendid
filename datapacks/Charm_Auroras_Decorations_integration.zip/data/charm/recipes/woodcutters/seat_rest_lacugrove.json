@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:lacugrove_planks"
+    },
+    "result": "aurorasdeco:seat_rest/betterend/lacugrove",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:herringbone_acacia_planks"
+    },
+    "result": "aurorasdeco:sign_post/blockus/herringbone_acacia",
+    "count": 2
+}

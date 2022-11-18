@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:willow_planks"
+    },
+    "result": "aurorasdeco:sign_post/betternether/willow",
+    "count": 2
+}

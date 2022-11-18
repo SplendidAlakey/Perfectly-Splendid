@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:mushroom_fir_planks"
+    },
+    "result": "aurorasdeco:sign_post/betternether/mushroom_fir",
+    "count": 2
+}

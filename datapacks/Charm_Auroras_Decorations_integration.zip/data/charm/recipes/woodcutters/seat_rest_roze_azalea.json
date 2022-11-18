@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "colorful-azaleas:roze_azalea_planks"
+    },
+    "result": "aurorasdeco:seat_rest/colorful-azaleas/roze_azalea",
+    "count": 1
+}

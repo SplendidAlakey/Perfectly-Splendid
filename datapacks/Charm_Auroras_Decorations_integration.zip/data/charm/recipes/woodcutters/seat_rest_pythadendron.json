@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:pythadendron_planks"
+    },
+    "result": "aurorasdeco:seat_rest/betterend/pythadendron",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:tenanea_planks"
+    },
+    "result": "aurorasdeco:seat_rest/betterend/tenanea",
+    "count": 1
+}

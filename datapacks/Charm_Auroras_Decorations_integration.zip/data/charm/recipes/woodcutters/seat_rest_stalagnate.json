@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betternether:stalagnate_planks"
+    },
+    "result": "aurorasdeco:seat_rest/betternether/stalagnate",
+    "count": 1
+}

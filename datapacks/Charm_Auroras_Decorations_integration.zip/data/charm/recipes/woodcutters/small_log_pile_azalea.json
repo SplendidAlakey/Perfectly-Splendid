@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "aurorasdeco:azalea_log"
+    },
+    "result": "aurorasdeco:small_log_pile/azalea",
+    "count": 1
+}
