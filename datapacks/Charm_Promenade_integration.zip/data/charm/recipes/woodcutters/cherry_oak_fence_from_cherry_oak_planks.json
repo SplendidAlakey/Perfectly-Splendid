@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "promenade:cherry_oak_planks"
+    },
+    "result": "promenade:cherry_oak_fence",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "promenade:palm_log"
+    },
+    "result": "promenade:palm_wood",
+    "count": 1
+}
