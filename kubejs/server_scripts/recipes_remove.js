@@ -128,7 +128,9 @@ ServerEvents.recipes(event => {
 	"blockus:crimson_barrel",
 	"blockus:warped_barrel",
 	"charm:crimson_barrel",
-	"charm:warped_barrel"
+	"charm:warped_barrel",
+	"supplementaries:blackboard",
+	"supplementaries:wrench"
 	];
 	
 	output.forEach((output) => {

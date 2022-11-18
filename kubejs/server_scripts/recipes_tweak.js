@@ -11,6 +11,7 @@
 // Compatibility recipes between Twigs, Blockus and Bamboo Everything
 // Make bundles significantly easier to craft and ingreate coloured bundles with tokens
 // Add wooden chests tag to most recipes that use vanilla chests
+// Change vanilla bundle recipe to a rainbow one
 
 ServerEvents.recipes(event => {
 	
@@ -551,5 +552,13 @@ ServerEvents.recipes(event => {
 	L: '#minecraft:leathers',
 	S: '#minecraft:string',
 	W: '#minecraft:wool'
+	});
+	
+		event.shaped('minecraft:bundle', [
+	'   ',
+	'W W',
+	' W '
+  ], {
+	W: 'earthtojavamobs:rainbow_wool'
 	});
 });
