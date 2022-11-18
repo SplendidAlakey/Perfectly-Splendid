@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:tenanea_planks"
+    },
+    "result": "betterend:tenanea_slab",
+    "count": 2
+}

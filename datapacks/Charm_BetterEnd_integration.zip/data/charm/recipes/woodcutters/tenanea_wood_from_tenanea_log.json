@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:tenanea_log"
+    },
+    "result": "betterend:tenanea_bark",
+    "count": 1
+}

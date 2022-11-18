@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:pythadendron_bark"
+    },
+    "result": "betterend:pythadendron_stripped_bark",
+    "count": 1
+}
