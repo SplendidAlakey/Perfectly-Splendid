@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "architects_palette:twisted_planks"
+    },
+    "result": "architects_palette:twisted_button",
+    "count": 1
+}
