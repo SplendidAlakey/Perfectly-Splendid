@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:end_lotus_log"
+    },
+    "result": "betterend:end_lotus_bark",
+    "count": 1
+}

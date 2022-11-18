@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:jellyshroom_log"
+    },
+    "result": "betterend:jellyshroom_bark",
+    "count": 1
+}

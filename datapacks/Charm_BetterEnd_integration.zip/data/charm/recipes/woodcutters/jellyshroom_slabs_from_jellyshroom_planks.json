@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:jellyshroom_planks"
+    },
+    "result": "betterend:jellyshroom_slab",
+    "count": 2
+}

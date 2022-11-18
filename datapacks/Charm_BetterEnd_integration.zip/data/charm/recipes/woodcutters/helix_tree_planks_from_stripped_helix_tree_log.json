@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:helix_tree_stripped_log"
+    },
+    "result": "betterend:helix_tree_planks",
+    "count": 4
+}

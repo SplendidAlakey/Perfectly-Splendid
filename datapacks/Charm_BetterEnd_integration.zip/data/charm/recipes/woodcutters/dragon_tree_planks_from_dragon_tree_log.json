@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:dragon_tree_log"
+    },
+    "result": "betterend:dragon_tree_planks",
+    "count": 4
+}

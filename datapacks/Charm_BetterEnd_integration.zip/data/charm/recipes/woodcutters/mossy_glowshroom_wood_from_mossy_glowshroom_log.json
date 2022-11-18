@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:mossy_glowshroom_log"
+    },
+    "result": "betterend:mossy_glowshroom_bark",
+    "count": 1
+}

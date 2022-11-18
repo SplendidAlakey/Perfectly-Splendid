@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:end_lotus_planks"
+    },
+    "result": "betterend:end_lotus_door",
+    "count": 1
+}

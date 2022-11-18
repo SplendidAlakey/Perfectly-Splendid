@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "betterend:lacugrove_log"
+    },
+    "result": "betterend:lacugrove_planks",
+    "count": 4
+}
