@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "blockus:white_oak_planks"
+    },
+    "result": "blockus:white_oak_fence",
+    "count": 1
+}
