@@ -152,6 +152,26 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 </details>
 
+<details><summary>NBT Crafting causes a crash with Create under certain conditions.</summary>
+
+  **Status**: ✅ Fixed in the next update.
+
+  **Severity**: Medium. 
+
+  **Workarounds**: Remove Spice Of Fabric. It's configured to not be punishing and only give positives for eating diverse food, and can be safely removed mid-save. The way to reproduce the crash is atypical and you shouldn't encounter it in a normal playthrough, as such I don't feel like it's critical enough for a hotfix release.
+
+</details>
+
+<details><summary>Typing "dep" into creative search crashes the game.</summary>
+
+  **Status**: ✅ Fixed in the next update.
+
+  **Severity**: Medium. 
+
+  **Workarounds**: Remove "hardcodedSeaLevelFix" line from carpet fixes config in .minecraft/config/carpet or remove Additional Additions. The pack is survival oriented, so I don't consider this critical enough for a hotfix. REI search is unaffected. The item, that causes it - the Depth Meter, is also disabled in survival, anyway.
+
+</details>
+
 **@Credits**: 
 
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
