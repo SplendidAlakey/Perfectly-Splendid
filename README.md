@@ -142,13 +142,13 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 </details>
 
-<details><summary>Palm and Cherry oak planks have "air" blocks in woodcutter recipes.</summary>
+<details><summary>Promenade and BetterNether planks have "air" blocks in stonecutter recipes.</summary>
 
   **Status**: ✅ Fixed in the next update.
 
   **Severity**: Low. 
 
-  **Workarounds**: If it really bothers you, delete cherry oak and palm json recipes for signs from the compat datapack.
+  **Workarounds**: If it really bothers you, delete cherry oak and palm json recipes for signs, and all BetterNether wood types fence gates from the compat datapacks.
 
 </details>
 
