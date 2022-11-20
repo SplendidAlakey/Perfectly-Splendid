@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "colorful-azaleas:walnut_azalea_planks"
-    },
-    "result": "aurorasdeco:bench/colorful-azaleas/walnut_azalea",
-    "count": 1
-}
