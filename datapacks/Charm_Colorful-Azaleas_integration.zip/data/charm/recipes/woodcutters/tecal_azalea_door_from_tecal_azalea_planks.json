@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "colorful-azaleas:tecal_azalea_planks"
+    },
+    "result": "colorful-azaleas:tecal_azalea_door",
+    "count": 1
+}

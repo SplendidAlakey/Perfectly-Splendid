@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "colorful-azaleas:walnut_azalea_wood"
+    },
+    "result": "colorful-azaleas:stripped_walnut_azalea_wood",
+    "count": 1
+}

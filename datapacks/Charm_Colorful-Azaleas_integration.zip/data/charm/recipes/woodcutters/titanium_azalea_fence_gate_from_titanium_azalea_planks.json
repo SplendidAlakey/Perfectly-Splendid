@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "colorful-azaleas:titanium_azalea_planks"
+    },
+    "result": "colorful-azaleas:titanium_azalea_fence_gate",
+    "count": 1
+}

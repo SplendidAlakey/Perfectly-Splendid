@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "colorful-azaleas:stripped_titanium_azalea_log"
+    },
+    "result": "colorful-azaleas:titanium_azalea_planks",
+    "count": 4
+}

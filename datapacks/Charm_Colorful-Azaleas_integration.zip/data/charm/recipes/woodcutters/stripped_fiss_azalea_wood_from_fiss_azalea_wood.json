@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "colorful-azaleas:fiss_azalea_wood"
+    },
+    "result": "colorful-azaleas:stripped_fiss_azalea_wood",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "colorful-azaleas:azule_azalea_wood"
+    },
+    "result": "colorful-azaleas:azule_azalea_planks",
+    "count": 4
+}
