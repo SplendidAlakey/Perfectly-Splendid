@@ -124,7 +124,7 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 <details><summary>Mobs added with Geckolib may have broken animations when using shaders.</summary>
 
-  **Status**: ❌ Reported. Not fixed. 
+  **Status**: ✅ Fixed in the next update.
 
   **Severity**: Low. 
 
@@ -134,7 +134,7 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 <details><summary>First ever launch may crash.</summary>
 
-  **Status**: ❌ Not reported. Not fixed. 
+  **Status**: ❌ Unable to fix.
 
   **Severity**: Low. 
 
