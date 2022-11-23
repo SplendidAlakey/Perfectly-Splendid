@@ -59,4 +59,29 @@ ServerEvents.tags('item', event => {
 		event.add('c:wooden_barrels', 'blockus:white_oak_barrel');
 		event.add('c:wooden_barrels', 'blockus:bamboo_barrel');
 		event.add('c:wooden_barrels', 'blockus:charred_barrel');
+		
+	// Create #c:horns tag collection and add all horns to it
+		event.add('c:horns', 'minecraft:goat_horn');
+		event.add('c:copper_horns', 'copper-horns:copper_horn');
+		
+	// Get the #c:stripped_logs tag collection and add Azalea and Jaracanda logs to it
+		event.add('c:stripped_logs', 'aurorasdeco:stripped_azalea_log');
+		event.add('c:stripped_logs', 'aurorasdeco:stripped_jacaranda_log');
+		
+	// Get the #c:stripped_wood tag collection and add Azalea and Jaracanda wood to it
+		event.add('c:stripped_wood', 'aurorasdeco:stripped_azalea_wood');
+		event.add('c:stripped_wood', 'aurorasdeco:stripped_jacaranda_wood');
+		
+	// Get the #minecraft:stone_crafting_materials tag collection and remove sturdy stone from it
+		event.remove('minecraft:stone_crafting_materials', 'aurorasdeco:sturdy_stone');
+		
+	// Then add a #c:cobblestone tag to it
+		event.add('c:cobblestone', 'aurorasdeco:sturdy_stone');
+		
+	// Get the #c:chains tag collection and add modded chains to it
+		event.add('c:chains', 'blockus:golden_chain');
+		event.add('c:chains', 'betternether:cincinnasite_chain');
+		event.add('c:chains', 'betterend:thallasium_chain');
+		event.add('c:chains', 'betterend:terminite_chain');
+		event.add('c:chains', 'architects_palette:nether_brass_chain');
 })

@@ -12,6 +12,12 @@
 // Make bundles significantly easier to craft and ingreate coloured bundles with tokens
 // Add wooden chests tag to most recipes that use vanilla chests
 // Change vanilla bundle recipe to a rainbow one
+// Add tags to barrels in Drink Beer recipes
+// Add a recipe for Leka's Call Bell
+// Add a recipe for Raid Horn
+// Swap tags for sturdy stones, based on a PR made by magneticflux-
+// Add chain tag to Blaze Bell recipe
+// Add a recipe for the Blazing Eye, until the Gauntlet boss is fixed to work with BetterCombat
 
 ServerEvents.recipes(event => {
 	
@@ -41,7 +47,8 @@ ServerEvents.recipes(event => {
 	"mcdw:sword_beestinger",
 	"twigs:stripped_bamboo_table",
 	"variantbarrels:stripped_bamboo_barrel",
-	"minecraft:bundle"
+	"minecraft:bundle",
+	"aurorasdeco:sturdy_stone"
 	];
 	
 	output.forEach((output) => {
@@ -496,8 +503,8 @@ ServerEvents.recipes(event => {
 	
 		event.shaped('aurorasdeco:copper_hopper', [
 	'I I',
-	'I I',
-	' C '
+	'ICI',
+	' I '
   ], {
 	C: '#c:wooden_chests',
 	I: 'minecraft:copper_ingot'
@@ -560,5 +567,77 @@ ServerEvents.recipes(event => {
 	' W '
   ], {
 	W: 'earthtojavamobs:rainbow_wool'
+	});
+	
+		event.shaped('drinkbeer:beer_barrel', [
+	'BI ',
+	'   ',
+	'   '
+  ], {
+	B: '#c:wooden_barrels',
+	I: 'minecraft:iron_ingot'
+	});
+	
+		event.shaped('drinkbeer:lekas_call_bell', [
+	'N  ',
+	'I  ',
+	'W  '
+  ], {
+	N: 'create:copper_nugget',
+	I: 'minecraft:copper_ingot',
+	W: 'minecraft:brown_wool'
+	});
+	
+		event.shaped('charm:raid_horn', [
+	'BGB',
+	'BHB',
+	'IBI'
+  ], {
+	H: '#c:horns',
+	B: 'create:brass_sheet',
+	I: 'graveyard:dark_iron_ingot',
+	G: 'mcda:gemstone_green'
+	});
+	
+		event.shaped('charm:raid_horn', [
+	'BGB',
+	'BHB',
+	'IBI'
+  ], {
+	H: '#c:copper_horns',
+	B: 'create:brass_sheet',
+	I: 'graveyard:dark_iron_ingot',
+	G: 'mcda:gemstone_green'
+	});
+	
+		event.shaped('aurorasdeco:sturdy_stone', [
+	'CS ',
+	'SC ',
+	'   '
+  ], {
+	S: 'minecraft:stone',
+	C: '#c:cobblestone'
+	});
+	
+		event.shaped('guardiansgalore:blaze_bell', [
+	' C ',
+	'III',
+	'IRI'
+  ], {
+	C: '#c:chains',
+	I: 'minecraft:gold_ingot',
+	R: 'minecraft:blaze_rod'
+	});
+	
+		event.shaped('bosses_of_mass_destruction:blazing_eye', [
+	'NCN',
+	'RER',
+	'NHN'
+  ], {
+	R: 'minecraft:blaze_rod',
+	H: 'wardenloot:warden_heart',
+	N: 'minecraft:netherite_block',
+	C: 'friendsandfoes:wildfire_crown',
+	E: 'greater_eye:greater_eye_nether'
 	});
 });

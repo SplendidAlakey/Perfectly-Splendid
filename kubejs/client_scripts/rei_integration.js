@@ -165,6 +165,23 @@ REIEvents.hide('item', event => {
 	'dramaticdoors:tall_charm_azalea_door',
 	'supplementaries:charm/hanging_sign_azalea',
 	'supplementaries:charm/sign_post_azalea',
-	'snowyspirit:charm/sled_azalea'
+	'snowyspirit:charm/sled_azalea',
+	'supplementaries:sconce_nether_brass',
+	'takesapillage:ravager_horn',
+	'aurorasdeco:bench/colorful-azaleas/azule_azalea',
+	'aurorasdeco:seat_rest/colorful-azaleas/azule_azalea',
+	'aurorasdeco:bench/colorful-azaleas/bright_azalea',
+	'aurorasdeco:seat_rest/colorful-azaleas/bright_azalea',
+	'aurorasdeco:bench/colorful-azaleas/fiss_azalea',
+	'aurorasdeco:seat_rest/colorful-azaleas/fiss_azalea',
+	'aurorasdeco:bench/colorful-azaleas/roze_azalea',
+	'aurorasdeco:seat_rest/colorful-azaleas/roze_azalea',
+	'aurorasdeco:bench/colorful-azaleas/tecal_azalea',
+	'aurorasdeco:seat_rest/colorful-azaleas/tecal_azalea',
+	'aurorasdeco:bench/colorful-azaleas/titanium_azalea',
+	'aurorasdeco:seat_rest/colorful-azaleas/titanium_azalea',
+	'aurorasdeco:bench/colorful-azaleas/walnut_azalea',
+	'aurorasdeco:seat_rest/colorful-azaleas/walnut_azalea',
+	'charm:gold_chain'
 	])
 })

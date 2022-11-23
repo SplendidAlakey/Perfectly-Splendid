@@ -130,7 +130,8 @@ ServerEvents.recipes(event => {
 	"charm:crimson_barrel",
 	"charm:warped_barrel",
 	"supplementaries:blackboard",
-	"supplementaries:wrench"
+	"supplementaries:wrench",
+	"supplementaries:sconce_nether_brass"
 	];
 	
 	output.forEach((output) => {
