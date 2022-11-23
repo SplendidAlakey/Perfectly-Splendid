@@ -122,55 +122,16 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 ### ⚠ Known issues
 
-<details><summary>Mobs added with Geckolib may have broken animations when using shaders.</summary>
-
-  **Status**: ✅ Fixed in the next update.
-
-  **Severity**: Low. 
-
-  **Workarounds**: Disable shaders. 
-
-</details>
-
-<details><summary>First ever launch may crash.</summary>
+<details><summary>First ever launch "crashes".</summary>
 
   **Status**: ❌ Unable to fix.
 
   **Severity**: Low. 
 
-  **Workarounds**: Simply launch the game again, if the error was something like "library is already in use". I think this is due to JumpQuilt technically being run on Forge to download Quilt.
+  **Workarounds**: Simply launch the game again. I think this is due to JumpQuilt technically being run on Forge to download Quilt.
 
 </details>
 
-<details><summary>Promenade and BetterNether planks have "air" blocks in stonecutter recipes.</summary>
-
-  **Status**: ✅ Fixed in the next update.
-
-  **Severity**: Low. 
-
-  **Workarounds**: If it really bothers you, delete cherry oak and palm json recipes for signs, and all BetterNether wood types fence gates from the compat datapacks.
-
-</details>
-
-<details><summary>NBT Crafting causes a crash with Create under certain conditions.</summary>
-
-  **Status**: ✅ Fixed in the next update.
-
-  **Severity**: Medium. 
-
-  **Workarounds**: Remove Spice Of Fabric. It's configured to not be punishing and only give positives for eating diverse food, and can be safely removed mid-save. The way to reproduce the crash is atypical and you shouldn't encounter it in a normal playthrough, as such I don't feel like it's critical enough for a hotfix release.
-
-</details>
-
-<details><summary>Typing "dep" into creative search crashes the game.</summary>
-
-  **Status**: ✅ Fixed in the next update.
-
-  **Severity**: Medium. 
-
-  **Workarounds**: Remove "hardcodedSeaLevelFix" line from carpet fixes config in .minecraft/config/carpet or remove Additional Additions. The pack is survival oriented, so I don't consider this critical enough for a hotfix. REI search is unaffected. The item, that causes it - the Depth Meter, is also disabled in survival, anyway.
-
-</details>
 
 **@Credits**: 
 
