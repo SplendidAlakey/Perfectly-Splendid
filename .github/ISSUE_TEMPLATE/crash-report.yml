@@ -15,6 +15,7 @@ body:
       options:
         - 0.1
         - 0.2
+        - 0.3
     validations:
       required: true
   - type: dropdown
