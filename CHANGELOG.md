@@ -2,6 +2,124 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
+<h1 align="center"> Perfectly Splendid Update 2 <br>
+
+#### Note: Spice Of Fabric has been removed due to a crash with Create. Nothing should break, but do make a backup, just in case!
+#### Open Parties and Claims requires a config reformat. If you were using a custom config, back it up!
+#### This Update brings in the newest version of GeckoLib, meaning all animations now work properly with shaders.
+#### If you would like for the updated resourcepacks to apply automatically, delete your options.txt.
+
+### Changes:
+
+- Hopefully, fixed an inconsistent crash, when opening chat. If you experience such a crash, and the log says
+	- "Index -1 out of bounds for length 129", please, either leave a comment or open a GH issue.
+	- Disabled Stendhal's chat utils. Signs, books etc still have them.
+- Added a recipe for the Blazing Eye. I forgot, that the Nether Gauntlet boss is disabled, due to an incompatibility with BetterCombat, this is a compromise.
+- Fixed another issue, that could randomly quadruple the Ender Dragon's HP.
+- Fixed "air" blocks appearing in some stonecutter recipes.
+- Fixed a crash, when searching "dep" in creative search (removed hardcodedSeaLevelFix rule).
+- Fixed a crash, when using a hand crank to power mechanical press or a mixer above a basin with ingots (removed Spice Of Fabric).
+- Fixed copper hopper recipe. It was correct with vanilla chests, but wrong with modded ones.
+- Disabled "put items directly into inventory" feature from IPN, restoring vanilla behavior.
+- Enabled locked slots feature. Right control enables/disables locking. Holding left control and left clicking on a slot will lock it.
+- Added a recipe for Raid Horn. Difficult by design, see the recipe in REI.
+- Added tags to horns (#c:horns and #c:copper_horns).
+- Removed nether brass sconce, because the model is broken.
+- Added #c:stripped_logs tag to Azalea and Jacaranda stipped logs.
+- Added #c:stripped_wood tag to Azalea and Jacaranda stropped wood.
+- Swapped tags for sturdy stones, based on a PR, made by magneticflux-.
+- Removed Colorful Azalea benches and seat rests from Aurora's Decorations, due to broken textures.
+- Added integration between Charm and Colorful Azaleas.
+- Changed the way starting inventory debloat works, should work in Multiplayer now, if more than 1 player join at once. No effect on existing players.
+- Fixed boats taking fall damage under certain conditions (boatsTakeFallDamageFix true).
+- Changed game version to 1.19.2 in JumpQuilt to avoid accidentally updating to 1.19.3.
+
+### Additions:
+
+- Drink Beer
+	1. Adjusted Keg recipe to use all barrel variants.
+	2. Made a recipe for the squeaker.
+- Guardians Galore
+	1. Adjusted Blaze Bell recipe to use all chain variants.
+- Smarter Farmers
+	1. Made compatible with Farming for Blockheads.
+- Takes a Pillage
+	1. Random raids (sieges) are disabled.
+	2. Golem replacement is disabled.
+	3. Ravager horn is disabled (use Raid Horn).
+	4. Spacing and separation is default, but, despite that, the structures are quite rare.
+	5. Milk still removes bad omen.
+- Variant Mobs
+	1. Spiders have a chance to spawn as Black Spiders below Y30.
+	2. Zombies have a chance to spawn as Forgotten below Y20.
+	3. Skeletons have a chance to spawn as Undead Warriors below Y10.
+	4. Creepers have a chance to spawn as Cave Creepers below Y0.
+	5. All of the above are tougher variants of vanilla mobs.
+
+### Removals: 
+
+- Chat Up! (Where's My Chat History already does the same).
+- Spice Of Fabric (due to the aforementioned crash with Create).
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Blockus
+- Botany Trees
+- Carpet TIS Additions
+- Create
+- CreativeCore
+- Comforts
+- Complete Config
+- Connectible Chains
+- Cull Leaves
+- Customizable Elytra
+- Dave's Potioneering
+- Extended Drawers
+- Falling Leaves
+- Farmer's Delight
+- Forge Config API Port
+- Friends and Foes
+- GeckoLib
+- HorseInBoat
+- Iris
+- Immersive Armors
+- Incendium
+- Kaffee's Dual Ride
+- KubeJS
+- LibIPN
+- LootJS
+- ModMenu
+- Moonlight
+- Mythic Mounts
+- Open Parties and Claims
+- owo
+- Patchouli
+- QSL
+- Simple Copper Pipes
+- Sodium Extra
+- Straw Statues
+- Supplementaries
+- The Bumblezone
+- The Graveyard
+- Towns and Towers
+- Trinkets
+- Utility Belt
+- Variant Barrels
+- Variant Bookshelves
+- Variant Crafting Tables
+- Variant Composters
+- Variant Grindstones
+- Wondrous Wilds
+
+- Chests Reimagined
+- Eating Animations+
+
+</details>
+
+<details><summary>Previous Changelog (v0.2).</summary>
+
 <h1 align="center"> Perfectly Splendid Update 1 <br>
 
 #### Note: if updating from v0.1, delete Towns and Towers from .minecraft/config/paxi/datapacks.
@@ -139,4 +257,6 @@
 
 </details>
 
-## Current version of Perfectly Splendid: v0.2
+</details>
+
+## Current version of Perfectly Splendid: v0.3
