@@ -2,6 +2,40 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
+<h1 align="center"> Perfectly Splendid Update 2 Hotfix <br>
+
+#### Note: In order to fix a critical crash, Llamarama has been removed. 
+#### This won't break anything, but if you had any modded Llamas, they will disappear.
+#### I'm sorry for that, it's my fault for not catching a critical crash, caused by a Llamarama + Naturalist combo earlier.
+
+### Changes:
+
+- Adjusted The Graveyard config to its Perfectly Splendid values. It got overridden by default values in the Update 2 and I didn't notice, sorry!
+- Changed Tree Harvester mod not to automatically replant anything.
+- Changed the Carrier keybind to Shift (if you use the modpack supplied config where Shift = sprint), as to not conflict with Better Signs and Universal Graves.
+- Disabled duplicate hunger/saturation bars in food tooltips.
+
+### Additions:
+
+- 
+
+### Removals: 
+
+- Llamarama (causes a crash, when Naturalist entities interact with llamarama:statue).
+- Now Playing (seems to be what's causing "Index -1 out of bounds for length 129").
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Bag Of Holding
+- Roughly Enough Professions
+- Supplementaries
+
+</details>
+
+<details><summary>Previous Changelog (v0.3).</summary>
+
 <h1 align="center"> Perfectly Splendid Update 2 <br>
 
 #### Note: Spice Of Fabric has been removed due to a crash with Create. Nothing should break, but do make a backup, just in case!
@@ -115,6 +149,8 @@
 
 - Chests Reimagined
 - Eating Animations+
+
+</details>
 
 </details>
 
@@ -259,4 +295,6 @@
 
 </details>
 
-## Current version of Perfectly Splendid: v0.3
+</details>
+
+## Current version of Perfectly Splendid: v0.31
