@@ -132,16 +132,6 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 </details>
 
-<details><summary>The game crashes when a Naturalist mob interacts with a llamarama:statue.</summary>
-
-  **Status**: ✅ Fixed in the next update. Since the issue is critical, the update will be out sooner, than usual.
-
-  **Severity**: Critical. 
-
-  **Workarounds**: Remove Llamarama. I'm sorry for not catching this issue earlier :/
-
-</details>
-
 
 **@Credits**: 
 
