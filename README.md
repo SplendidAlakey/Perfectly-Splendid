@@ -108,7 +108,7 @@ The pack was tested with default Java arguments provided by vanilla launcher and
 
 Recommended arguments to use (add -Xmx and -Xms, if you don't use Prism or MMC):
 ```
--XX:+UseShenandoahGC -XX:+UnlockExperimentalVMOptions -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -Dfml.readTimeout=180 -XX:+UseLargePages
+-XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 ```
 Prism users may also tick "Skip Java compatibility checks", if using Adoptium JDK 17 or 19.
 
@@ -122,13 +122,13 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 ### ⚠ Known issues
 
-<details><summary>First ever launch "crashes".</summary>
+<details><summary>First ever launch "crashes" with an "internal error" message.</summary>
 
   **Status**: ❌ Unable to fix.
 
   **Severity**: Low. 
 
-  **Workarounds**: Simply launch the game again. I think this is due to JumpQuilt technically being run on Forge to download Quilt.
+  **Workarounds**: Simply launch the game again. I think this is due to JumpQuilt technically being run on Forge to download Quilt. You don't need to report this to Quilt, as it says.
 
 </details>
 

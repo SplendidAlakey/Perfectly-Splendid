@@ -2,17 +2,182 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
+<h1 align="center"> Perfectly Splendid Update 3<br>
+
+#### Note: This update brings a big change to enchantments, as such some of them may disappear, make a backup just in case!
+#### Some lightning rods might disappear after updating. I removed Oxidizing Lightning Rods, because Friends & Foes already adds them.
+#### 1.19.3 is planned, waiting on all mods to update. My goal is to transition without corrupting worlds.
+
+### Changes:
+
+- Azalea chests, barrels, bookshelves and bookcases are now craftable.
+- Backpacks will now display corresponding colours to the sleeping bags you used to craft it with.
+- Disabled a lot of enchantments from MC Dungeons Armors, Artifacts and Weapons mods (those, that I consider to be too strong, irrelevant or duplicate).
+- Made all chest boats craftable with modded chests (no texture changes, though).
+- Added recipes for all guide books.
+- Collapsed a bunch of REI entries.
+- Added Create's toolbox and Wanderer's Catalogue to the IPN ignore list.
+- Fixed an issue, where existing players would keep losing the probe note and Patchouli books on login.
+- Removed some duplicate recipes (most notorious being basalt bricks).
+- Removed stalagnate and mushroom fir benches and seat rests, due to broken textures.
+- Removed Blockus' limestone recipes. The generation was already disabled since release to avoid confusion with Create.
+- Removed gingerbread vertical slab, due to missing textures.
+- Added missing tags to all Colorful Azaleas blocks.
+- Shaders will now be on by default.
+- Remove duplicate bee stinger from MCDW via its own config, rather than LootJS.
+- Set strict priorities for all scripts.
+- Updated Quilt Loader to 0.18.1-beta.23 (no user input required, unless you manually swapped out Forge for Quilt in your launcher).
+- Changed recommended JVM arguments (now just using MC defaults, but with ShenandoahGC).
+
+### Additions:
+
+- Additional Mushroom Blocks
+- Carpeted Stairs
+- Create Chunkloading
+- Critters and Companions
+- Ecologics
+     - Everything is disabled, apart from stackable moss
+- Enchancement
+     - The following existing and Enchancement's enchantments have been removed:
+	      "minecraft:lure" - now bundled with luck of the sea,
+	      "minecraft:loyalty" - all tridents now have loyalty by default,
+	      "minecraft:aqua_affinity",
+	      "minecraft:depth_strider" - both of these now exist as a single new enchantment amphibious,
+	      "betternether:ruby_fire" - replaced by molten, but BetterNether tools can still have it,
+	      "supplementaries:stasis" - I find it to be unfit for the pack,
+	      "enchancement:assimilation",
+	      "enchancement:buffet",
+	      "enchancement:wardenspine",
+	      "enchancement:chaos" - these 4 I find to be unfit for the pack,
+	      "bagofholding:preservation" - not needed, since we have graves,
+	      "farmersdelight:backstabbing" - redundant, due to shadow form.
+	 - All tridents have loyalty
+	 - Channeling works without thunder
+	 - Fire aspect works like flint and steel
+	 - Luck of the sea is bundled with lure
+	 - Ender pearls don't hurt
+	 - Channeling's thunder strike doesn't start fires or breaks blocks
+	 - Tridents return from void
+	 - The rest of the mod's settings are disabled; 
+	 - I'd like to enable other tweaks, but, currently, that would not fit the pack, since we have Goblin Traders and such;
+	   - However, truly unbreaking, single enchantment levels and 1 enchantment per item might come later down the line. Possibly when migrating to 1.20.
+- Enchantment Descriptions
+- Immersive Aircraft
+     - Adjusted recipes to fit better into the pack
+- Minekea
+     - Certain auto-generated Aurora's Decorations blocks were removed due to broken textures
+	 - Duplicate recipes removed
+	 - Cobbled Endstone disabled
+	 - The guide book will not be given on login, but you can craft it
+	 - Added #c:buckets/honey tag to the bucket of honey, so it should work alongside Create and Bumblezone
+	 - Collapsed REI entries
+- Quilt Kotlin Libraries
+- Universal Enchants
+     - You will be able to apply any enchantment to almost anything; most OP combos disabled
+
+- Ore Variants (should've been in since release, I somehow overlooked it)
+
+### Removals: 
+
+- Fabric Language Kotlin (replaced by QKL; no player facing changes)
+- FixMySpawnR
+     - Initially included to reduce the lag caused by large amounts of spawners, but massive dungeons sometimes take
+	 - longer to complete, than it takes for spawners to run out (my setting was 10 in-game days)
+- idwtialsimmoedm (replaced by Enchantment Descriptions, due to Enchancement)
+- Oxidizing Lightning Rods (Friends & Foes already adds that feature)
+- Tree Harvester (you now have to use a Lumberjack enchantment; no fast leaf decay at the moment, due to Snow Day)
+
+- Dark Mode Everywhere Fix (stopped being a resourcepack, that only fixes missing GUI's and became a full dark GUI pack)
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Architectury
+- Ambient Sounds
+- BCLib
+- BetterCombat
+- BetterEnd
+- Blockus
+- Bookshelf
+- Bosses of Mass Destruction
+- Botany Pots
+- Carpet TIS Addition
+- CraftPresence
+- CreativeCore
+- Collective
+- CombatRoll
+- Companion
+- Conjuring
+- Do A Barrel Roll
+- Dungeon Difficulty
+- Fabric Language Kotlin
+- FerriteCore
+- Friends & Foes
+- GeckoLib
+- Goblin Traders
+- Ingredient Extension API
+- Inventory Profiles Next
+- Immediately Fast
+- Immersive Paintings
+- Iris
+- Joy of Painting
+- JumpyBoat
+- KubeJS
+- libIPN
+- Lithium
+- Log Begone
+- LootR
+- Macaw's Paths and Pavings
+- Macaw's Windows
+- Memory Leak Fix
+- Mob Variants
+- Mod Menu
+- Moog's Voyager Structures
+- Moonlight
+- Nature's Compass
+- Nyf's Spiders
+- Open Parties and Claims
+- owo
+- Placeable Plants
+- Polymer
+- Polymorph
+- QSL
+- Random Bonemeal Flowers
+- Reese's Sodium Options
+- Recursive Resources
+- Repurposed Structures
+- Roughly Enough Items
+- Projectile Damage Attribute
+- Simple Voice Chat
+- Snowy Spirit
+- Sodium Extra
+- Stendhal
+- Straw Statues
+- Supplementaries
+- The Bumblezone
+- Tom's Simple Storage
+- Traveler's Backpack
+- Variant Lanterns
+- Xaero's Maps
+- XP Obelisk
+- XP Obelisk Additions
+
+</details>
+
+<details><summary>Update 2 Hotfix Changelog (v0.31).</summary>
+
 <h1 align="center"> Perfectly Splendid Update 2 Hotfix <br>
 
 #### Note: In order to fix a critical crash, Llamarama has been removed. 
-#### This won't break anything, but if you had any modded Llamas, they will disappear.
+#### This won't break anything, but if you had any modded Llamas, they will dissapear.
 #### I'm sorry for that, it's my fault for not catching a critical crash, caused by a Llamarama + Naturalist combo earlier.
 
 ### Changes:
 
-- Adjusted The Graveyard config to its Perfectly Splendid values. It got overridden by default values in the Update 2 and I didn't notice, sorry!
+- Adjusted The Graveyard config to its Perfectly Splendid values. It got overriden by default values in the Update 2 and I didn't notice, sorry!
 - Changed Tree Harvester mod not to automatically replant anything.
-- Changed the Carrier keybind to Shift (if you use the modpack supplied config where Shift = sprint), as to not conflict with Better Signs and Universal Graves.
+- Changed the Carrier keybind to Shift (if you use the modpack supplied config where Shift = sprint), as to not confict with Better Signs and Universal Graves.
 - Disabled duplicate hunger/saturation bars in food tooltips.
 
 ### Additions:
@@ -34,7 +199,9 @@
 
 </details>
 
-<details><summary>Previous Changelog (v0.3).</summary>
+</details>
+
+<details><summary>Update 2 Changelog (v0.3).</summary>
 
 <h1 align="center"> Perfectly Splendid Update 2 <br>
 
@@ -154,7 +321,7 @@
 
 </details>
 
-<details><summary>Previous Changelog (v0.2).</summary>
+<details><summary>Update 1 Changelog (v0.2).</summary>
 
 <h1 align="center"> Perfectly Splendid Update 1 <br>
 
@@ -297,4 +464,4 @@
 
 </details>
 
-## Current version of Perfectly Splendid: v0.31
+## Current version of Perfectly Splendid: v0.4
