@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
+  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Snowy_Perfectly_Splendid.png" width="720"
 </p>
 
 <h1 align="center"> Perfectly Splendid Update 3<br>
