@@ -17,6 +17,7 @@ body:
         - 0.2
         - 0.3
         - 0.31
+        - 0.4
     validations:
       required: true
   - type: dropdown
