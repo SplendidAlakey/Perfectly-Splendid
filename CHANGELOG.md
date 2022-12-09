@@ -39,18 +39,18 @@
      - Everything is disabled, apart from stackable moss
 - Enchancement
      - The following existing and Enchancement's enchantments have been removed:
-	      "minecraft:lure" - now bundled with luck of the sea,
-	      "minecraft:loyalty" - all tridents now have loyalty by default,
-	      "minecraft:aqua_affinity",
-	      "minecraft:depth_strider" - both of these now exist as a single new enchantment amphibious,
-	      "betternether:ruby_fire" - replaced by molten, but BetterNether tools can still have it,
-	      "supplementaries:stasis" - I find it to be unfit for the pack,
-	      "enchancement:assimilation",
-	      "enchancement:buffet",
-	      "enchancement:wardenspine",
-	      "enchancement:chaos" - these 4 I find to be unfit for the pack,
-	      "bagofholding:preservation" - not needed, since we have graves,
-	      "farmersdelight:backstabbing" - redundant, due to shadow form.
+	      - "minecraft:lure" - now bundled with luck of the sea,
+	      - "minecraft:loyalty" - all tridents now have loyalty by default,
+	      - "minecraft:aqua_affinity",
+	      - "minecraft:depth_strider" - both of these now exist as a single new enchantment amphibious,
+	      - "betternether:ruby_fire" - replaced by molten, but BetterNether tools can still have it,
+	      - "supplementaries:stasis" - I find it to be unfit for the pack,
+	      - "enchancement:assimilation",
+	      - "enchancement:buffet",
+	      - "enchancement:wardenspine",
+	      - "enchancement:chaos" - these 4 I find to be unfit for the pack,
+	      - "bagofholding:preservation" - not needed, since we have graves,
+	      - "farmersdelight:backstabbing" - redundant, due to shadow form.
 	 - All tridents have loyalty
 	 - Channeling works without thunder
 	 - Fire aspect works like flint and steel
