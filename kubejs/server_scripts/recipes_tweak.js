@@ -1,3 +1,5 @@
+// priority: 6
+
 // Tweak recipes for:
 // Mining Dimensions
 // Custom Portals
@@ -18,6 +20,12 @@
 // Swap tags for sturdy stones, based on a PR made by magneticflux-
 // Add chain tag to Blaze Bell recipe
 // Add a recipe for the Blazing Eye, until the Gauntlet boss is fixed to work with BetterCombat
+// Switch up the recipe for cracked polished basalt bricks, because of duplicates
+// Add a recipe for the Minekea book, because I'm removing it from starter inventory
+// Replace Charm Azalea item's recipes with Aurora's Decorations
+// Add tags to chests in chest boat recipes
+// Add recipes for all guide books
+// Make Immersive Aircraft recipes a bit more interesting
 
 ServerEvents.recipes(event => {
 	
@@ -48,7 +56,33 @@ ServerEvents.recipes(event => {
 	"twigs:stripped_bamboo_table",
 	"variantbarrels:stripped_bamboo_barrel",
 	"minecraft:bundle",
-	"aurorasdeco:sturdy_stone"
+	"aurorasdeco:sturdy_stone",
+	"blockus:cracked_polished_basalt_bricks",
+	"architects_palette:basalt_tile_vertical_slab",
+	"charm:azalea_chest",
+	"charm:azalea_barrel",
+	"charm:azalea_bookshelf",
+	"charm:azalea_bookcase",
+	"minecraft:oak_chest_boat",
+	"minecraft:spruce_chest_boat",
+	"minecraft:birch_chest_boat",
+	"minecraft:jungle_chest_boat",
+	"minecraft:acacia_chest_boat",
+	"minecraft:dark_oak_chest_boat",
+	"minecraft:mangrove_chest_boat",
+	"aurorasdeco:azalea_chest_boat",
+	"aurorasdeco:jacaranda_chest_boat",
+	"blockus:white_oak_chest_boat",
+	"blockus:bamboo_chest_boat",
+	"blockus:charred_chest_boat",
+	"immersive_aircraft:hull",
+	"immersive_aircraft:engine",
+	"immersive_aircraft:boiler",
+	"immersive_aircraft:propeller",
+	"immersive_aircraft:sail",
+	"immersive_aircraft:airship",
+	"immersive_aircraft:biplane",
+	"immersive_aircraft:gyrodyne"
 	];
 	
 	output.forEach((output) => {
@@ -224,7 +258,7 @@ ServerEvents.recipes(event => {
 		event.stonecutting('1x twigs:polished_tuff_brick_wall', 'aurorasdeco:polished_tuff');
 		event.shapeless('blockus:polished_tuff_button', ['aurorasdeco:polished_tuff']);
 		
-		event.shaped('travelersbackpack:standard', [
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:0}'), [
 	'LGL',
 	'TCT',
 	'LBL'
@@ -233,7 +267,187 @@ ServerEvents.recipes(event => {
 	G: 'minecraft:gold_ingot',
 	T: 'travelersbackpack:backpack_tank',
 	C: '#c:wooden_chests',
-	B: '#comforts:sleeping_bags'
+	B: 'comforts:sleeping_bag_white'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:1}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_orange'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:2}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_magenta'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:3}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_light_blue'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:4}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_yellow'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:5}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_lime'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:6}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_pink'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:7}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_gray'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:8}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_light_gray'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:9}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_cyan'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:10}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_purple'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:11}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_blue'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:12}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_brown'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:13}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_green'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:14}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_red'
+	});
+	
+		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:15}'), [
+	'LGL',
+	'TCT',
+	'LBL'
+  ], {
+	L: 'minecraft:leather',
+	G: 'minecraft:gold_ingot',
+	T: 'travelersbackpack:backpack_tank',
+	C: '#c:wooden_chests',
+	B: 'comforts:sleeping_bag_black'
 	});
 	
 		event.shaped('moretotems:explosive_totem_of_undying', [
@@ -639,5 +853,252 @@ ServerEvents.recipes(event => {
 	N: 'minecraft:netherite_block',
 	C: 'friendsandfoes:wildfire_crown',
 	E: 'greater_eye:greater_eye_nether'
+	});
+	
+		event.smelting('blockus:cracked_polished_basalt_bricks', 'twigs:polished_basalt_bricks');
+		
+		event.shaped(Item.of('patchouli:guide_book', '{"patchouli:book":"minekea:minekea_catalogue"}'), [
+	'BP ',
+	'   ',
+	'   '
+  ], {
+	B: 'minecraft:book',
+	P: 'minekea:tools/painter'
+	});
+	
+		event.stonecutting('architects_palette:basalt_tile_vertical_slab', 'twigs:polished_basalt_bricks');
+		event.stonecutting('blockus:polished_basalt_brick_slab', 'twigs:polished_basalt_bricks');
+		event.stonecutting('blockus:polished_basalt_brick_stairs', 'twigs:polished_basalt_bricks');
+		event.stonecutting('blockus:polished_basalt_brick_wall', 'twigs:polished_basalt_bricks');
+	
+		event.shaped('charm:azalea_chest', [
+	'PPP',
+	'P P',
+	'PPP'
+  ], {
+	P: 'aurorasdeco:azalea_planks'
+	});
+	
+		event.shaped('charm:azalea_barrel', [
+	'PSP',
+	'P P',
+	'PSP'
+  ], {
+	P: 'aurorasdeco:azalea_planks',
+	S: 'aurorasdeco:azalea_slab'
+	});
+	
+		event.shaped('charm:azalea_bookcase', [
+	'SSS',
+	'SBS',
+	'SSS'
+  ], {
+	S: 'aurorasdeco:azalea_slab',
+	B: 'variant_bookshelves:block/azalea_bookshelf'
+	});
+	
+		event.shaped('charm:azalea_bookcase', [
+	'SSS',
+	'SBS',
+	'SSS'
+  ], {
+	S: 'aurorasdeco:azalea_slab',
+	B: 'variant_bookshelves:block/flowering_azalea_bookshelf'
+	});
+	
+		event.shaped('minecraft:oak_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'minecraft:oak_boat'
+	});
+	
+		event.shaped('minecraft:spruce_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'minecraft:spruce_boat'
+	});
+	
+		event.shaped('minecraft:birch_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'minecraft:birch_boat'
+	});
+	
+		event.shaped('minecraft:jungle_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'minecraft:jungle_boat'
+	});
+	
+		event.shaped('minecraft:acacia_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'minecraft:acacia_boat'
+	});
+	
+		event.shaped('minecraft:dark_oak_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'minecraft:dark_oak_boat'
+	});
+	
+		event.shaped('minecraft:mangrove_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'minecraft:mangrove_boat'
+	});
+	
+		event.shaped('aurorasdeco:azalea_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'aurorasdeco:azalea_boat'
+	});
+	
+		event.shaped('aurorasdeco:jacaranda_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'aurorasdeco:jacaranda_boat'
+	});
+	
+		event.shaped('blockus:white_oak_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'blockus:white_oak_boat'
+	});
+	
+		event.shaped('blockus:bamboo_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'blockus:bamboo_boat'
+	});
+	
+		event.shaped('blockus:charred_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'blockus:charred_boat'
+	});
+	
+		event.shaped('charm:ebony_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'charm:ebony_boat'
+	});
+	
+		event.shaped(Item.of('patchouli:guide_book', '{"patchouli:book":"mythicmounts:mythical_mounts"}'), [
+	'BP ',
+	'   ',
+	'   '
+  ], {
+	B: 'minecraft:book',
+	P: 'mythicmounts:summoning_staff'
+	});
+	
+		event.shaped(Item.of('patchouli:guide_book', '{"patchouli:book":"extraalchemy:alchemist_guide"}'), [
+	'BP ',
+	'   ',
+	'   '
+  ], {
+	B: 'minecraft:book',
+	P: 'minecraft:glass_bottle'
+	});
+	
+		event.shaped('immersive_aircraft:hull', [
+	'LLL',
+	'SSS',
+	'LLL'
+  ], {
+	L: '#minecraft:logs',
+	S: 'create:iron_sheet'
+	});
+	
+		event.shaped('immersive_aircraft:engine', [
+	'PQP',
+	'MPM',
+	'QBQ'
+  ], {
+	P: 'create:propeller',
+	M: 'create:mechanical_piston',
+	Q: 'minecraft:quartz_block',
+	B: 'immersive_aircraft:boiler'
+	});
+	
+		event.shaped('immersive_aircraft:boiler', [
+	'CCC',
+	'CWC',
+	'CBC'
+  ], {
+	C: 'minecraft:copper_ingot',
+	B: 'create:blaze_burner',
+	W: 'minecraft:water_bucket'
+	}).replaceIngredient('minecraft:water_bucket', 'minecraft:bucket');
+	
+		event.shaped('immersive_aircraft:airship', [
+	'SSS',
+	'SSS',
+	'HHE'
+  ], {
+	H: 'immersive_aircraft:hull',
+	S: 'create:white_sail',
+	E: 'immersive_aircraft:engine'
+	});
+	
+		event.shaped('immersive_aircraft:biplane', [
+	' H ',
+	'PHE',
+	' H '
+  ], {
+	H: 'immersive_aircraft:hull',
+	P: 'create:propeller',
+	E: 'immersive_aircraft:engine'
+	});
+	
+		event.shaped('immersive_aircraft:gyrodyne', [
+	'SP ',
+	'HEH',
+	'  S'
+  ], {
+	H: 'immersive_aircraft:hull',
+	P: 'create:propeller',
+	E: 'immersive_aircraft:engine',
+	S: 'create:white_sail'
 	});
 });

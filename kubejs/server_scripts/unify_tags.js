@@ -1,3 +1,5 @@
+// priority: 4
+
 // Listen to item tag event
 ServerEvents.tags('item', event => {
 	// Get the #c:wooden_chests tag collection and add BN chests to it
@@ -84,4 +86,73 @@ ServerEvents.tags('item', event => {
 		event.add('c:chains', 'betterend:thallasium_chain');
 		event.add('c:chains', 'betterend:terminite_chain');
 		event.add('c:chains', 'architects_palette:nether_brass_chain');
+		
+	// Get the #c:buckets/honey tag collection and add Minekea honey to it
+		event.add('c:buckets/honey', 'minekea:containers/honey_bucket');
+		
+	// Get the #supplementaries:presents tag collection and add missing presents to it
+		event.add('supplementaries:presents', /^supplementaries:.*present.*$/);
+		
+	// Get the #minecraft:leaves, #minecraft:completes_find_tree_tutorial, #supplementaries:flower_box_plantable and #another_furniture:planter_box_placeables tags collection and add Colorful Azaleas leaves to it
+		event.add('minecraft:leaves', /^colorful-azaleas:.*_leaves$/);
+		event.add('minecraft:completes_find_tree_tutorial', /^colorful-azaleas:.*_leaves$/);
+		event.add('another_furniture:planter_box_placeables', /^colorful-azaleas:.*_leaves$/);
+		event.add('supplementaries:flower_box_plantable', /^colorful-azaleas:.*_blooming_.*$/);
+		
+	// Get the #minecraft:leaves, #minecraft:completes_find_tree_tutorial and #another_furniture:planter_box_placeables tags collection and add missing BetterEnd leaves to it
+		event.add('minecraft:leaves', /^betterend:helix_tree_leaves$/);
+		event.add('minecraft:completes_find_tree_tutorial', /^betterend:helix_tree_leaves$/);
+		event.add('another_furniture:planter_box_placeables', /^betterend:helix_tree_leaves$/);
+		
+	// Get the #minecraft:leaves, #minecraft:completes_find_tree_tutorial and #another_furniture:planter_box_placeables tags collection and add missing Charm leaves to it
+		event.add('minecraft:leaves', /^charm:ebony_leaves$/);
+		event.add('minecraft:completes_find_tree_tutorial', /^charm:ebony_leaves$/);
+		event.add('another_furniture:planter_box_placeables', /^charm:ebony_leaves$/);
+		
+	// Get the #minecraft:logs, #minecraft:logs_that_burn and #minecraft:completes_find_tree_tutorial tags collection and add Colorful Azaleas logs and wood to it
+		event.add('minecraft:logs', /^colorful-azaleas:.*_log$/);
+		event.add('minecraft:completes_find_tree_tutorial', /^colorful-azaleas:.*_log$/);
+		event.add('minecraft:logs_that_burn', /^colorful-azaleas:.*_log$/);
+		event.add('minecraft:logs', /^colorful-azaleas:.*_wood$/);
+		event.add('minecraft:completes_find_tree_tutorial', /^colorful-azaleas:.*_wood$/);
+		event.add('minecraft:logs_that_burn', /^colorful-azaleas:.*_wood$/);
+		
+	// Get the #c:planks_that_burn tag collection and add Colorful Azaleas planks to it
+		event.add('c:planks_that_burn', /^colorful-azaleas:.*_planks$/);
+		
+	// Get the #minecraft:wooden_stairs tag collection and add Colorful Azaleas stairs to it
+		event.add('minecraft:wooden_stairs', /^colorful-azaleas:.*_stairs$/);
+		
+	// Get the #minecraft:wooden_slabs tag collection and add Colorful Azaleas slabs to it
+		event.add('minecraft:wooden_slabs', /^colorful-azaleas:.*_slab$/);
+		
+	// Get the #minecraft:wooden_trapdoors tag collection and add Colorful Azaleas trapdoors to it
+		event.add('minecraft:wooden_trapdoors', /^colorful-azaleas:.*_trapdoor$/);
+		
+	// Get the #minecraft:doors and #minecraft:wooden_doors tags collection and add Colorful Azaleas doors to it
+		event.add('minecraft:doors', /^colorful-azaleas:.*_door$/);
+		event.add('minecraft:wooden_doors', /^colorful-azaleas:.*_door$/);
+		
+	// Get the #minecraft:fences, #minecraft:wooden_fences, #c:fences and #c:fences/wooden tags collection and add Colorful Azaleas fences to it
+		event.add('minecraft:fences', /^colorful-azaleas:.*_fence$/);
+		event.add('minecraft:wooden_fences', /^colorful-azaleas:.*_fence$/);
+		event.add('c:fences', /^colorful-azaleas:.*_fence$/);
+		event.add('c:fences/wooden', /^colorful-azaleas:.*_fence$/);
+		
+	// Get the #bookshelf:fence_gates, #c:fence_gates and #c:fence_gates/wooden tags collection and add Colorful Azaleas fence gates to it
+		event.add('bookshelf:fence_gates', /^colorful-azaleas:.*_fence_gate$/);
+		event.add('c:fence_gates', /^colorful-azaleas:.*_fence_gate$/);
+		event.add('c:fence_gates/wooden', /^colorful-azaleas:.*_fence_gate$/);
+		
+	// Get the #minecraft:buttons and #minecraft:wooden_butons tags collection and add Colorful Azaleas buttons to it
+		event.add('minecraft:buttons', /^colorful-azaleas:.*_button$/);
+		event.add('minecraft:wooden_buttons', /^colorful-azaleas:.*_button$/);
+		
+	// Get the #minecraft:wooden_pressure_plates tag collection and add Colorful Azaleas pressure plates to it
+		event.add('minecraft:wooden_pressure_plates', /^colorful-azaleas:.*_pressure_plate$/);
+		
+	// Get the #minecraft:logs, #minecraft:logs_that_burn, #minecraft:completes_find_tree_tutorial tags collection and add cinnamon logs to it
+		event.add('minecraft:logs', /^expandeddelight:.*_log$/);
+		event.add('minecraft:logs_that_burn', /^expandeddelight:.*_log$/);
+		event.add('minecraft:completes_find_tree_tutorial', /^expandeddelight:.*_log$/);
 })

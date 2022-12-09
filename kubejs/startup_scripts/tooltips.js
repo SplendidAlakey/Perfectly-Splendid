@@ -1,3 +1,5 @@
+// priority: 3
+
 ItemEvents.tooltip(tooltip => {
 
 	tooltip.addAdvanced('minecraft:bundle', (item, advanced, text) => {
