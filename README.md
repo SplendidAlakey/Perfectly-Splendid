@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png"
+  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Snowy_Perfectly_Splendid.png"
 </p>
 
 <h1 align="center"> ❤🧡💛💚💙💜 Perfectly Splendid 💜💙💚💛🧡❤ <br>
@@ -129,6 +129,8 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
   **Severity**: Low. 
 
   **Workarounds**: Simply launch the game again. I think this is due to JumpQuilt technically being run on Forge to download Quilt. You don't need to report this to Quilt, as it says.
+  
+  <p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/extras/First_ever_crash.png" width="360"></p>
 
 </details>
 
