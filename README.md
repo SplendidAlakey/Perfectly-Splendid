@@ -134,6 +134,16 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 </details>
 
+<details><summary>First/second ever launch crashes, if you've never installed the pack before.</summary>
+
+  **Status**: ✅ Fixed in the next release.
+  
+  **Severity**: Low. 
+
+  **Workarounds**: Simply launch the game again. This is due to Enchantgiver json not being generated before MCDW adds its enchantments.
+
+</details>
+
 
 **@Credits**: 
 
