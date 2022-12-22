@@ -2,7 +2,123 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Snowy_Perfectly_Splendid.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 3<br>
+<h1 align="center"> Perfectly Splendid Update 4 <br>
+
+#### Note: Snow Day is gone from CF, might cause existing snowy leaves to disappear. If it's not actively snowing in your area, you can safely update.
+
+### Changes:
+
+- Fixed a crash, that would happen on first launch, if you've never installed the pack before (this is unrelated to the "crash" when you first install Quilt via JumpQuilt)
+- Enabled the Nether Gauntlet boss and removed the recipe for the item it drops
+     - The boss is now compatible with BetterCombat, but has twice more HP and armour
+- Decreased the frequency at which Overworld bosses spawn a little; drastically increased the frequency at which the Nether Gauntlet spawns
+- Disabled front third person view. This is a new option in Better Third Person mod, which totally makes sense
+- Enabled the following fixes in Carpet Fixes (bugs, that were fixed in 1.19.3):
+     - wrongPressurePlateHitboxFix true
+     - shulkersAreLowerInChestBoatFix true
+     - nbtDataDupeFix true
+     - frogJumpsIgnoreTemptedFix true
+     - deathTimeCorruptsMobsFix true
+     - horseDupeFix true
+     - chestBoatDupeFix true
+- Re-enabled herringbone mangrove crafting table
+- #c:ores tag is added natively by BCLib now, rather than KubeJS, which allowed me to make it compatible with Enchancement
+- Aurora's Decorations stripped logs and wood now natively use appropriate tags, rather than via KubeJS
+- Disabled right-click actions from Slight GUI Modifications
+- Removed Charm's gold bars (duplicate)
+- Fixed chat formatting not applying at all, thanks to Where's My Chat History update
+- Updated Quilt Loader to 0.18.1-beta.25 (no user input required, unless you manually swapped out Forge for Quilt in your launcher)
+
+### Additions:
+
+- Block Limit Fix
+- Carpet MiniTweaks
+     - The following rules are enabled:
+	   - villagersAlwaysConvert true, villagers will convert to zombies on any difficulty (I "enabled" it in one of the previous updates, but forgot that the mod wasn't in yet...)
+	   - shaveSnowLayers true, you can shave snow layers with a shovel
+	   - allChargedCreeperHeadsDrop true, instead of making just 1 random mob drop its head, charged creepers will now make all exploded mobs drop heads
+	   - dyeableShearedSheep true, sheared sheep can be dyed just like regular sheep
+	   - dyeableShulkers true, shulkers can be dyed and washed with a water bottle
+	   - vexesNerf true, vexes will start dying once the invoker that summoned them dies
+- Colormatic (was intended to be in since release, but past versions of TerraBlender caused a crash with it)
+- Create Deco Fabric
+     - Collapsed REI entries
+	 - Adjusted some duplicate recipes as to not conflict with other mods
+- Create: Extended Flywheels Fabric
+     - Collapsed REI entries (the mod id is 'extendedflywheels', as such it won't show up when typing "@create" in REI)
+- Handcrafted
+     - Collapsed REI entries
+- Inventory Essentials
+- Keymap
+     - I'm intentionally not providing a config for it, so that you can choose your own keyboard layout
+- Leaves Be Gone
+- Ping Wheel
+
+### Removals: 
+
+- Snow Day (gone from CurseForge)
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Adorn
+- Aurora's Decorations
+- BCLib
+- Better Combat
+- Better Third Person
+- Bosses Of Mass Destruction
+- Botany Pots
+- Botany Trees
+- Chalk: Colorful Addon
+- Dark Paintings
+- Dave's Potioneering
+- Do A Barrel Roll
+- Dramatic Doors
+- Dungeon Difficulty
+- Ecologics
+- Emotecraft
+- Enchanted Vertical Slabs
+- Enchantment Descriptions
+- Fabrication
+- Friends & Foes
+- GeckoLib
+- Inventory Profiles Next
+- Immediately Fast
+- KubeJS
+- libIPN
+- Log Begone
+- LootR
+- Macaw's Bridges
+- Macaw's Fences and Walls
+- Macaw's Roofs
+- Macaw's Trapdoors
+- Macaw's Windows
+- Moonlight
+- Open Parties and Claims
+- Pehkui
+- Polymer
+- Quilt Kotlin Libraries
+- Recipe Book Is Pain
+- Roughly Enough Items
+- Show Me Your Skin!
+- Simple Voice Chat
+- Snowy Spirit
+- Stendhal
+- Supplementaries
+- TerraBlender
+- Terralith
+- Tom's Simple Storage
+- Variant Bookshelves
+- Variant Crafting Tables
+- Where's My Chat History
+- Xaero's Maps
+
+- Chests Reimagined
+
+</details>
+
+<details><summary>Update 3 changelog (v0.4).</summary>
 
 #### Note: This update brings a big change to enchantments, as such some of them may disappear, make a backup just in case!
 #### Some lightning rods might disappear after updating. I removed Oxidizing Lightning Rods, because Friends & Foes already adds them.
@@ -162,6 +278,8 @@
 - Xaero's Maps
 - XP Obelisk
 - XP Obelisk Additions
+
+</details>
 
 </details>
 
@@ -464,4 +582,4 @@
 
 </details>
 
-## Current version of Perfectly Splendid: v0.4
+## Current version of Perfectly Splendid: v0.5

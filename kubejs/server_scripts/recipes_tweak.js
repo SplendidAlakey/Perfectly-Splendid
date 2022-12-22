@@ -19,13 +19,14 @@
 // Add a recipe for Raid Horn
 // Swap tags for sturdy stones, based on a PR made by magneticflux-
 // Add chain tag to Blaze Bell recipe
-// Add a recipe for the Blazing Eye, until the Gauntlet boss is fixed to work with BetterCombat
 // Switch up the recipe for cracked polished basalt bricks, because of duplicates
 // Add a recipe for the Minekea book, because I'm removing it from starter inventory
 // Replace Charm Azalea item's recipes with Aurora's Decorations
 // Add tags to chests in chest boat recipes
 // Add recipes for all guide books
 // Make Immersive Aircraft recipes a bit more interesting
+// Change Blockus golden bars recipe not to conflict with Create Deco
+// Change Charm copper and netherite bars recipes not to conflict with Create Deco
 
 ServerEvents.recipes(event => {
 	
@@ -82,7 +83,10 @@ ServerEvents.recipes(event => {
 	"immersive_aircraft:sail",
 	"immersive_aircraft:airship",
 	"immersive_aircraft:biplane",
-	"immersive_aircraft:gyrodyne"
+	"immersive_aircraft:gyrodyne",
+	"blockus:golden_bars",
+	"charm:copper_bars",
+	"charm:netherite_bars"
 	];
 	
 	output.forEach((output) => {
@@ -843,18 +847,6 @@ ServerEvents.recipes(event => {
 	R: 'minecraft:blaze_rod'
 	});
 	
-		event.shaped('bosses_of_mass_destruction:blazing_eye', [
-	'NCN',
-	'RER',
-	'NHN'
-  ], {
-	R: 'minecraft:blaze_rod',
-	H: 'wardenloot:warden_heart',
-	N: 'minecraft:netherite_block',
-	C: 'friendsandfoes:wildfire_crown',
-	E: 'greater_eye:greater_eye_nether'
-	});
-	
 		event.smelting('blockus:cracked_polished_basalt_bricks', 'twigs:polished_basalt_bricks');
 		
 		event.shaped(Item.of('patchouli:guide_book', '{"patchouli:book":"minekea:minekea_catalogue"}'), [
@@ -1100,5 +1092,29 @@ ServerEvents.recipes(event => {
 	P: 'create:propeller',
 	E: 'immersive_aircraft:engine',
 	S: 'create:white_sail'
+	});
+	
+		event.shaped('blockus:golden_bars', [
+	'G G',
+	'G G',
+	'G G'
+  ], {
+	G: 'minecraft:gold_ingot'
+	});
+	
+		event.shaped('charm:copper_bars', [
+	'C C',
+	'C C',
+	'C C'
+  ], {
+	C: 'minecraft:copper_ingot'
+	});
+	
+		event.shaped('charm:netherite_bars', [
+	'N N',
+	'N N',
+	'N N'
+  ], {
+	N: 'minecraft:netherite_ingot'
 	});
 });

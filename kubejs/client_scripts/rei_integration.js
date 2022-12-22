@@ -198,7 +198,6 @@ REIEvents.hide('item', event => {
 	'aurorasdeco:stump/wondrouswilds/hollow_stripped_warped',
 	'aurorasdeco:small_log_pile/wondrouswilds/hollow_stripped_warped',
 	'aurorasdeco:sawmill',
-	'variantcraftingtables:herringbone_mangrove_crafting_table',
 	'mcdw:item_bee_stinger',
 	'charm:totem_of_preserving_holder',
 	'variantcraftingtables:herringbone_mangrove_crafting_table',
@@ -323,7 +322,8 @@ REIEvents.hide('item', event => {
 	'#travelersbackpack:sleeping_bags',
 	'immersive_aircraft:propeller',
 	'immersive_aircraft:sail',
-	/^ecologics:((?!moss)(?!.*_moss)(?!moss_.*).).*$/
+	/^ecologics:((?!moss)(?!.*_moss)(?!moss_.*).).*$/,
+	'charm:gold_bars'
 	])
 	
 })

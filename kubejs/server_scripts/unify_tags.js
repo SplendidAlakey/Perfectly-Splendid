@@ -66,14 +66,6 @@ ServerEvents.tags('item', event => {
 		event.add('c:horns', 'minecraft:goat_horn');
 		event.add('c:copper_horns', 'copper-horns:copper_horn');
 		
-	// Get the #c:stripped_logs tag collection and add Azalea and Jaracanda logs to it
-		event.add('c:stripped_logs', 'aurorasdeco:stripped_azalea_log');
-		event.add('c:stripped_logs', 'aurorasdeco:stripped_jacaranda_log');
-		
-	// Get the #c:stripped_wood tag collection and add Azalea and Jaracanda wood to it
-		event.add('c:stripped_wood', 'aurorasdeco:stripped_azalea_wood');
-		event.add('c:stripped_wood', 'aurorasdeco:stripped_jacaranda_wood');
-		
 	// Get the #minecraft:stone_crafting_materials tag collection and remove sturdy stone from it
 		event.remove('minecraft:stone_crafting_materials', 'aurorasdeco:sturdy_stone');
 		
@@ -98,6 +90,7 @@ ServerEvents.tags('item', event => {
 		event.add('minecraft:completes_find_tree_tutorial', /^colorful-azaleas:.*_leaves$/);
 		event.add('another_furniture:planter_box_placeables', /^colorful-azaleas:.*_leaves$/);
 		event.add('supplementaries:flower_box_plantable', /^colorful-azaleas:.*_blooming_.*$/);
+		event.add('supplementaries:flower_box_plantable', /^colorful-azaleas:.*_flowering_.*$/);
 		
 	// Get the #minecraft:leaves, #minecraft:completes_find_tree_tutorial and #another_furniture:planter_box_placeables tags collection and add missing BetterEnd leaves to it
 		event.add('minecraft:leaves', /^betterend:helix_tree_leaves$/);

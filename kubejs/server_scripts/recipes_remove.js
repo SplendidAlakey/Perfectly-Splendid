@@ -197,7 +197,6 @@ ServerEvents.recipes(event => {
 	"aurorasdeco:stump/wondrouswilds/hollow_stripped_warped",
 	"aurorasdeco:small_log_pile/wondrouswilds/hollow_stripped_warped",
 	"aurorasdeco:sawmill",
-	"variantcraftingtables:herringbone_mangrove_crafting_table",
 	"twigs:bundled_bamboo",
 	"twigs:stripped_bamboo",
 	"twigs:stripped_bundled_bamboo",
@@ -252,7 +251,8 @@ ServerEvents.recipes(event => {
 	/^blockus:.*limestone.*$/,
 	"snowyspirit:gingerbread_vertical_slab",
 	"#travelersbackpack:sleeping_bags",
-	/^ecologics:((?!moss)(?!.*_moss)(?!moss_.*).).*$/
+	/^ecologics:((?!moss)(?!.*_moss)(?!moss_.*).).*$/,
+	"charm:gold_bars"
 	];
 	
 	output.forEach((output) => {

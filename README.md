@@ -124,23 +124,13 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 <details><summary>First ever launch "crashes" with an "internal error" message.</summary>
 
-  **Status**: ❌ Unable to fix.
+  **Status**: ❌ Reported. Not fixed.
 
   **Severity**: Low. 
 
   **Workarounds**: Simply launch the game again. I think this is due to JumpQuilt technically being run on Forge to download Quilt. You don't need to report this to Quilt, as it says.
   
   <p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/extras/First_ever_crash.png" width="360"></p>
-
-</details>
-
-<details><summary>First/second ever launch crashes, if you've never installed the pack before.</summary>
-
-  **Status**: ✅ Fixed in the next release.
-  
-  **Severity**: Low. 
-
-  **Workarounds**: Simply launch the game again. This is due to Enchantgiver json not being generated before MCDW adds its enchantments.
 
 </details>
 
