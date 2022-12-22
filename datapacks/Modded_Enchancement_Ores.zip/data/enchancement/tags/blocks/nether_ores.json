@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+  {
+	  "id": "betternether:cincinnasite_ore",
+	  "required": false
+  },
+  {
+	  "id": "betternether:nether_ruby_ore",
+	  "required": false
+  },
+  {
+	  "id": "betternether:nether_lapis_ore",
+	  "required": false
+  },
+  {
+	  "id": "betternether:nether_redstone_ore",
+	  "required": false
+  }
+  ]
+}

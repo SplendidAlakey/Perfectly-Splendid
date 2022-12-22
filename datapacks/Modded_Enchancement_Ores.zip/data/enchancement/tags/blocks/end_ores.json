@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+  {
+	  "id": "betterend:ender_ore",
+	  "required": false
+  },
+  {
+	  "id": "betterend:amber_ore",
+	  "required": false
+  },
+  {
+	  "id": "betterend:thallasium_ore",
+	  "required": false
+  }
+  ]
+}
