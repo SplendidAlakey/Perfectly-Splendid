@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Snowy_Perfectly_Splendid.png" width="720"
+  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 5 (unreleased) <br>
+<h1 align="center"> Perfectly Splendid Update 5 <br>
 
 #### Note: Soul Fire'd mod changed soul fire id from "soulfired:soul_fire" to "minecraft:soul_fire"; shouldn't cause any issues, but check your soul fires after updating, just in case
 
