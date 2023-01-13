@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "structures": [
+    {
+      "structure": "structory:swamp_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 6942069,
+    "spacing": 200,
+    "separation": 180,
+    "type": "minecraft:random_spread"
+  }
+}
