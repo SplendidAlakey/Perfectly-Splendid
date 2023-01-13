@@ -202,7 +202,8 @@ REIEvents.groupEntries((event) => {
 		/^blockus:.*_glass.*$/,
 		/^morecarpets:.*_glass_.*$/,
 		/^morecarpets:glass_carpet$/,
-		/^awesomeflooring:.*_glass_.*$/
+		/^awesomeflooring:.*_glass_.*$/,
+		/^connectedblocks:.*_glass((?!_pane).)*$/
 	]);
 	
 	// Group concrete blocks together

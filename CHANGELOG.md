@@ -2,7 +2,124 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Snowy_Perfectly_Splendid.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 4 <br>
+<h1 align="center"> Perfectly Splendid Update 5 (unreleased) <br>
+
+#### Note: Soul Fire'd mod changed soul fire id from "soulfired:soul_fire" to "minecraft:soul_fire"; shouldn't cause any issues, but check your soul fires after updating, just in case
+
+### Changes:
+
+- Drastically reduced the amount of mods ModMenu shows; if you don't see a mod in ModMenu - there's no in-game config for it
+     - This was in an attempt to fix the massive stutter (26sec), that happens when you open mod menu; turns out the issue has to be fixed by Quilt
+- Switched Quilt Loader to 0.17.9-beta.1 to fix the aforementioned stutter in ModMenu; that means the fancy error reporting window is gone for now
+- Slightly increased the chances of Structory structures spawning
+- Disabled slime animations from Better Animations Collection in favour of Luna Slimes
+- Disabled default Continuity resource pack; you can now craft both connected and vanilla blocks
+     - Note: this does not mean connected textures are gone now, only vanilla glass and bookshelves are
+	 - To undo this, just enable the default Continuity resourcepack
+- Disabled Earth2Java's mooblooms in favour of Friends&Foes mooblooms; your old mooblooms won't disappear
+- Temporarily(?) disabled Bedrockify's reacharound placement, due to Reacharound mod update; practically affects nothing
+- Adjusted When Dungeons Arise datapack settings for the new version; now should be a lot less spammy at spawn
+- Removed useless GC flags from recommended JVM flags (flags used by G1GC)
+
+### Additions:
+
+- Friends&Foes Beekeeper's Hut
+     - Adjusted spacing and separation settings to fit into the pack
+- Friends&Foes Flowery Mooblooms
+- Connected Blocks
+     - Collapsed REI entries for glass
+- Chunks Fade In
+- Luna Slimes
+- Make Bubbles Pop
+- Structory: Towers
+     - Adjusted spacing and separation settings to fit into the pack
+
+### Removals: 
+
+- 
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Adorn
+- Armor Statues
+- Better Combat
+- Block Limit Fix
+- Botany Pots
+- Carpet TIS Additions
+- Carpeted Stairs & Slabs
+- Clickable Advancements
+- Collective
+- CombatRoll
+- Companion
+- CraftPresence
+- Critters and Companions
+- Dark Paintings
+- Dismount Entity
+- Dungeon Difficulty
+- Do A Barrel Roll
+- Dynamic Music Updated
+- Enchancement
+- Entity Texture Features
+- Farmer's Knives
+- Fast Anim
+- Forge Config API Port
+- Friends & Foes
+- Handcrafted
+- Hoe Tweaks
+- I Know What I'm Doing
+- Immediately Fast
+- Immersive Aircraft
+- Immersive Armors
+- Immersive Paintings
+- Inventory Profiles Next
+- Iris
+- Just Mob Heads
+- LambDynamicLights
+- Leaves Be Gone
+- libIPN
+- Macaw's Windows
+- Moonlight
+- Passive Shield
+- Paxi
+- Pehkui
+- Polymer
+- Puzzle
+- QSL
+- Quilt Kotlin Libraries
+- Radiant Gear
+- Random Bonemeal Flowers
+- Reacharound
+- Replanting Crops
+- Scaffolding Drops Nearby
+- Show Me Your Skin!
+- Shulker Drops Two
+- Simple Voice Chat
+- Simply Swords
+- Smaller Nether Portals
+- Snowy Spirit
+- Sodium Extra
+- Soul Fire'd
+- Stack Refill
+- Storage Labels
+- Supplementaries
+- The Bumblezone
+- Tom's Simple Storage
+- Traveler's Backpack
+- Vanity Slots
+- Visual Workbench
+- When Dungeons Arise!
+- Where's My Chat History
+- XP Obelisk Additions
+
+- Ore Variants
+- Repurposed Structures Better Desert Temples Compat Datapack
+- Repurposed Structures Better Ocean Monuments Compat Datapack
+
+</details>
+
+<details><summary>Update 4 Changelog (v0.5).</summary>
 
 #### Note: Snow Day is gone from CF, might cause existing snowy leaves to disappear. If it's not actively snowing in your area, you can safely update.
 
@@ -118,7 +235,9 @@
 
 </details>
 
-<details><summary>Update 3 changelog (v0.4).</summary>
+</details>
+
+<details><summary>Update 3 Changelog (v0.4).</summary>
 
 #### Note: This update brings a big change to enchantments, as such some of them may disappear, make a backup just in case!
 #### Some lightning rods might disappear after updating. I removed Oxidizing Lightning Rods, because Friends & Foes already adds them.
@@ -582,4 +701,4 @@
 
 </details>
 
-## Current version of Perfectly Splendid: v0.5
+## Current version of Perfectly Splendid: v0.6
