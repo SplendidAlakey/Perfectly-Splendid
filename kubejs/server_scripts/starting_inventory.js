@@ -9,6 +9,7 @@ PlayerEvents.loggedIn(event => {
 	// Remove items
 	event.player.inventory.clear(`theoneprobe:probenote`)
 	event.player.inventory.clear(Item.of('patchouli:guide_book', '{"patchouli:book":"minekea:minekea_catalogue"}'))
+	event.player.inventory.clear(Item.of('patchouli:guide_book', '{"patchouli:book":"simplyswords:runic_grimoire"}'))
 	// Remember the player
 	event.player.persistentData.firstLogin = 10
 	})

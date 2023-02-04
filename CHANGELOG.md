@@ -2,7 +2,120 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 5 <br>
+<h1 align="center"> Perfectly Splendid Update 6 (unreleased) <br>
+
+#### Note: After this update your game folder will increase in size by ~650MB, this is due to the new Quilt Loader update, which creates transform cache on first launch
+
+### Changes:
+
+- Fixed a horrible bug, preventing players from interacting with entities (boats, villagers, traders, etc). The bug hopefully affected only Update 5, but I'm still sorry I missed something that important... (removed Fat Chicken).
+- No longer reduce FPS to 1, when minimized. Alleviates an issue, that could cause initial game loading to take over 7min, if you minimized at any point during that time (changed DynamicFPS config).
+- Regenerated Universal Enchants config. No actual changes, but if you customized anything be sure to redo it.
+- Blacklisted Create Deco fences from connecting diagonally, due to invisible connections. Already placed mesh fences need to be replaced for it to stop connecting (added #diagonalfences:non_diagonal_fences tag).
+- Default shader settings only: Drastically reduced emissive blocks intensity, so that redstone blocks, glow lichen and such aren't too bright (set EMISSIVE_INTENSITY=2 in shaders config).
+- Fixed nether redstone ore not being affected by the extraction enchantment (added #c:ores tag).
+- Reset the Dungeon Difficulty config to default values, due to the update. Some things might be less/more powerful, than before.
+- Reset Simply Swords config to mostly default values, because the recipes are easier now.
+- Updated BetterEnd, BetterNether, BetterCombat configs.
+- Fixed tag scripts adding item tags, instead of block tags, oops...
+- Updated Quilt Loader to 0.18.1-beta.66. This completely fixes ModMenu stutter, but you will need extra 650MB of free space, due to newly introduced transform cache.
+     - Note: Log Begone is temporarily not working with this Quilt Loader version
+
+### Additions:
+
+- Babies Forever by Roundaround;  included as an unmodified jar, as the mod is not hosted on CF, but is MIT licensed; if I receive a request from the developer to take it down - I will
+     - Original mod page can be found here: https://modrinth.com/mod/roundaround-babies-forever
+- Beautify
+- Better Nether Map by Jummit; included as an unmodified jar, as the mod is not hosted on CF, but is MIT licensed; if I receive a request from the developer to take it down - I will
+     - Original mod page can be found here: https://modrinth.com/mod/better-nether-map
+- Neat; Replaces Mob Plaques, I simply like it better
+- Path under fence gates
+- Rotation Locker by Beefox;  included as an unmodified jar, as the mod is not hosted on CF, but is Unlicense licensed; if I receive a request from the developer to take it down - I will
+     - Original mod page can be found here: https://modrinth.com/mod/rotationlocker
+- Trinkets Curios Theme by jptrzy; included as an unmodified jar, as the latest version of the mod is not hosted on CF, but is LGPL-3.0 licensed; if I receive a request from the developer to take it down - I will
+     - Original mod page can be found here: https://www.curseforge.com/minecraft/mc-mods/trinkets-curios-theme, an updated version was taken from https://modrinth.com/mod/trinkets-curios-theme
+- Voice Chat Interaction
+- YetAnotherConfigLib (required by the new Chat Patches [formerly Where's My Chat History] version)
+
+All of the above mods, that are included as unmodified jars, will from now on be credited on the main page along with the rest of the extra credits.
+
+### Removals: 
+
+- Fat Chicken (prevents players from interacting with entities)
+- Mob Plaques (replaced by Neat, due to personal preference)
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Armor Statues
+- BE Style Wither
+- Better Combat
+- Better End
+- Better Tridents
+- Bookshelf
+- Botany Pots
+- Carpeted Stairs & Slabs
+- Charm Of Undying
+- Chat Patches (formerly Where's My Chat History)
+- Chunks fade in
+- Collective
+- CraftPresence
+- Create
+- Creeper Overhaul
+- Dark Paintings
+- Do A Barrel Roll
+- Dramatic Doors
+- Dynamic Music Updated
+- Elytra Slot
+- EnderChests
+- Expanded Delight
+- Extended Drawers
+- Experience Bug Fix
+- Fabrication
+- Friends&Foes
+- Immediately Fast
+- Immersive Aircraft
+- Immersive Armors
+- Inventory Profiles Next
+- KubeJS
+- libIPN
+- LootJS
+- Macaw's Lights and Lamps
+- Magnum Torch
+- MC Dungeons Armors
+- Mini Extras
+- Mob Variants
+- More Totems Of Undying
+- Moonlight
+- MultiBeds
+- Open Parties And Claims
+- Platforms
+- Player Animator
+- Polymer
+- Reacharound
+- Replanting Crops
+- Roughly Enough Items
+- Savage Ender Dragon
+- Simple Copper Pipes
+- Simple Voice Chat
+- Simply Swords
+- Snowy Spirit
+- Spiky Spikes
+- Straw Statues
+- Supplementaries
+- The Bumblezone
+- Traveler's Backpack
+- Universal Enchants
+- Wavey Capes
+- Xaero's Maps
+
+- Repurposed Structures - Better Desert Temples Compat Datapack
+- Xali's Enchanted Books
+
+</details>
+
+<details><summary>Update 5 Changelog (v0.6).</summary>
 
 #### Note: Soul Fire'd mod changed soul fire id from "soulfired:soul_fire" to "minecraft:soul_fire"; shouldn't cause any issues, but check your soul fires after updating, just in case
 
@@ -116,6 +229,8 @@
 - Ore Variants
 - Repurposed Structures Better Desert Temples Compat Datapack
 - Repurposed Structures Better Ocean Monuments Compat Datapack
+
+</details>
 
 </details>
 
@@ -701,4 +816,4 @@
 
 </details>
 
-## Current version of Perfectly Splendid: v0.6
+## Current version of Perfectly Splendid: v0.7

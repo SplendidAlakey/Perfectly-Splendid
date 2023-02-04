@@ -1,5 +1,5 @@
 version:3120
-quilt_available_resource_packs:["bedrockwaters/resources","betterbeds/connectedbeds","betterbeds/fancybeds","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","vanilla","extended_drawers/alt","extended_drawers/dev","halfdoors/flatdoorcutters","lambdabettergrass/default","minecraft/supporteatinganimation","__moremcmeta-internal__","mushroom_additions/barebones","programer_art","refabslab:assets","Snowyspirit Generated Pack","Supplementaries Generated Pack","telepistons/bellows_pistons","telepistons/enable_steam","telepistons/scissor_pistons","telepistons/sticky_sides","file/Corrected Mob Heads (1.19).zip","file/EnderEyes_1.19_v2.zip","file/Fancy_Beds_V2.1-[1.19].zip","file/Sullys_Peeves.zip","file/§6Torches-Reimagined§8-[v1.2].zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","the_bumblezone/anti_tropophobia","Fabrication","BN_2D_shrooms.zip","TFaS_fixed_translations.zip","file/Animated Colored Axolotls 1.19.zip","file/Better Boss Bars 9.zip","file/Better_MCDX_1_19.zip","file/FlowerPots+V.2.4.zip","file/Glowing+Ender+Dragon.zip","file/SmoothFont_1.19.X.zip","file/Visual Shulker Labels.zip","file/Visual Titles.zip","create/legacy_copper","Perfectly_Splendid_Bundle.zip","PlayerPlates_fixed_Translations.zip","file/Quarks+chest+for+Charm.zip","black_icons","classic_icons","white_icons","Supplementaries_fixed_translations.zip","file/§6Chests-Reimagined§8-[v1.4].zip","file/eatinganimations+ 1.10.zip","enchancement/alternate_dash","variant_bookshelves/3d_bookshelves","file/Ore Variants v2.6.zip"]
+quilt_available_resource_packs:["bedrockwaters/resources","betterbeds/connectedbeds","betterbeds/fancybeds","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","vanilla","extended_drawers/alt","extended_drawers/dev","halfdoors/flatdoorcutters","lambdabettergrass/default","minecraft/supporteatinganimation","__moremcmeta-internal__","mushroom_additions/barebones","programer_art","refabslab:assets","Snowyspirit Generated Pack","Supplementaries Generated Pack","telepistons/bellows_pistons","telepistons/enable_steam","telepistons/scissor_pistons","telepistons/sticky_sides","file/Corrected Mob Heads (1.19).zip","file/EnderEyes_1.19_v2.zip","file/Fancy_Beds_V2.1-[1.19].zip","file/Sullys_Peeves.zip","file/§6Torches-Reimagined§8-[v1.2].zip","the_bumblezone/anti_tropophobia","Fabrication","BN_2D_shrooms.zip","TFaS_fixed_translations.zip","file/Animated Colored Axolotls 1.19.zip","file/Better Boss Bars 9.zip","file/Better_MCDX_1_19.zip","file/FlowerPots+V.2.4.zip","file/Glowing+Ender+Dragon.zip","file/SmoothFont_1.19.X.zip","file/Visual Shulker Labels.zip","file/Visual Titles.zip","create/legacy_copper","Perfectly_Splendid_Bundle.zip","PlayerPlates_fixed_Translations.zip","file/Quarks+chest+for+Charm.zip","black_icons","classic_icons","white_icons","Supplementaries_fixed_translations.zip","file/§6Chests-Reimagined§8-[v1.4].zip","file/eatinganimations+ 1.10.zip","enchancement/alternate_dash","variant_bookshelves/3d_bookshelves","file/Ore Variants v2.6.zip","Fabrication grayscale","simplyswords/classic","supplementaries/darker_ropes","$polymer-resources","file/xali\u0027s Enchanted Books v0.11.zip"]
 autoJump:false
 enableVsync:false
 directionalAudio:true
@@ -15,8 +15,8 @@ renderDistance:18
 simulationDistance:10
 guiScale:2
 maxFps:140
-resourcePacks:["vanilla","file/§6Torches-Reimagined§8-[v1.2].zip","file/§6Chests-Reimagined§8-[v1.4].zip","file/xali-s-Enchanted-Books-16x-v0.10.1.zip","telepistons/sticky_sides","file/Sullys_Peeves.zip","file/SmoothFont_1.19.X.zip","betterbeds/fancybeds","file/Fancy_Beds_V2.1-[1.19].zip","extended_drawers/alt","cullleaves/smartleaves","file/EnderEyes_1.19_v2.zip","file/Corrected Mob Heads (1.19).zip","bedrockwaters/resources","file/eatinganimations+ 1.10.zip","minecraft/supporteatinganimation","file/Ore Variants v2.6.zip","continuity/glass_pane_culling_fix","file/Visual Titles.zip","file/Visual Shulker Labels.zip","file/Glowing+Ender+Dragon.zip","file/FlowerPots+V.2.4.zip","file/Better_MCDX_1_19.zip","file/Better Boss Bars 9.zip","file/Animated Colored Axolotls 1.19.zip","file/Quarks+chest+for+Charm.zip","Fabrication","refabslab:assets","Snowyspirit Generated Pack","Supplementaries Generated Pack","BN_2D_shrooms.zip","Perfectly_Splendid_Bundle.zip","PlayerPlates_fixed_Translations.zip","Supplementaries_fixed_translations.zip","TFaS_fixed_translations.zip"]
-incompatibleResourcePacks:["file/Sullys_Peeves.zip","file/eatinganimations+ 1.10.zip","file/Ore Variants v2.6.zip","file/Better_MCDX_1_19.zip","Fabrication","BN_2D_shrooms.zip","Perfectly_Splendid_Bundle.zip","PlayerPlates_fixed_Translations.zip","Supplementaries_fixed_translations.zip","TFaS_fixed_translations.zip"]
+resourcePacks:["vanilla","file/§6Torches-Reimagined§8-[v1.2].zip","file/§6Chests-Reimagined§8-[v1.4].zip","telepistons/sticky_sides","file/Sullys_Peeves.zip","file/SmoothFont_1.19.X.zip","betterbeds/fancybeds","file/Fancy_Beds_V2.1-[1.19].zip","extended_drawers/alt","cullleaves/smartleaves","file/EnderEyes_1.19_v2.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Corrected Mob Heads (1.19).zip","bedrockwaters/resources","file/eatinganimations+ 1.10.zip","minecraft/supporteatinganimation","file/Ore Variants v2.6.zip","continuity/glass_pane_culling_fix","file/Visual Titles.zip","file/Visual Shulker Labels.zip","file/Glowing+Ender+Dragon.zip","file/FlowerPots+V.2.4.zip","file/Better_MCDX_1_19.zip","file/Better Boss Bars 9.zip","file/Animated Colored Axolotls 1.19.zip","file/Quarks+chest+for+Charm.zip","Fabrication","refabslab:assets","Snowyspirit Generated Pack","Supplementaries Generated Pack","Fabrication grayscale","BN_2D_shrooms.zip","Perfectly_Splendid_Bundle.zip","PlayerPlates_fixed_Translations.zip","Supplementaries_fixed_translations.zip","TFaS_fixed_translations.zip"]
+incompatibleResourcePacks:["file/Sullys_Peeves.zip","file/eatinganimations+ 1.10.zip","file/Ore Variants v2.6.zip","file/Better_MCDX_1_19.zip","Fabrication","Fabrication grayscale","BN_2D_shrooms.zip","Perfectly_Splendid_Bundle.zip","PlayerPlates_fixed_Translations.zip","Supplementaries_fixed_translations.zip","TFaS_fixed_translations.zip"]
 lang:en_us
 tutorialStep:none
 key_key.attack:key.mouse.left
@@ -66,6 +66,7 @@ key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.big_items_duh.toggle_zoom:key.keyboard.left.bracket
 key_key.big_items_duh.hold_zoom:key.keyboard.unknown
+key_key.rotationlocker.lock:key.keyboard.h
 key_key.emotecraft.fastchoose:key.keyboard.q
 key_key.emotecraft.stop:key.keyboard.unknown
 key_key.utilitybelt.quick_switch_toggle:key.keyboard.left.bracket
@@ -76,6 +77,7 @@ key_key.mcda.firetrail.toggle:key.keyboard.unknown
 key_options.narrator:key.keyboard.unknown
 key_key.interactic.pickup_item:key.keyboard.unknown
 key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.unknown
+key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
 key_key.amecs.alternative_escape:key.keyboard.unknown
 key_key.amecs.toggle_auto_jump:key.keyboard.unknown
 key_key.amecs.toggle_cape:key.keyboard.unknown
@@ -89,6 +91,15 @@ key_key.antighost.reveal:key.keyboard.backslash
 key_key.conjuring.toggle_tool_mode:key.keyboard.left.alt
 key_keymap.keyOpenKeymap:key.keyboard.grave.accent
 key_key.entityculling.toggle:key.keyboard.unknown
+key_key.immersive_aircraft.left:key.keyboard.unknown
+key_key.immersive_aircraft.right:key.keyboard.unknown
+key_key.immersive_aircraft.forward:key.keyboard.unknown
+key_key.immersive_aircraft.backward:key.keyboard.unknown
+key_key.immersive_aircraft.up:key.keyboard.unknown
+key_key.immersive_aircraft.down:key.keyboard.unknown
+key_key.immersive_aircraft.pull:key.keyboard.unknown
+key_key.immersive_aircraft.push:key.keyboard.unknown
+key_key.immersive_aircraft.dismount:key.keyboard.unknown
 key_key.halfdoors.door_flip:key.keyboard.r
 key_key.whereisit.finditem:key.keyboard.y
 key_key.extraalchemy.magnetism_toggle:key.keyboard.n
@@ -96,16 +107,15 @@ key_key.extraalchemy.potion_bag_mode:key.keyboard.up
 key_key.extraalchemy.toggle_extra_inv_rings:key.keyboard.down
 key_carrier.key:key.keyboard.unknown
 key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe
+key_neat.keybind.toggle:key.keyboard.unknown
 key_keybinds.combatroll.roll:key.keyboard.r
 key_ping-wheel.key.mark-location:key.mouse.5
 key_ping-wheel.key.open-settings:key.keyboard.unknown
-key_key.cycleStatueTabs:key.keyboard.tab
 key_key.trade_cycling.cycle_trades:key.keyboard.c
 key_key.toggleVisible:key.keyboard.unknown
 key_key.toggleLiquids:key.keyboard.unknown
 key_key.shulkerboxslot.open.desc:key.keyboard.b
 key_bedrockIfy.key.settings:key.keyboard.unknown
-key_key.togglePlaques:key.keyboard.unknown
 key_key.craftingtweaks.rotate:key.keyboard.unknown
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
 key_key.craftingtweaks.balance:key.keyboard.unknown
@@ -185,7 +195,7 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.home
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_[Fabrication] Crawl:key.keyboard.x
-key_key.craftpresence.config_keycode.name:key.keyboard.unknown
+key_key.craftpresence.config_keycode.name:key.keyboard.grave.accent
 soundCategory_master:0.50827813
 soundCategory_music:0.6971831
 soundCategory_record:0.4084507

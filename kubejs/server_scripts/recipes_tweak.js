@@ -1033,6 +1033,15 @@ ServerEvents.recipes(event => {
 	P: 'minecraft:glass_bottle'
 	});
 	
+		event.shaped(Item.of('patchouli:guide_book', '{"patchouli:book":"simplyswords:runic_grimoire"}'), [
+	'BP ',
+	'   ',
+	'   '
+  ], {
+	B: 'minecraft:book',
+	P: 'simplyswords:runic_tablet'
+	});
+	
 		event.shaped('immersive_aircraft:hull', [
 	'LLL',
 	'SSS',
@@ -1092,6 +1101,16 @@ ServerEvents.recipes(event => {
 	P: 'create:propeller',
 	E: 'immersive_aircraft:engine',
 	S: 'create:white_sail'
+	});
+	
+		event.shaped('immersive_aircraft:quadrocopter', [
+	'PEP',
+	' S ',
+	'PSP'
+  ], {
+	P: 'create:propeller',
+	E: 'immersive_aircraft:engine',
+	S: 'minecraft:scaffolding'
 	});
 	
 		event.shaped('blockus:golden_bars', [
