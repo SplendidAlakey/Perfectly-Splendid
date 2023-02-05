@@ -2,7 +2,7 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 6 (unreleased) <br>
+<h1 align="center"> Perfectly Splendid Update 6 <br>
 
 #### Note: After this update your game folder will increase in size by ~650MB, this is due to the new Quilt Loader update, which creates transform cache on first launch
 
