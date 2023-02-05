@@ -31,8 +31,6 @@
 - Voice Chat Interaction
 - YetAnotherConfigLib (required by the new Chat Patches [formerly Where's My Chat History] version)
 
-All of the above mods, that are included as unmodified jars, will from now on be credited on the main page along with the rest of the extra credits.
-
 ### Removals: 
 
 - Fat Chicken (prevents players from interacting with entities)
