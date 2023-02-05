@@ -9,6 +9,7 @@
 ### Changes:
 
 - Fixed a horrible bug, preventing players from interacting with entities (boats, villagers, traders, etc). The bug hopefully affected only Update 5, but I'm still sorry I missed something that important... (removed Fat Chicken).
+- Removed creative flight bonus from lvl 4 beacons, due to the addition of quadrocopters. Note: currently the controls for all aircrafts constantly reset, to alleviate that, disable Keymap until the next update, as I'd rather not remove it.
 - No longer reduce FPS to 1, when minimized. Alleviates an issue, that could cause initial game loading to take over 7min, if you minimized at any point during that time (changed DynamicFPS config).
 - Regenerated Universal Enchants config. No actual changes, but if you customized anything be sure to redo it.
 - Blacklisted Create Deco fences from connecting diagonally, due to invisible connections. Already placed mesh fences need to be replaced for it to stop connecting (added #diagonalfences:non_diagonal_fences tag).
@@ -18,22 +19,15 @@
 - Reset Simply Swords config to mostly default values, because the recipes are easier now.
 - Updated BetterEnd, BetterNether, BetterCombat configs.
 - Fixed tag scripts adding item tags, instead of block tags, oops...
+- Colorful Azaleas tags are now added natively, rather than via KubeJS.
 - Updated Quilt Loader to 0.18.1-beta.66. This completely fixes ModMenu stutter, but you will need extra 650MB of free space, due to newly introduced transform cache.
      - Note: Log Begone is temporarily not working with this Quilt Loader version
 
 ### Additions:
 
-- Babies Forever by Roundaround;  included as an unmodified jar, as the mod is not hosted on CF, but is MIT licensed; if I receive a request from the developer to take it down - I will
-     - Original mod page can be found here: https://modrinth.com/mod/roundaround-babies-forever
 - Beautify
-- Better Nether Map by Jummit; included as an unmodified jar, as the mod is not hosted on CF, but is MIT licensed; if I receive a request from the developer to take it down - I will
-     - Original mod page can be found here: https://modrinth.com/mod/better-nether-map
 - Neat; Replaces Mob Plaques, I simply like it better
 - Path under fence gates
-- Rotation Locker by Beefox;  included as an unmodified jar, as the mod is not hosted on CF, but is Unlicense licensed; if I receive a request from the developer to take it down - I will
-     - Original mod page can be found here: https://modrinth.com/mod/rotationlocker
-- Trinkets Curios Theme by jptrzy; included as an unmodified jar, as the latest version of the mod is not hosted on CF, but is LGPL-3.0 licensed; if I receive a request from the developer to take it down - I will
-     - Original mod page can be found here: https://www.curseforge.com/minecraft/mc-mods/trinkets-curios-theme, an updated version was taken from https://modrinth.com/mod/trinkets-curios-theme
 - Voice Chat Interaction
 - YetAnotherConfigLib (required by the new Chat Patches [formerly Where's My Chat History] version)
 
@@ -60,6 +54,7 @@ All of the above mods, that are included as unmodified jars, will from now on be
 - Chat Patches (formerly Where's My Chat History)
 - Chunks fade in
 - Collective
+- Colorful Azaleas
 - CraftPresence
 - Create
 - Creeper Overhaul
@@ -81,6 +76,7 @@ All of the above mods, that are included as unmodified jars, will from now on be
 - KubeJS
 - libIPN
 - LootJS
+- Macaw's Doors
 - Macaw's Lights and Lamps
 - Magnum Torch
 - MC Dungeons Armors
