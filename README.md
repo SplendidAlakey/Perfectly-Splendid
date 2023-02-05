@@ -81,7 +81,7 @@ The pack is possible to install with any launcher, however, I can only fully sup
 <p>
 
 1. Install the 1.19.2 version of the game and make sure it works without any mods
-2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.1-beta.66
+2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.1-beta.68
 3. Navigate to https://www.curseforge.com/minecraft/mc-mods/qsl and download QSL, then put it into the .minecraft/mods folder. If such a folder doesn't exist, simply create one.
 4. Navigate to https://www.curseforge.com/minecraft/modpacks/perfectly-splendid, choose the latest version of the pack and scroll down until you see the list of included mods
 5. Download every mod, make sure to use the correct versions, and put them all into the mods folder (some mods must be a specific version, to make the process easier find a way to download mods automatically using the pack's zip, rather than manually)
@@ -150,12 +150,5 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
 - [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects) for compatibility datapacks between YUNG's mods and others.
 - [eldeston](https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders) for Super Duper Vanilla Shaders.
-
-3rd party mods with permissive licenses. If you are a developer of one of the following mods and wish for me to take it down - contact me by any means and I will remove your mod from my pack:
-
-- [Babies Forever](https://modrinth.com/mod/roundaround-babies-forever) by Roundaround
-- [Better Nether Map](https://modrinth.com/mod/better-nether-map) by Jummit
-- [Rotation Locker](https://modrinth.com/mod/rotationlocker) by Beefox
-- [Trinkets Curios Theme](https://modrinth.com/mod/trinkets-curios-theme) by jptrzy
 
 <h1 align="center"> 🌈 Thank you for playing Perfectly Splendid! 🌈 </h1>
