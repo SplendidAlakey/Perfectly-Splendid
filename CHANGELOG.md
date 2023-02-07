@@ -20,7 +20,7 @@
 - Updated BetterEnd, BetterNether, BetterCombat configs.
 - Fixed tag scripts adding item tags, instead of block tags, oops...
 - Colorful Azaleas tags are now added natively, rather than via KubeJS.
-- Updated Quilt Loader to 0.18.1-beta.66. This completely fixes ModMenu stutter, but you will need extra 650MB of free space, due to newly introduced transform cache.
+- Updated Quilt Loader to 0.18.1-beta.68. This completely fixes ModMenu stutter, but you will need extra 650MB of free space, due to newly introduced transform cache.
      - Note: Log Begone is temporarily not working with this Quilt Loader version
 
 ### Additions:
