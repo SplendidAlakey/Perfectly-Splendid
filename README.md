@@ -140,7 +140,7 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
   **Severity**: Low. 
 
-  **Workarounds**: If you really want it to work, downgrade to QL 0.17.11 or QL 0.18.1-beta.62 or lower. Note: Rotation Locker will crash on 0.17.11, so remove that, as well.
+  **Workarounds**: If you really want it to work, downgrade to QL 0.17.11 or QL 0.18.1-beta.62 or lower.
 
 </details>
 
