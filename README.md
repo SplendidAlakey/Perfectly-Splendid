@@ -106,10 +106,20 @@ The pack was tested with default Java arguments provided by vanilla launcher and
 <p> 4-8GB is recommended, if your world is pregenerated or you play on a server. </p>
 <p> The recommended memory allocation for servers is 10-12GB. </p>
 
-Recommended arguments to use (add -Xmx and -Xms, if you don't use Prism or MMC):
+Recommended JVM flags (add -Xmx and -Xms, if you don't use Prism or MMC):
+```
+-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3  -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:GCTimeRatio=99 -XX:+UseLargePages -XX:LargePageSizeInBytes=2m
+```
+In order to fully utilise these flags, you have to be using GraalVM as your game's JDK. You can find the download links [here](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks#graalvm-enterprise-edition). You want to grab the Java 17 one.
+The flags were taken from [this](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) guide. You can read the full thing and explanation for the flags there.
+Using GraalVM with the flags above **significantly** reduces the amount of time it takes for the game to load, as well as speeds up worldgen.
+
+Alternatively, if you are using a supported JDK (e.g. Eclipse Adoptium), then you can try ShenandoahGC (add -Xmx and -Xms, if you don't use Prism or MMC):
 ```
 -XX:+UseShenandoahGC -XX:MaxGCPauseMillis=50 -Xmn512M
 ```
+These flags work well enough, if you don't want to use GraalVM. But the loading times will be considerably longer and chunks will take more time to generate.
+
 Prism users may also tick "Skip Java compatibility checks", if using Adoptium JDK 17 or 19.
 
 </p>
