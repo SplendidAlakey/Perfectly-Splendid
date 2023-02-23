@@ -149,7 +149,7 @@ REIEvents.groupEntries((event) => {
 		/^aurorasdeco:sign_post\/.*$/
 	]);
 	
-	// Group some Supplementaries and Aurora's Decorations blocks by type
+	// Group some Supplementaries and Aurora's Decorations blocks by tag
 	
 	event.groupItemsByTag("supplementaries:rei_groups/hanging_signs", "Supplementaries Hanging Signs", "supplementaries:hanging_signs");
 	event.groupItemsByTag("supplementaries:rei_groups/sign_posts", "Supplementaries Sign Posts", "supplementaries:sign_posts");
@@ -159,6 +159,7 @@ REIEvents.groupEntries((event) => {
 	event.groupItemsByTag("aurorasdeco:rei_groups/stumps", "Aurora's Decorations Stumps", "aurorasdeco:stumps");
 	event.groupItemsByTag("aurorasdeco:rei_groups/small_log_piles", "Aurora's Decorations Small Log Piles", "aurorasdeco:small_log_piles");
 	event.groupItemsByTag("aurorasdeco:rei_groups/benches", "Aurora's Decorations Benches", "aurorasdeco:benches");
+	event.groupItemsByTag("aurorasdeco:rei_groups/pet_beds", "Aurora's Decorations Pet Beds", "aurorasdeco:pet_beds");
 	
 	// Group potions, arrows and enchanted books
 	

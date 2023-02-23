@@ -2,7 +2,102 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 6 <br>
+<h1 align="center"> Perfectly Splendid Update 7 <br>
+
+#### Note: The following enchantments are removed: homing, impact, acceleration. For more changes to enchantments, read [Enchancement's changelog](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/4398115)
+
+### Changes:
+
+- Removed W.O.O.F. due to a crash, when sneak right-clicking on wolves. 
+     - In my tests existing wolves didn't disappear, nor did the breeds change, but do make a backup, if you keep pet wolves, just in case. 
+	 - Coloured leads will just turn into normal leads with a leftover tag.
+     - Pet beds will definitely disappear.
+- Enabled Aurora's Decorations' pet beds.
+- BetterNether now natively tags ores, instead of via KubeJS.
+- Slightly adjusted tougher mob variants to spawn deeper underground, less likely convert Nether mobs and far less likely spawn with bows.
+- Updated Enchancement config.
+- Reset Universal Enchants config.
+- Recommend using GraalVM with its own optimization flags. Helps a lot with the initial game loading and worldgen times.
+- Updated Quilt Loader to 0.18.2.
+
+### Additions:
+
+- 
+
+### Removals: 
+
+- W.O.O.F.; causes a crash, when opening the wolf interaction screen
+     - Mine11lib; was only used by the above mod
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Alternate Current
+- Architectury
+- BCLib
+- BetterEnd
+- BetterNether
+- Blockus
+- BotanyPots
+- Chat Patches
+- Chunks Fade In
+- Collective
+- Colorful Azaleas
+- CombatRoll
+- Create
+- Create Deco Fabric
+- Creeper Overhaul
+- Do A Barrel Roll
+- Dramatic Doors
+- Dungeon Difficulty
+- Dyed
+- EnderChests
+- Enchancement
+- EntityCulling
+- Entity Texture Features
+- Fabrication
+- Forge Config API Port
+- Health Overlay
+- Hoe Tweaks
+- Immediately Fast
+- Iris
+- Just Mob Heads
+- Kiwi
+- MC Dungeons Armours
+- MC Dungeons Artifacts
+- MC Dungeons Weapons
+- Mob Variants
+- ModMenu
+- Moonlight
+- Omni-Hopper
+- Passive Shield
+- Pehkui
+- Pickup Notifier
+- QSL
+- Raised
+- Recipe Book Is Pain
+- Repurposed Structures
+- Roughly Enough Items
+- ShetiPhianCore
+- Shulker Drops Two
+- Simply Swords
+- Smaller Nether Portals
+- Snowy Spirit
+- Supplementaries
+- The Bumblezone
+- Tom's Simple Storage
+- Traveler's Backpack
+- Universal Enchants
+- Wavey Capes
+- Wondrous Wilds
+- YUNG's API
+
+- xali's Enchanted Books
+
+</details>
+
+<details><summary>Update 6 Changelog (v0.7)</summary>
 
 #### Note: After this update your game folder will increase in size by ~650MB, this is due to the new Quilt Loader update, which creates transform cache on first launch
 
@@ -94,6 +189,7 @@
 - Simple Copper Pipes
 - Simple Voice Chat
 - Simply Swords
+- Smarter Farmers
 - Snowy Spirit
 - Spiky Spikes
 - Straw Statues
@@ -106,6 +202,8 @@
 
 - Repurposed Structures - Better Desert Temples Compat Datapack
 - Xali's Enchanted Books
+
+</details>
 
 </details>
 
@@ -810,4 +908,4 @@
 
 </details>
 
-## Current version of Perfectly Splendid: v0.7
+## Current version of Perfectly Splendid: v0.8

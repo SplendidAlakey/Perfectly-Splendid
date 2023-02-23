@@ -203,7 +203,4 @@ ServerEvents.tags('block', event => {
 		event.add('diagonalfences:non_diagonal_fences', /^createdeco:iron_mesh_fence$/);
 		event.add('diagonalfences:non_diagonal_fences', /^createdeco:copper_mesh_fence$/);
 		event.add('diagonalfences:non_diagonal_fences', /^createdeco:zinc_mesh_fence$/);
-		
-	// Get the #c:ores tag collection and add Better Nether redstone ore to it
-		event.add('c:ores', /^betternether:nether_redstone_ore$/);
 })

@@ -81,7 +81,7 @@ The pack is possible to install with any launcher, however, I can only fully sup
 <p>
 
 1. Install the 1.19.2 version of the game and make sure it works without any mods
-2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.1-beta.68
+2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.2
 3. Navigate to https://www.curseforge.com/minecraft/mc-mods/qsl and download QSL, then put it into the .minecraft/mods folder. If such a folder doesn't exist, simply create one.
 4. Navigate to https://www.curseforge.com/minecraft/modpacks/perfectly-splendid, choose the latest version of the pack and scroll down until you see the list of included mods
 5. Download every mod, make sure to use the correct versions, and put them all into the mods folder (some mods must be a specific version, to make the process easier find a way to download mods automatically using the pack's zip, rather than manually)
