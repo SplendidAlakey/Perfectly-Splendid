@@ -294,7 +294,6 @@ REIEvents.hide('item', event => {
 	'aurorasdeco:seat_rest/betternether/mushroom_fir',
 	'aurorasdeco:bench/betternether/mushroom_fir',
 	Item.of('patchouli:guide_book', '{"patchouli:book":"betternether:betternether_book"}'),
-	'decorative_blocks:blockstate_copy_item',
 	'libraryferret:iron_coins_jtl',
 	'libraryferret:gold_coins_jtl',
 	'libraryferret:emerald_coins_jtl',
