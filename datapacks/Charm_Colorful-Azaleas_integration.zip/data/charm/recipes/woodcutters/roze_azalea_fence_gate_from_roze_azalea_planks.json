@@ -1,8 +1,8 @@
 {
     "type": "charm:woodcutting",
     "ingredient": {
-        "item": "colorful-azaleas:roze_azalea_planks"
+        "item": "colorfulazaleas:roze_azalea_planks"
     },
-    "result": "colorful-azaleas:roze_azalea_fence_gate",
+    "result": "colorfulazaleas:roze_azalea_fence_gate",
     "count": 1
 }

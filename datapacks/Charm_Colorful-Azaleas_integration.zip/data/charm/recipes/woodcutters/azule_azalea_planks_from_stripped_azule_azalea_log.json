@@ -1,8 +1,8 @@
 {
     "type": "charm:woodcutting",
     "ingredient": {
-        "item": "colorful-azaleas:stripped_azule_azalea_log"
+        "item": "colorfulazaleas:stripped_azule_azalea_log"
     },
-    "result": "colorful-azaleas:azule_azalea_planks",
+    "result": "colorfulazaleas:azule_azalea_planks",
     "count": 4
 }

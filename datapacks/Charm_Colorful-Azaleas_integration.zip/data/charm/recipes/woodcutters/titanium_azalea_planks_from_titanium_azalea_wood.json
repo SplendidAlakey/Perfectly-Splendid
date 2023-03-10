@@ -1,8 +1,8 @@
 {
     "type": "charm:woodcutting",
     "ingredient": {
-        "item": "colorful-azaleas:titanium_azalea_wood"
+        "item": "colorfulazaleas:titanium_azalea_wood"
     },
-    "result": "colorful-azaleas:titanium_azalea_planks",
+    "result": "colorfulazaleas:titanium_azalea_planks",
     "count": 4
 }
