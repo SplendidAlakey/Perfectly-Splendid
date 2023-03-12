@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "ecologics:flowering_azalea_planks"
+    },
+    "result": "aurorasdeco:bench/ecologics/flowering_azalea",
+    "count": 1
+}

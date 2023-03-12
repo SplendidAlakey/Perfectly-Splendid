@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "ecologics:flowering_azalea_planks"
+    },
+    "result": "ecologics:flowering_azalea_fence_gate",
+    "count": 1
+}

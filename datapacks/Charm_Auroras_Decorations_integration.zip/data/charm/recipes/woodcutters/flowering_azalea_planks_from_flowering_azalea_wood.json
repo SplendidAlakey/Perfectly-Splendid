@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "aurorasdeco:flowering_azalea_wood"
+    },
+    "result": "ecologics:flowering_azalea_planks",
+    "count": 4
+}
