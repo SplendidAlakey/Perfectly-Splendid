@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "minecraft:mushroom_stem"
-    },
-    "result": "aurorasdeco:small_log_pile/mushroom",
-    "count": 1
-}
