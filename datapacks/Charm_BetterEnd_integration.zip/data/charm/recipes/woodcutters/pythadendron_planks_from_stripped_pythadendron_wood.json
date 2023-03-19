@@ -1,7 +1,7 @@
 {
     "type": "charm:woodcutting",
     "ingredient": {
-        "item": "betterend:pythadendro_stripped_bark"
+        "item": "betterend:pythadendron_stripped_bark"
     },
     "result": "betterend:pythadendron_planks",
     "count": 4
