@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "blockus:herringbone_legacy_planks"
-    },
-    "result": "aurorasdeco:bench/blockus/herringbone_legacy",
-    "count": 1
-}
