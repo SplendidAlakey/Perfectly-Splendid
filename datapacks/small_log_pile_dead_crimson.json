@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "wondrouswilds:dead_crimson_stem"
-    },
-    "result": "aurorasdeco:small_log_pile/wondrouswilds/dead_crimson",
-    "count": 1
-}
