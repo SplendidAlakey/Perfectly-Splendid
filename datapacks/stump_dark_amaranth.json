@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "promenade:dark_amaranth_stem"
+    },
+    "result": "aurorasdeco:stump/promenade/dark_amaranth",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charm:woodcutting",
+    "ingredient": {
+        "item": "minecraft:warped_stem"
+    },
+    "result": "aurorasdeco:small_log_pile/warped",
+    "count": 1
+}
