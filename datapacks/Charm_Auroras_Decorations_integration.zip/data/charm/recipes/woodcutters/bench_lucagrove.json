@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:lucagrove_planks"
-    },
-    "result": "aurorasdeco:bench/betterend/lucagrove",
-    "count": 1
-}
