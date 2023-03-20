@@ -27,6 +27,10 @@
 // Make Immersive Aircraft recipes a bit more interesting
 // Change Blockus golden bars recipe not to conflict with Create Deco
 // Change Charm copper and netherite bars recipes not to conflict with Create Deco
+// Temporarily swap Aurora's Decorations azalea boat models to Ecologics', due to an ETF bug
+// Add recipes for flowering azalea items from Ecologics, using Aurora's Decorations wood
+// Tweak Runes recipes to be gated behind netherite
+// Add a rainbow wool recipe
 
 ServerEvents.recipes(event => {
 	
@@ -53,7 +57,6 @@ ServerEvents.recipes(event => {
 	"moretotems:explosive_totem_of_undying",
 	"moretotems:stinging_totem_of_undying",
 	"moretotems:teleporting_totem_of_undying",
-	"mcdw:sword_beestinger",
 	"twigs:stripped_bamboo_table",
 	"variantbarrels:stripped_bamboo_barrel",
 	"minecraft:bundle",
@@ -84,9 +87,25 @@ ServerEvents.recipes(event => {
 	"immersive_aircraft:airship",
 	"immersive_aircraft:biplane",
 	"immersive_aircraft:gyrodyne",
+	"immersive_aircraft:enhanced_propeller",
+	"immersive_aircraft:eco_engine",
+	"immersive_aircraft:nether_engine",
+	"immersive_aircraft:steel_boiler",
+	"immersive_aircraft:industrial_gears",
+	"immersive_aircraft:sturdy_pipes",
+	"immersive_aircraft:hull_reinforcement",
+	"immersive_aircraft:improved_landing_gear",
 	"blockus:golden_bars",
 	"charm:copper_bars",
-	"charm:netherite_bars"
+	"charm:netherite_bars",
+	"aurorasdeco:azalea_boat",
+	"aurorasdeco:azalea_chest_boat",
+	/^ecologics:((?!moss)(?!.*_moss)(?!moss_.*)(?!flowering)(?!.*_flowering)(?!flowering_.*).).*$/,
+	"runes:crafting_altar",
+	"runes:arcane_stone",
+	"runes:fire_stone",
+	"runes:frost_stone",
+	/^wizards:.*$/
 	];
 	
 	output.forEach((output) => {
@@ -213,8 +232,8 @@ ServerEvents.recipes(event => {
 	
 		event.stonecutting('twigs:polished_calcite_bricks', 'aurorasdeco:polished_calcite');
 		event.stonecutting('2x twigs:polished_calcite_brick_slab', 'aurorasdeco:polished_calcite');
-		event.stonecutting('1x twigs:polished_calcite_brick_stairs', 'aurorasdeco:polished_calcite');
-		event.stonecutting('1x twigs:polished_calcite_brick_wall', 'aurorasdeco:polished_calcite');
+		event.stonecutting('twigs:polished_calcite_brick_stairs', 'aurorasdeco:polished_calcite');
+		event.stonecutting('twigs:polished_calcite_brick_wall', 'aurorasdeco:polished_calcite');
 		
 		event.shaped('blockus:polished_tuff_pressure_plate', [
 	'TT ',
@@ -258,8 +277,8 @@ ServerEvents.recipes(event => {
 	
 		event.stonecutting('twigs:polished_tuff_bricks', 'aurorasdeco:polished_tuff');
 		event.stonecutting('2x twigs:polished_tuff_brick_slab', 'aurorasdeco:polished_tuff');
-		event.stonecutting('1x twigs:polished_tuff_brick_stairs', 'aurorasdeco:polished_tuff');
-		event.stonecutting('1x twigs:polished_tuff_brick_wall', 'aurorasdeco:polished_tuff');
+		event.stonecutting('twigs:polished_tuff_brick_stairs', 'aurorasdeco:polished_tuff');
+		event.stonecutting('twigs:polished_tuff_brick_wall', 'aurorasdeco:polished_tuff');
 		event.shapeless('blockus:polished_tuff_button', ['aurorasdeco:polished_tuff']);
 		
 		event.shaped(Item.of('travelersbackpack:standard', '{SleepingBagColor:0}'), [
@@ -859,7 +878,7 @@ ServerEvents.recipes(event => {
 	});
 	
 		event.stonecutting('architects_palette:basalt_tile_vertical_slab', 'twigs:polished_basalt_bricks');
-		event.stonecutting('blockus:polished_basalt_brick_slab', 'twigs:polished_basalt_bricks');
+		event.stonecutting('2x blockus:polished_basalt_brick_slab', 'twigs:polished_basalt_bricks');
 		event.stonecutting('blockus:polished_basalt_brick_stairs', 'twigs:polished_basalt_bricks');
 		event.stonecutting('blockus:polished_basalt_brick_wall', 'twigs:polished_basalt_bricks');
 	
@@ -1135,5 +1154,501 @@ ServerEvents.recipes(event => {
 	'N N'
   ], {
 	N: 'minecraft:netherite_ingot'
+	});
+	
+		event.shaped('ecologics:azalea_boat', [
+	'   ',
+	'P P',
+	'PPP'
+  ], {
+	P: 'aurorasdeco:azalea_planks'
+	});
+	
+		event.shaped('ecologics:azalea_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'ecologics:azalea_boat'
+	});
+	
+		event.shaped('ecologics:flowering_azalea_chest_boat', [
+	'CB ',
+	'   ',
+	'   '
+  ], {
+	C: '#c:wooden_chests',
+	B: 'ecologics:flowering_azalea_boat'
+	});
+	
+		event.shaped('ecologics:sandcastle', [
+	' T ',
+	'SHS',
+	'SSS'
+  ], {
+	S: 'minecraft:sand',
+	H: 'twigs:sea_shell',
+	T: 'minecraft:stick'
+	});
+	
+		event.shaped('snowyspirit:ecologics/sled_flowering_azalea', [
+	'PPS',
+	'SSS',
+	'   '
+  ], {
+	P: 'ecologics:flowering_azalea_planks',
+	S: 'minecraft:stick'
+	});
+	
+		event.shaped('supplementaries:ecologics/hanging_sign_flowering_azalea', [
+	'NSN',
+	'PPP',
+	'PPP'
+  ], {
+	P: 'ecologics:flowering_azalea_planks',
+	S: 'minecraft:stick',
+	N: 'minecraft:iron_nugget'
+	});
+	
+		event.shaped('dramaticdoors:tall_eco_flowering_azalea_door', [
+	'D  ',
+	'D  ',
+	'D  '
+  ], {
+	D: 'ecologics:flowering_azalea_door'
+	});
+	
+		event.shaped('variant_bookshelves:block/flowering_azalea_bookshelf', [
+	'PPP',
+	'BBB',
+	'PPP'
+  ], {
+	P: 'ecologics:flowering_azalea_planks',
+	B: 'minecraft:book'
+	});
+	
+		event.shaped('variantcraftingtables:flowering_azalea_crafting_table', [
+	'PP ',
+	'PP ',
+	'   '
+  ], {
+	P: 'ecologics:flowering_azalea_planks'
+	});
+	
+		event.shapeless('supplementaries:ecologics/sign_post_flowering_azalea', ['ecologics:flowering_azalea_sign']);
+
+		event.shaped('runes:crafting_altar', [
+	'GHG',
+	' A ',
+	'AAA'
+  ], {
+	A: 'minecraft:polished_andesite',
+	G: 'create:golden_sheet',
+	H: 'immersive_armors:robe_helmet'
+	});
+	
+		event.shapeless('runes:arcane_stone', ['conjuring:gem_socket', 'mcda:gemstone_purple']);
+		event.shapeless('runes:fire_stone', ['conjuring:gem_socket', 'mcda:gemstone_red']);
+		event.shapeless('runes:frost_stone', ['conjuring:gem_socket', 'mcda:gemstone_white']);
+		
+		event.shaped('wizards:wand_novice', [
+	'   ',
+	' T ',
+	'S  '
+  ], {
+	T: 'minecraft:torch',
+	S: 'betterend:leather_wrapped_stick'
+	});
+	
+		event.shaped('wizards:wand_arcane', [
+	'  M',
+	' G ',
+	'S  '
+  ], {
+	G: 'create:golden_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_purple'
+	});
+	
+		event.shaped('wizards:wand_fire', [
+	'  M',
+	' G ',
+	'S  '
+  ], {
+	G: 'create:golden_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_red'
+	});
+	
+		event.shaped('wizards:wand_frost', [
+	'  M',
+	' G ',
+	'S  '
+  ], {
+	G: 'create:golden_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_white'
+	});
+	
+		event.shaped('wizards:wand_netherite_arcane', [
+	'  M',
+	' G ',
+	'S  '
+  ], {
+	G: 'createdeco:netherite_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_purple'
+	});
+	
+		event.shaped('wizards:wand_netherite_fire', [
+	'  M',
+	' G ',
+	'S  '
+  ], {
+	G: 'createdeco:netherite_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_red'
+	});
+	
+		event.shaped('wizards:wand_netherite_frost', [
+	'  M',
+	' G ',
+	'S  '
+  ], {
+	G: 'createdeco:netherite_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_white'
+	});
+	
+		event.shaped('wizards:staff_arcane', [
+	' GM',
+	' SG',
+	'A  '
+  ], {
+	G: 'create:golden_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_purple',
+	A: 'minecraft:amethyst_shard'
+	});
+	
+		event.shaped('wizards:staff_fire', [
+	' BM',
+	' PB',
+	'S  '
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_red',
+	B: 'minecraft:nether_brick',
+	P: 'minecraft:blaze_powder'
+	});
+	
+		event.shaped('wizards:staff_frost', [
+	' IM',
+	' SI',
+	'R  '
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_white',
+	I: 'mcda:frost_crystal',
+	R: 'minecraft:end_rod'
+	});
+	
+		event.shaped('wizards:staff_netherite_arcane', [
+	'NGM',
+	'NSG',
+	'ANN'
+  ], {
+	G: 'create:golden_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_purple',
+	A: 'minecraft:amethyst_shard',
+	N: 'createdeco:netherite_sheet'
+	});
+	
+		event.shaped('wizards:staff_netherite_fire', [
+	'NBM',
+	'NPB',
+	'SNN'
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_red',
+	B: 'minecraft:nether_brick',
+	P: 'minecraft:blaze_powder',
+	N: 'createdeco:netherite_sheet'
+	});
+	
+		event.shaped('wizards:staff_netherite_frost', [
+	'NIM',
+	'NSI',
+	'RNN'
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_white',
+	I: 'mcda:frost_crystal',
+	R: 'minecraft:end_rod',
+	N: 'createdeco:netherite_sheet'
+	});
+	
+		event.shaped('wizards:staff_crystal_arcane', [
+	' CM',
+	' IC',
+	'S  '
+  ], {
+	C: 'betterend:crystal_shards',
+	S: 'betterend:leather_wrapped_stick',
+	I: 'betterend:aeternium_ingot',
+	M: 'mcda:gemstone_purple'
+	});
+	
+		event.shaped('wizards:staff_ruby_fire', [
+	' RM',
+	' IR',
+	'S  '
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_red',
+	I: 'betternether:cincinnasite_ingot',
+	R: 'betternether:nether_ruby'
+	});
+	
+		event.shaped('wizards:staff_smaragdant_frost', [
+	' CM',
+	' IC',
+	'S  '
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_white',
+	I: 'betterend:aeternium_ingot',
+	C: 'betterend:smaragdant_crystal_shard'
+	});
+	
+		event.shaped('wizards:wizard_robe_head', [
+	'  W',
+	' W ',
+	'WGW'
+  ], {
+	W: 'blockus:blue_patterned_wool',
+	G: 'conjuring:ignorance_gem'
+	});
+	
+		event.shaped('wizards:wizard_robe_chest', [
+	'G G',
+	'WGW',
+	'WWW'
+  ], {
+	W: 'blockus:blue_patterned_wool',
+	G: 'conjuring:ignorance_gem'
+	});
+	
+		event.shaped('wizards:wizard_robe_legs', [
+	'GGG',
+	'W W',
+	'W W'
+  ], {
+	W: 'blockus:blue_patterned_wool',
+	G: 'conjuring:ignorance_gem'
+	});
+	
+		event.shaped('wizards:wizard_robe_feet', [
+	'G G',
+	'W W',
+	'   '
+  ], {
+	W: 'blockus:blue_patterned_wool',
+	G: 'conjuring:ignorance_gem'
+	});
+	
+		event.shaped('wizards:arcane_robe_head', [
+	'  W',
+	' W ',
+	'WGW'
+  ], {
+	W: 'blockus:purple_patterned_wool',
+	G: 'bedrockbreakers:obsidian_infused_diamond'
+	});
+	
+		event.shaped('wizards:arcane_robe_chest', [
+	'G G',
+	'WGW',
+	'WWW'
+  ], {
+	W: 'blockus:purple_patterned_wool',
+	G: 'bedrockbreakers:obsidian_infused_diamond'
+	});
+	
+		event.shaped('wizards:arcane_robe_legs', [
+	'GGG',
+	'W W',
+	'W W'
+  ], {
+	W: 'blockus:purple_patterned_wool',
+	G: 'bedrockbreakers:obsidian_infused_diamond'
+	});
+	
+		event.shaped('wizards:arcane_robe_feet', [
+	'G G',
+	'W W',
+	'   '
+  ], {
+	W: 'blockus:purple_patterned_wool',
+	G: 'bedrockbreakers:obsidian_infused_diamond'
+	});
+	
+		event.shaped('wizards:fire_robe_head', [
+	'  W',
+	' W ',
+	'WGW'
+  ], {
+	W: 'blockus:red_patterned_wool',
+	G: 'conjuring:abundance_gem'
+	});
+	
+		event.shaped('wizards:fire_robe_chest', [
+	'G G',
+	'WGW',
+	'WWW'
+  ], {
+	W: 'blockus:red_patterned_wool',
+	G: 'conjuring:abundance_gem'
+	});
+	
+		event.shaped('wizards:fire_robe_legs', [
+	'GGG',
+	'W W',
+	'W W'
+  ], {
+	W: 'blockus:red_patterned_wool',
+	G: 'conjuring:abundance_gem'
+	});
+	
+		event.shaped('wizards:fire_robe_feet', [
+	'G G',
+	'W W',
+	'   '
+  ], {
+	W: 'blockus:red_patterned_wool',
+	G: 'conjuring:abundance_gem'
+	});
+	
+		event.shaped('wizards:frost_robe_head', [
+	'  W',
+	' W ',
+	'WGW'
+  ], {
+	W: 'blockus:light_blue_patterned_wool',
+	G: 'conjuring:soul_rod'
+	});
+	
+		event.shaped('wizards:frost_robe_chest', [
+	'G G',
+	'WGW',
+	'WWW'
+  ], {
+	W: 'blockus:light_blue_patterned_wool',
+	G: 'conjuring:soul_rod'
+	});
+	
+		event.shaped('wizards:frost_robe_legs', [
+	'GGG',
+	'W W',
+	'W W'
+  ], {
+	W: 'blockus:light_blue_patterned_wool',
+	G: 'conjuring:soul_rod'
+	});
+	
+		event.shaped('wizards:frost_robe_feet', [
+	'G G',
+	'W W',
+	'   '
+  ], {
+	W: 'blockus:light_blue_patterned_wool',
+	G: 'conjuring:soul_rod'
+	});
+	
+		event.shaped('earthtojavamobs:rainbow_wool', [
+	'ROY',
+	'GBC',
+	'PML'
+  ], {
+	R: 'minecraft:red_wool',
+	O: 'minecraft:orange_wool',
+	Y: 'minecraft:yellow_wool',
+	G: 'minecraft:green_wool',
+	B: 'minecraft:blue_wool',
+	C: 'minecraft:cyan_wool',
+	P: 'minecraft:pink_wool',
+	M: 'minecraft:magenta_wool',
+	L: 'minecraft:purple_wool'
+	});
+	
+		event.shaped('immersive_aircraft:enhanced_propeller', [
+	'P P',
+	' G ',
+	'P P'
+  ], {
+	P: 'create:propeller',
+	G: 'create:super_glue'
+	});
+	
+		event.shaped('immersive_aircraft:eco_engine', [
+	'SGS',
+	'GEG',
+	'BBB'
+  ], {
+	S: 'minecraft:slime_ball',
+	G: 'create:golden_sheet',
+	E: 'immersive_aircraft:engine',
+	B: 'minecraft:brick'
+	});
+	
+		event.shaped('immersive_aircraft:nether_engine', [
+	'IAI',
+	'ABA',
+	'IFI'
+  ], {
+	I: 'create:iron_sheet',
+	A: 'create:andesite_alloy',
+	B: 'immersive_aircraft:boiler',
+	F: 'minecraft:blast_furnace'
+	});
+	
+		event.shaped('immersive_aircraft:industrial_gears', [
+	' II',
+	'CLI',
+	'CC '
+  ], {
+	I: 'create:iron_sheet',
+	C: 'create:copper_sheet',
+	L: 'create:powered_latch'
+	});
+	
+		event.shaped('immersive_aircraft:sturdy_pipes', [
+	'  B',
+	'BPB',
+	'B  '
+  ], {
+	P: 'create:fluid_pipe',
+	B: 'create:brass_sheet'
+	});
+	
+		event.shaped('immersive_aircraft:hull_reinforcement', [
+	'III',
+	'HHH',
+	'III'
+  ], {
+	I: 'create:iron_sheet',
+	H: 'immersive_aircraft:hull'
+	});
+	
+		event.shaped('immersive_aircraft:improved_landing_gear', [
+	'   ',
+	'SPS',
+	' W '
+  ], {
+	S: 'create:shaft',
+	P: 'minecraft:sticky_piston',
+	W: 'minecraft:minecart'
 	});
 });

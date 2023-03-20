@@ -2,7 +2,194 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 7 <br>
+<h1 align="center"> Perfectly Splendid Update 8 <br>
+
+#### Note: Immersive Aircraft keybinds getting reset with Keymap is now fixed.
+
+#### It is recommended you backup your options.txt outside of the game folder and delete it for all the changes to apply. Then re-apply any custom keybinds, if you had any.
+
+### Changes:
+
+- Changed default roll/dodge keybind from R to C.
+- Added back compatibility between Wondrous Wilds, Naturalist and Supplementaries (glass jars); forgot to do that during the config transition in U7.
+- Significantly increased the chances of Structory and Structory: Towers structures appearing in the world (down from maximum of up to 100k blocks apart to up to 30k). When Dungeons Arise structures should also spawn a bit more often (down from 150k to 50k).
+- Increased the cost of re-rolling enchantments in the enchnating table from 1 to 32 lapis (for this to apply to existing worlds, delete your configs from `yourWorldFolder/serverconfig`).
+- Blacklisted bats and bamboo creepers in Magnum Torches; this means they now can't spawn, if there's an amethyst magnum torch present. Also doubled the range of said torch (for this to apply to existing worlds, delete your configs from `yourWorldFolder/serverconfig`).
+- Fixed a bug, that made items in invisible glow item frames invisible too (`inanimates_can_be_invisible` set to banned in Fabrication).
+- Fixed a few woodcutter recipes not working.
+- Fixed `twigs:polished_basalt_bricks` producing only 1 slab, when cut in a stonecutter.
+- Fixed a lot of wall blocks sounding like glass, when broken (removed Why Does My Glass Sound Like That).
+- Fixed a script to properly remove broken auto-generated Colorful Azalea models from Aurora's Decorations.
+- Fixed Colorful Azaleas' wood not being compatible with Charm's woodcutter.
+- Fixed Aurora's Decorations Colorful Azaleas recipes not working.
+- Fixed Macaw's Trapdoors entries not getting collapsed in REI.
+- Fixed a crash, that could happen, when nagivating Head Index's menus (temporarily removed 3D Skin Layers).
+- Swapped AD's azalea boats for Ecologics' azalea boats, due to wrong models on AD part.
+     - This is a bug, caused by ETF, not AD, as such, when ETF fixes it, I will revert back to AD models.
+- Added flowering azalea wood recipes for Ecologics' items.
+- Added a sandcastle recipe.
+- Added a rainbow wool recipe.
+- BetterEnd and Sod path blocks now also grant a x1.35 speed boost to be consistent with other path blocks.
+- Removed IPN sorting buttons in straw statues' and armour stands' GUIs.
+- Disabled Continuity glass pane culling fix resource pack, due to a texture bug.
+- Added a bunch of actually useful tips to loading screens.
+- Removed Awesome Dungeon settings datapacks, as there are now configs for it. The rarity of the structures should be pretty much the same, as before.
+- Removed all breakable potions from Extra Alchemy, since vials are disabled already.
+- Removed an endless rod recipe from Big Extras, as there already exists one in Minekea.
+- Disabled a redundant fire aspect ignition feature from Bedrockify, as Enchancement already adds it.
+- Updated BotanyPots compat datapack (removed Farmer's Delight stuff, as it has native support now).
+- Removed `antiSpamDisabled` from default Carpet rules, due to Carpet TIS Additions removal.
+- Disabled Terralith intro message; Nullscape and Incendium now don't have any to begin with.
+- WIP: Added an optional tutorial structure called Bootcamp; to enable it navigate to `.minecraft/config/starterstructure.json5` and set `"shouldGenerateStructure": true`.
+     - Why WIP? Because the way it generates is quite ugly at the moment, a few blocks fail to generate properly and generating entities is a bit iffy.
+	 - Example blocks that fail to generate: item frames, paintings, linked chains and rotation speed controllers.
+	 - What is it at all? A structure made by me, that showcases a lot of the mods in this pack, in case you'd like some basic introduction.
+	 - If you opt in to generate the structure, it will spawn somewhere next to you on world creation. The entrance is at the front of the boot.
+	 - You are encouraged to get through the entire structure without breaking any blocks, but I intentionally did not set protection on, in case you get stuck.
+- Updated Quilt Loader to 0.18.5.
+
+### Additions:
+
+- Babies Forever by Roundaround;  included as an unmodified jar, as the mod is not hosted on CF, but is MIT licensed and is on the list of allowed 3rd party mods; if I receive a request from the developer to take it down - I will.
+     - Original mod page can be found here: https://modrinth.com/mod/roundaround-babies-forever
+- Better Nether Map by Jummit; included as an unmodified jar, as the mod is not hosted on CF, but is MIT licensed and is on the list of allowed 3rd party mods; if I receive a request from the developer to take it down - I will.
+     - Original mod page can be found here: https://modrinth.com/mod/better-nether-map
+- Boats go brr
+- Integrated Stronghold; I'm leaving YUNG's Better Strongholds in as well, they can overlap a bit, but overall makes strongholds feel absolutely massive
+     - Integrated API
+	 - Integrated Stronghold - The Graveyard Integration; this is a datapack, but it will get downloaded into the resourcepacks folder, don't active it, it's purely for credit
+- Macaw's Furniture
+     - Collapsed REI entries
+- Max Health Fix
+- Resourceful Config; it's now required by Creeper Overhaul
+- Resourceful Lib; it's now required by Handcrafted
+- Rotation Locker by Beefox;  included as an unmodified jar, as the mod is not hosted on CF, but is Creative Commons licensed and is on the list of allowed 3rd party mods; if I receive a request from the developer to take it down - I will.
+     - Original mod page can be found here: https://modrinth.com/mod/rotationlocker
+- Sleep Tight
+     - Mostly added for the sleep benefits, as such I pre-configured it to be singificantly easier, than by default. I might make it even easier, depending on how difficult the current iteration ends up being
+	 - The benefits include: fully restoring HP and clearing all current effects, if you slept in the same bed for 7 days or more
+	 - The downsides include: bed bugs might rarely spawn (5% chance) and sleeping in dark (or not spawn proofed) areas will most certainly not be safe
+	 - The mod adds hammocks, which also exist in Comforts, but I will not be removing either, as they are different enough
+	 - Note: using a bed will now simply make you lay in it, to actually sleep, hit space, while laying down, or sneak/crouch to get up
+- Starter Structure; used for the optional Bootcamp structure spawn, does nothing by default
+- Structure Essentials
+- Trinkets Curios Theme
+- YUNG's Better Nether Fortresses
+     - Repurposed Structures - Yung's Better Nether Fortress Compat Datapack
+- Wizards
+     - Runes
+     - Spell Engine
+     - Spell Power Attribute
+	 - Completely overhauled the recipes; runes, staffs and tier 1+ wands are gated behind netherite
+	 - Drastically reduced the chances of any items appearing in loot chests (max 5%, min 2%)
+
+All of the above mods, that are included as unmodified jars, will from now on be credited on the main page along with the rest of the extra credits.
+
+### Removals: 
+
+- Carpet TIS Addition
+     - The only rule I used from that mod was `antiSpamDisabled` (Disable spamming checks on players, including: chat message cooldown, creative item drop cooldown)
+- Recipe Book is Pain; 0.8.1 crashes with Tom's Simple Storage and 0.9.0 with Bag of Holding; will re-include once fixed
+- Skin Layers 3D; causes a lockup, when viewing certain player skins, e.g. player heads obtained from Head Index menus or Miniblock Merchants
+     - The issue has been fixed in 1.19.3 and there's a fixed build for 1.19.2 over at the mod's GitHub, which I will also include, if/when it gets published on CF
+- Why Does My Glass Sound Like That; causes many non-glass blocks to sound like glass, when broken
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Awesome Dungeon: End
+- Awesome Dungeon: Nether
+- Awesome Flooring
+- Balm
+- BetterCombat
+- Blockus
+- Bookshelf
+- BotanyPots
+- Capes
+- Collective
+- Colorful Azaleas
+- CombatRoll
+- Continuity
+- Cooking For Blockheads
+- Crafting Tweaks
+- CraftPresence
+- Creeper Overhaul
+- Custom Entity Models
+- Custom Portals
+- Dave's Potioneering
+- Display Case
+- Dramatic Doors
+- Easy Anvils
+- Easy Magic
+- Eating Animation
+- Enchancement
+- Enchanted Vertical Slabs
+- Entity Texture Features
+- Expanded Delight
+- Extended Drawers
+- Fabrication
+- Farming For Blockheads
+- Friends&Foes
+- Handcrafted
+- Hoe Tweaks
+- Immediately Fast
+- Immersive Aircraft
+- Immersive Paintings
+- Incendium
+- Inventory Essentials
+- Inventory Profiles Next
+- Kiwi Lib
+- libIPN
+- LibraryFerret
+- Lithium
+- Macaw's Bridges
+- Macaw's Doors
+- Macaw's Roofs
+- Macaw's Trapdoors
+- Make Bubbles Pop
+- MC Dungeons Armors
+- MC Dungeons Weapons
+- MC Story Mode Armors
+- MemoryLeakFix
+- Moonlight
+- Nether Portal Fix
+- Nullscape
+- Open Parties And Claims
+- Ping Wheel
+- Player Animator
+- QSL
+- Random Bonemeal Flowers
+- Repurposed Structures
+- Roughly Enough Items
+- Roughly Enough Professions
+- Smaller Nether Portals
+- Snowy Spirit
+- Soul Fire'd
+- Spiky Spikes
+- Structory
+- Structory: Towers
+- Supplementaries
+- Terralith
+- The Bumblezone
+- Tom's Simple Storage
+- Traveler's Backpack
+- Vanity Slots
+- Visual Workbench
+- Visuality
+- Waystones
+- Xaero's Maps
+- YUNG's API
+- YUNG's Better Desert Temples
+
+- Glowing Ender Dragon
+- Repurposed Structures - Better Ocean Monuments Compat Datapack
+- Super Duper Vanilla Shaders
+- Visual Shulker Labels
+
+</details>
+
+<details><summary>Update 7 Changelog (v0.8).</summary>
 
 #### Note: The following enchantments are removed: homing, impact, acceleration. For more changes to enchantments, read [Enchancement's changelog](https://www.curseforge.com/minecraft/mc-mods/enchancement/files/4398115)
 
@@ -94,6 +281,8 @@
 - YUNG's API
 
 - xali's Enchanted Books
+
+</details>
 
 </details>
 
@@ -908,4 +1097,4 @@
 
 </details>
 
-## Current version of Perfectly Splendid: v0.8
+## Current version of Perfectly Splendid: v0.9

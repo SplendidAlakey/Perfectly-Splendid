@@ -81,7 +81,7 @@ The pack is possible to install with any launcher, however, I can only fully sup
 <p>
 
 1. Install the 1.19.2 version of the game and make sure it works without any mods
-2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.2
+2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.5
 3. Navigate to https://www.curseforge.com/minecraft/mc-mods/qsl and download QSL, then put it into the .minecraft/mods folder. If such a folder doesn't exist, simply create one.
 4. Navigate to https://www.curseforge.com/minecraft/modpacks/perfectly-splendid, choose the latest version of the pack and scroll down until you see the list of included mods
 5. Download every mod, make sure to use the correct versions, and put them all into the mods folder (some mods must be a specific version, to make the process easier find a way to download mods automatically using the pack's zip, rather than manually)
@@ -125,6 +125,8 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 </p>
 </details>
 
+You can also try increasing your pagefile size, if you are in Windows and struggling with loading times. I'm using 40GB for other games' modpacks, but you can probably set it to something like 10-15GB for Minecraft.
+
 ## Already tried Perfectly Splendid? Would like to report an issue or send feedback?
 
 - If you encounter any issues with the pack or have a suggestion, open an issue on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/issues).
@@ -134,7 +136,7 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 <details><summary>First ever launch "crashes" with an "internal error" message.</summary>
 
-  **Status**: ❌ Reported. Not fixed.
+  **Status**: ❌ Reported.
 
   **Severity**: Low. 
 
@@ -144,13 +146,33 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 </details>
 
-<details><summary>Log Begone is not working in Update 6.</summary>
+<details><summary>Log Begone is not working in Update 6 and above.</summary>
 
-  **Status**: ❌ Reported. Not fixed.
+  **Status**: ❌ Reported.
 
   **Severity**: Low. 
 
-  **Workarounds**: If you really want it to work, downgrade to QL 0.17.11 or QL 0.18.1-beta.62 or lower.
+  **Workarounds**: None convenient. You'd need to downgrade your Quilt Loader to a version, that works with Log Begone, but I can't guarantee old QL versions will work with the pack anymore.
+
+</details>
+
+<details><summary>Can't put swords into item frames.</summary>
+
+  **Status**: ❌ Reported.
+
+  **Severity**: Low. 
+
+  **Workarounds**: Guard Villagers is the mod, that causes the bug, so simply removing it will help. I'm going to abstain from removing it from the pack, as long as this is the only issue it causes.
+
+</details>
+
+<details><summary>The Bumblezone is completely dark, when using shaders.</summary>
+
+  **Status**: ❌ The developer is aware.
+
+  **Severity**: Low. 
+
+  **Workarounds**: Simply disable shaders, when travelling there.
 
 </details>
 
@@ -160,5 +182,11 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 - [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
 - [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects) for compatibility datapacks between YUNG's mods and others.
 - [eldeston](https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders) for Super Duper Vanilla Shaders.
+
+3rd party mods with permissive licenses. If you are a developer of one of the following mods and wish for me to take it down - contact me by any means and I will remove your mod from my pack:
+
+- [Babies Forever](https://modrinth.com/mod/roundaround-babies-forever) by Roundaround
+- [Better Nether Map](https://modrinth.com/mod/better-nether-map) by Jummit
+- [Rotation Locker](https://modrinth.com/mod/rotationlocker) by Beefox
 
 <h1 align="center"> 🌈 Thank you for playing Perfectly Splendid! 🌈 </h1>

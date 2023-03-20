@@ -105,8 +105,8 @@ REIEvents.groupEntries((event) => {
 		/^mcwwindows:.*$/
 	]);
 	
-	event.groupItems("mcwtrapdoors:rei_groups/macaws_trapdoors", "Macaw's Trapdoors", [
-		/^mcwtrapdoors:.*$/
+	event.groupItems("mcwtrpdoors:rei_groups/macaws_trapdoors", "Macaw's Trapdoors", [
+		/^mcwtrpdoors:.*$/
 	]);
 	
 	event.groupItems("mcwpaths:rei_groups/macaws_paths", "Macaw's Paths and Pavings", [
@@ -115,6 +115,10 @@ REIEvents.groupEntries((event) => {
 	
 	event.groupItems("mcwfences:rei_groups/macaws_fences", "Macaw's Fences and Walls", [
 		/^mcwfences:.*$/
+	]);
+	
+	event.groupItems("mcwfurnitures:rei_groups/macaws_furnitures", "Macaw's Furniture", [
+		/^mcwfurnitures:.*$/
 	]);
 	
 	// Group Dramatic Doors, Exline Doors, Chalk, Simple Copper Pipes, MultiBeds mods' blocks together by mod
@@ -162,10 +166,6 @@ REIEvents.groupEntries((event) => {
 	event.groupItemsByTag("aurorasdeco:rei_groups/pet_beds", "Aurora's Decorations Pet Beds", "aurorasdeco:pet_beds");
 	
 	// Group potions, arrows and enchanted books
-	
-	event.groupItems("extraalchemy:rei_groups/breakable_potions", "Breakable Potions", [
-		/^extraalchemy:.*breakable_potion.*$/
-	]);
 	
 	const useNbt = ["potion", "enchanted_book", "splash_potion", "tipped_arrow", "lingering_potion"];
 
