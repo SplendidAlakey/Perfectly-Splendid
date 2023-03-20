@@ -16,40 +16,40 @@ If you are bored of vanilla, but don't wish to get yourself into massive modpack
 
 <h1 align="center"> What to expect from Perfectly Splendid <br></h1>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_1.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_2.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_1.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_2.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_3.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_4.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_3.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_4.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_1.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_2.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_1.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_2.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_3.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_4.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_3.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_4.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_1.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_2.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_1.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_2.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_3.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_4.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_3.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_4.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_1.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_2.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_1.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_2.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_3.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_4.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_3.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_4.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_1.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_2.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_1.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_2.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_3.png" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_4.png" width="360"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_3.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_4.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/dungeons_1.png" width="720">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/dungeons_2.png" width="720"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/dungeons_1.webp" width="720">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/dungeons_2.webp" width="720"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/armorsweapons_1.png" width="720"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/armorsweapons_1.webp" width="720"></p>
 
 ## 🔨 Installing the modpack
 
