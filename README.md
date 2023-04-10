@@ -81,11 +81,11 @@ The pack is possible to install with any launcher, however, I can only fully sup
 <p>
 
 1. Install the 1.19.2 version of the game and make sure it works without any mods
-2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.5
+2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.8
 3. Navigate to https://www.curseforge.com/minecraft/mc-mods/qsl and download QSL, then put it into the .minecraft/mods folder. If such a folder doesn't exist, simply create one.
 4. Navigate to https://www.curseforge.com/minecraft/modpacks/perfectly-splendid, choose the latest version of the pack and scroll down until you see the list of included mods
 5. Download every mod, make sure to use the correct versions, and put them all into the mods folder (some mods must be a specific version, to make the process easier find a way to download mods automatically using the pack's zip, rather than manually)
-6. Download the modpack file and extract the "config", "shaderpacks" and "kubejs" folders from it, put them all in .minecraft/
+6. Download the modpack file and extract the "config", "defaultconfigs", "shaderpacks" and "kubejs" folders from it, put them all in .minecraft/
 7. Launch the game using the Quilt profile in the launcher
 
 </p>
@@ -102,9 +102,11 @@ The pack was tested with default Java arguments provided by vanilla launcher and
 
 <p> Absolute maximum required allocated memory for the pack is 12GB </p>
 <p> 10GB is recommended, if you use Super Duper Vanilla shaders (default). </p>
-<p> 6-8GB is recommended, if you don't use any shaders. </p>
-<p> 4-8GB is recommended, if your world is pregenerated or you play on a server. </p>
+<p> 8GB is recommended, if you don't use any shaders. </p>
+<p> 6-8GB is recommended, if your world is pregenerated or you play on a server. </p>
 <p> The recommended memory allocation for servers is 10-12GB. </p>
+
+The lower your RAM, the longer it will take for the game to load and generate chunks!
 
 Recommended JVM flags (add -Xmx and -Xms, if you don't use Prism or MMC):
 ```
@@ -132,6 +134,8 @@ You can also try increasing your pagefile size, if you are in Windows and strugg
 - If you encounter any issues with the pack or have a suggestion, open an issue on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/issues).
 - If you would like to ask a question, use the discussions tab on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions).
 
+## If you have more questions before installing I might've already answered some of them [here](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions/3)!
+
 ### ⚠ Known issues
 
 <details><summary>First ever launch "crashes" with an "internal error" message.</summary>
@@ -156,16 +160,6 @@ You can also try increasing your pagefile size, if you are in Windows and strugg
 
 </details>
 
-<details><summary>Can't put swords into item frames.</summary>
-
-  **Status**: ❌ Reported.
-
-  **Severity**: Low. 
-
-  **Workarounds**: Guard Villagers is the mod, that causes the bug, so simply removing it will help. I'm going to abstain from removing it from the pack, as long as this is the only issue it causes.
-
-</details>
-
 <details><summary>The Bumblezone is completely dark, when using shaders.</summary>
 
   **Status**: ❌ The developer is aware.
@@ -176,12 +170,22 @@ You can also try increasing your pagefile size, if you are in Windows and strugg
 
 </details>
 
+<details><summary>Glass pane culls incorrectly with connected glass pane blocks.</summary>
+
+  **Status**: ✅ Intended.
+
+  **Severity**: Low. 
+
+  **Workarounds**: You can enable a built-in Continuity resource pack called "glass pane culling fix", however, doing so will break culling for unconnected double stacked glass panes and similar blocks (see Continuity GitHub for pictures).
+
+</details>
+
 
 **@Credits**: 
 
-- [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture of the modpack logo and my profile picture.
 - [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects) for compatibility datapacks between YUNG's mods and others.
 - [eldeston](https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders) for Super Duper Vanilla Shaders.
+- [OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) for the background picture I use for the datapack icons.
 
 3rd party mods with permissive licenses. If you are a developer of one of the following mods and wish for me to take it down - contact me by any means and I will remove your mod from my pack:
 
