@@ -2,11 +2,11 @@
 
 <h1 align="center"><a href="https://www.curseforge.com/minecraft/modpacks/perfectly-splendid"><img src="https://cf.way2muchnoise.eu/versions/For%20Minecraft_perfectly-splendid_all.svg" alt="CF"></a></h1>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_2.webp" width="480">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_3.webp" width="480"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_2.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_3.webp" width="360"></p>
 
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_4.webp" width="480">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_5.webp" width="480"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_4.webp" width="360">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_5.webp" width="360"></p>
 
 ## 🔨 Installing the modpack
 
