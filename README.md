@@ -1,55 +1,12 @@
-<p align="center">
-  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png"
-</p>
+<a href="https://quiltmc.org"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_1.webp"></a>
 
-<h1 align="center"> ❤🧡💛💚💙💜 Perfectly Splendid 💜💙💚💛🧡❤ <br>
+<h1 align="center"><a href="https://www.curseforge.com/minecraft/modpacks/perfectly-splendid"><img src="https://cf.way2muchnoise.eu/versions/For%20Minecraft_perfectly-splendid_all.svg" alt="CF"></a></h1>
 
-<a href="https://www.curseforge.com/minecraft/modpacks/perfectly-splendid"><img src="https://cf.way2muchnoise.eu/versions/For%20Minecraft_perfectly-splendid_all.svg" alt="CF"></a>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_2.webp" width="480">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_3.webp" width="480"></p>
 
-<a href="https://quiltmc.org"><img src="https://github.com/QuiltMC/art/raw/master/brand/svg/quilt_available_dark.svg" width="200"></a>
-
-</h1>
-
-Perfectly Splendid is a **Quilt** modpack, that is mainly focused on exploration, combat and creativity, while staying true to vanilla. One could call it a kitchen sink modpack, due to the amount of mods included. However, I do try to keep a certain theme going - expanding on what Minecraft is, without turning it into something it isn't. And yet, it's not exactly what you would call a Vanilla+ pack, as describing it with just a single plus sign would be a big understatement. Perfectly Splendid is not going to guide you by the hand through a completely new game. Instead, you will find yourself in a familiar world full of new life, harder challenges and lots of amazing blocks to expand your creativity. 
-
-If you are bored of vanilla, but don't wish to get yourself into massive modpacks quite yet, and Vanilla+ doesn't cut it for you, then give Perfectly Splendid a try.
-
-<h1 align="center"> What to expect from Perfectly Splendid <br></h1>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_1.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_2.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_3.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/overworld_4.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_1.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_2.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_3.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/nether_4.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_1.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_2.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_3.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/end_4.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_1.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_2.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_3.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/structures_4.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_1.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_2.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_3.webp" width="360">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/creatures_4.webp" width="360"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/dungeons_1.webp" width="720">
-<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/dungeons_2.webp" width="720"></p>
-
-<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/armorsweapons_1.webp" width="720"></p>
+<p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_4.webp" width="480">
+<img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_5.webp" width="480"></p>
 
 ## 🔨 Installing the modpack
 
