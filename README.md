@@ -84,7 +84,7 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 </p>
 </details>
 
-You can also try increasing your pagefile size, if you are in Windows and struggling with loading times. I'm using 40GB for other games' modpacks, but you can probably set it to something like 10-15GB for Minecraft.
+You can also try increasing your pagefile size, if you are on Windows and struggling with loading times. I'm using 40GB for other games' modpacks, but you can probably set it to something like 10-15GB for Minecraft.
 
 ## Already tried Perfectly Splendid? Would like to report an issue or send feedback?
 
