@@ -193,14 +193,4 @@ ServerEvents.tags('block', event => {
 		event.add('minecraft:logs', /^expandeddelight:.*_log$/);
 		event.add('minecraft:logs_that_burn', /^expandeddelight:.*_log$/);
 		event.add('minecraft:completes_find_tree_tutorial', /^expandeddelight:.*_log$/);
-		
-	// Temporarily(?) exclude Create Deco fences from connecting diagonally, due to missing textures
-		event.add('diagonalfences:non_diagonal_fences', /^createdeco:gold_mesh_fence$/);
-		event.add('diagonalfences:non_diagonal_fences', /^createdeco:netherite_mesh_fence$/);
-		event.add('diagonalfences:non_diagonal_fences', /^createdeco:andesite_mesh_fence$/);
-		event.add('diagonalfences:non_diagonal_fences', /^createdeco:brass_mesh_fence$/);
-		event.add('diagonalfences:non_diagonal_fences', /^createdeco:cast_iron_mesh_fence$/);
-		event.add('diagonalfences:non_diagonal_fences', /^createdeco:iron_mesh_fence$/);
-		event.add('diagonalfences:non_diagonal_fences', /^createdeco:copper_mesh_fence$/);
-		event.add('diagonalfences:non_diagonal_fences', /^createdeco:zinc_mesh_fence$/);
 })

@@ -323,9 +323,9 @@ REIEvents.hide('item', event => {
 	'immersive_aircraft:propeller',
 	'immersive_aircraft:sail',
 	'charm:gold_bars',
-	/aurorasdeco:stump\/connectedblocks\/.*/,
-	/aurorasdeco:stump\/ecologics\/.*/,
-	/aurorasdeco:small_log_pile\/ecologics\/.*/,
+	/^aurorasdeco:stump\/connectedblocks\/.*$/,
+	/^aurorasdeco:stump\/ecologics\/.*$/,
+	/^aurorasdeco:small_log_pile\/ecologics\/.*$/,
 	/^ecologics:((?!moss)(?!.*_moss)(?!moss_.*)(?!flowering)(?!.*_flowering)(?!flowering_.*)(?!azalea_boat)(?!azalea_chest_boat)(?!sandcastle).).*$/,
 	'bigextras:endless_rod'
 	])

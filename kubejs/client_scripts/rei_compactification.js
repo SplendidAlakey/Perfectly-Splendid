@@ -80,7 +80,10 @@ REIEvents.groupEntries((event) => {
 	
 	event.groupItems("perfectly_splendid:rei_groups/spawn_eggs", "Spawn Eggs", [
 		/^.*spawn_egg.*$/,
-		/^supplementaries:red_merchant_spawn_egg$/
+		/^.*_spawn_egg.*$/,
+		/^.*spawn_egg_.*$/,
+		/^.*_spawn_egg_.*$/,
+		'supplementaries:red_merchant_spawn_egg'
 	]);
 	
 	// Group Macaw's mods' blocks together by mod
@@ -296,7 +299,10 @@ REIEvents.groupEntries((event) => {
 		/^createdeco:.*.door.*$/,
 		/^createdeco:.*.bars.*$/,
 		/^createdeco:.*.mesh.*$/,
-		/^createdeco:.*.catwalk.*$/
+		/^createdeco:.*.catwalk.*$/,
+		/^createdeco:.*ladder.*$/,
+		/^createdeco:.*_placard$/,
+		/^createdeco:.*_support$/
 	]);
 	
 	event.groupItems("create:rei_groups/create_gear", "Create Gear", [
@@ -312,7 +318,8 @@ REIEvents.groupEntries((event) => {
 		/^create:.*fertilizer.*$/,
 		/^create:.*diving.*$/,
 		/^create:.*crank.*$/,
-		/^create:.*linked_controller.*$/
+		/^create:.*linked_controller.*$/,
+		/^extendedgears:.*$/
 	]);
 	
 	event.groupItems("create:rei_groups/create_generators", "Create Power Generators", [
@@ -395,7 +402,8 @@ REIEvents.groupEntries((event) => {
 	event.groupItems("create:rei_groups/create_trains", "Create Trains", [
 		/^create:.*track.*$/,
 		/^create:.*schedule.*$/,
-		/^create:.*controls.*$/
+		/^create:.*controls.*$/,
+		/^createdeco:.*_hull$/
 	]);
 	
 	event.groupItems("create:rei_groups/create_item_transport", "Create Item Transport", [
@@ -714,4 +722,10 @@ REIEvents.groupEntries((event) => {
 	event.groupItemsByTag("handcrafted:rei_groups/handcrafted_pots", "Handcrafted Pots", "handcrafted:pots");
 	event.groupItemsByTag("handcrafted:rei_groups/handcrafted_trophies", "Handcrafted Trophies", "handcrafted:trophies");
 	event.groupItemsByTag("handcrafted:rei_groups/handcrafted_trophies", "Handcrafted Trophies", "handcrafted:statues");
+	
+	// Group Backpacked backpack shelves together
+	
+	event.groupItems("backpacked:rei_groups/backpack_shelves", "Backpacked Shelves", [
+		/^backpacked:.*_shelf$/
+	]);
 });

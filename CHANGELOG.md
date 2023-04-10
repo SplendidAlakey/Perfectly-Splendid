@@ -1,8 +1,113 @@
 <p align="center">
-  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid.png" width="720"
+  <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid_2.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 8 <br>
+<h1 align="center"> Perfectly Splendid Update 9 <br>
+
+#### Note: This update mostly just brings every mod in the pack up-to-date.
+
+### Changes:
+
+- Create Deco mesh fences can now be diagonally connected (existing fences would need to be replaced for it to take effect).
+- Drastically reduced the amount of runes, that can naturally spawn in wizards chests (down from 1-12 to 0-1).
+- Replaced Guard Villagers Quilt with a newer version for Fabric; should have 0 issues, as they are identical, apart from the mod json format. This fixes putting swords into item frames.
+- Removed IPN sorting buttons from Enchanting Infuser and Immersive Aircraft GUIs.
+- Fixed the default zoom keybind being set to Y, instead of Z. Tut mir leid!
+- Changed the default keybind for aircraft boosting from B to R.
+- Changed the default keybind for switching to spell hotbar from Z to Y.
+- Chunks will now use animations, when appearing, instead of just fading in (adjustable in the config).
+- Updated Better Combat and Combat Roll configs.
+- Some minor versioning and description changes. For more read [this](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions/3).
+- Updated Quilt Loader to 0.18.8.
+
+### Additions:
+
+- Backpacked
+     - Framework
+	 - Collapsed REI entries for backpack shelves
+	 - Changed the backpack recipe to be closer to Traveler's Backpack requirements and not use rabbit hide
+	 - Main differences between the packs are:
+	      - Backpacked packs remain in the grave, when you die
+		  - Backpacked packs are almost twice as large as Traveler's Backpack ones (91 vs 48 slots respectively)
+		  - Traveler's Backpack packs include extra features, such as a built-in crafting table, fluid containers and sleeping bags
+- Create: Extended Cogwheels Fabric
+     - Collapsed REI entries
+- CreateFabric&REIBugFix
+- Mo' Structures
+     - Adjusted spacing and separation settings to be more frequent, than WDA, but less frequent, than everything else
+- Recipe Book is Pain; re-added now that the crashes have been fixed
+
+- Repurposed Structures - Wizards Compat Datapack
+
+### Removals: 
+
+- 
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Additional Banners
+- Adorn
+- Architectury
+- Aurora's Decorations
+- Awesome Dungeon: End
+- Awesome Dungeon: Nether
+- Blockus
+- BotanyPots
+- BotanyTrees
+- Chunks fade in
+- Comforts
+- CraftPresence
+- Create
+- Create Deco Fabric
+- Emotecraft
+- Fabrication
+- Guard Villagers
+- Immersive Aircraft
+- Immersive Armors
+- Immersive Paintings
+- Incendium
+- Inventory Profiles Next
+- Iris
+- libIPN
+- Log Begone
+- LootJS
+- MC Story Mode Armors
+- MemoryLeakFix
+- Moog's Voyager Structures (MVS)
+- Moonlight
+- No Resource Pack Warnings
+- Open Parties and Claims
+- Paginated Advancements
+- Pehkui
+- QSL
+- Raised
+- Recursive Resources
+- Repurposed Structures
+- ResourcefulLib
+- Rhino
+- Show Me Your Skin!
+- Simple Copper Pipes
+- Sleep Tight
+- Smarter Farmers
+- Styled Chat
+- Stylish Effects
+- Supplementaries
+- The Bumblezone
+- Tom's Simple Storage
+- Traveler's Backpack
+- Visual Workbench
+- Wither Cage Fix
+- Xaero's Maps
+- XP Obelisk
+- XP Obelisk Additions
+
+- Repurposed Structures - Yung's Better Nether Fortress Compat Datapack
+
+</details>
+
+<details><summary>Update 8 Changelog (v0.9).</summary>
 
 #### Note: Immersive Aircraft keybinds getting reset with Keymap is now fixed.
 
@@ -186,6 +291,8 @@ All of the above mods, that are included as unmodified jars, will from now on be
 - Repurposed Structures - Better Ocean Monuments Compat Datapack
 - Super Duper Vanilla Shaders
 - Visual Shulker Labels
+
+</details>
 
 </details>
 
@@ -1097,4 +1204,4 @@ All of the above mods, that are included as unmodified jars, will from now on be
 
 </details>
 
-## Current version of Perfectly Splendid: v0.9
+## Current version of Perfectly Splendid: v1.0.0.0

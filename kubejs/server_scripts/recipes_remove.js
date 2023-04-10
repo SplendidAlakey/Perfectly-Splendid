@@ -252,7 +252,7 @@ ServerEvents.recipes(event => {
 	"snowyspirit:gingerbread_vertical_slab",
 	"#travelersbackpack:sleeping_bags",
 	"charm:gold_bars",
-	/aurorasdeco:stump\/connectedblocks\/.*/,
+	/^aurorasdeco:stump\/connectedblocks\/.*$/,
 	"bigextras:endless_rod"
 	];
 	

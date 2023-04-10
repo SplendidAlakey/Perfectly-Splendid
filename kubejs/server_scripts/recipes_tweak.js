@@ -31,6 +31,7 @@
 // Add recipes for flowering azalea items from Ecologics, using Aurora's Decorations wood
 // Tweak Runes recipes to be gated behind netherite
 // Add a rainbow wool recipe
+// Tweak Backpacked recipes to not require rabbit hide
 
 ServerEvents.recipes(event => {
 	
@@ -105,7 +106,8 @@ ServerEvents.recipes(event => {
 	"runes:arcane_stone",
 	"runes:fire_stone",
 	"runes:frost_stone",
-	/^wizards:.*$/
+	/^wizards:.*$/,
+	"backpacked:backpack"
 	];
 	
 	output.forEach((output) => {
@@ -1650,5 +1652,15 @@ ServerEvents.recipes(event => {
 	S: 'create:shaft',
 	P: 'minecraft:sticky_piston',
 	W: 'minecraft:minecart'
+	});
+	
+		event.shaped('backpacked:backpack', [
+	'LLL',
+	'RCR',
+	'LCL'
+  ], {
+	C: '#c:wooden_chests',
+	L: 'minecraft:leather',
+	R: '#supplementaries:ropes'
 	});
 });
