@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "pools": [
+    {
+      "rolls": 0.5,
+      "bonus_rolls": 0.15,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "artifacts:artifact"
+        }
+      ]
+    }
+  ]
+}
