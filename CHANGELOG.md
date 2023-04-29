@@ -2,7 +2,133 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid_2.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 9 <br>
+<h1 align="center"> Perfectly Splendid Update 10 (unreleased) <br>
+
+#### Note: This update adds a few new resource packs. If you'd like for them to apply automatically, delete your options.txt (will also reset keybinds!)
+
+##### If your logs get a bit spammed with "Found reference to an unknown structure" after this update - it's safe to ignore. I'll filter that out when Quilt fixes Log Begone compatibility.
+
+##### Not necessary, but recommended: download and drop [this file](https://www.curseforge.com/minecraft/mc-mods/qkl/download/4490417) into your mods folder after installing the pack. The pack will work just fine without it, but this is just an extra precaution for any potential issues with outdated Kotlin libraries.
+
+### Changes:
+
+- Brought back azalea boats from Aurora's Decorations, as the model issues have been fixed in ETF.
+- Fixed modded bookshelves not providing any enchanting power.
+- Updated Mob Variants config; adds new variants.
+- Updated Universal Enchants config; made Wizards' enchantments exclusive to Wizards' gear with the exception of armour.
+- Completely overhauled wizard merchants; sadly, existing ones will keep their original trades, with the exception of those, that never traded with you before (you can reroll those), so enjoy practically free trades if you've got one.
+- Updated Wizards config; minor loot changes.
+- Updated Naturalist config; adds new swamp mobs.
+- Added Naturalist dragonflies to the Supplementaries' list of tickable mobs in jars.
+- Updated SleepWarp config; now ticks block entities, but still doesn't tick mobs for performance reasons. If you experience performance drops during sleeping, set `tick_block_entities` to `false`.
+- Updated Traveler's Backpack config; Pigmen can now spawn wearing backpacks.
+- Very slightly increased the height boats can jump up to, so that you can jump over 1 full block on land (up from 0.25 to 0.35).
+- Removed Everlasting Beef, Eternal Steak, Feral Claws and Fire Gauntlet artifacts. You'll keep the existing ones.
+- Lowered most Artifacts' drop chances. Mimics are now not guaranteed to drop one either.
+- Removed a few duplicate recipes, most notably mossy deepslate variants.
+- Added stonecutter recipes for Mossier Deepslate blocks.
+- Fixed a typo in cobbled mossy deepslate slabs ("SLab" -> "Slab").
+- Removed recipes for Minekea's mossy basalt blocks in favour of Stoneworks, as Minekea's look too much like mossy deepslate blocks.
+- Cartographer, Enderologist and Netherologist can now sell maps leading to the rarest structures in the pack.
+- Disabled sneak + right-click on horses action opening their stats tooltip, because I couldn't make the saddleless GUI dark. If you'd like to re-enable it, it's in HorseStatsVanilla config.
+- Dark mode button is not longer present in the main/pause menu and is only visible inside inventories.
+- Excluded library mods from the resource loading screen.
+- Added a couple more tips to the loading screens.
+- Moved Fuzs mods' server configs from `defaultconfigs` to `config`.
+- Minor changes to all scripts to be more readable.
+- Updated Quilt Loader to 0.18.10.
+
+### Additions:
+
+- Carry On
+     - Replaces Carrier for additional features; recommended setting the keybind to Shift/Sprint to avoid clashing with Improved Signs, as I can't seem to make it default
+- Completionist Index; mostly added for myself, really, so I made it easy to ignore if you don't care about such stuff
+     - Removed Minekea blocks, as there are simply too many
+	 - Removed unobtainable items, including those that I disabled myself; if I missed any - let me know
+- Create: Steam 'n' Rails
+     - Collapsed REI entries
+- Custom Villager Trades (Fabric); added in order to enhance some villagers' trades
+- Entity Model Features (CEM)
+- Mindful Darkness
+     - Set dark mode off by default; enable in any inventory; uses roughly 30% darker GUI and the brightest text
+- Mutant Monsters
+     - Spawn weights for mutats are the following: 1 for creepers, 3 for endermen, 5 for skeletons and 8 for zombies; meaning all of them should be rare encounters, rather than regular spawns
+- Permanent Sponges
+     - Completely overhauled the recipes to make these sponges accessible late game
+- Stoneworks
+     - Collapsed REI entries
+	 - Removed some duplicate recipes, but left most untouched, as they don't actually overlap and use different textures
+- Supplemetaries Squared
+     - Collapsed REI entries for Sacks
+	 - Removed item shelves, as we already have plenty
+- Transmog
+     - Set to render in world and inventories; minimal tooltips
+
+- Enhanced Boss Bars
+- Fading Enchantment Glint
+- Living Dragon
+- Rainbow XP bar and ping
+- Shield Corrections
+- Vex Backport
+
+### Removals: 
+
+- Carrier; replaced by Carry On due to personal preference
+- Custom Entity Models (CEM); replaced by Entity Model Features (EMF) for the new vex models
+- Dark Mode Everywhere; replaced by Mindful Darkness, due to internal shaders negatively affecting REI, resource/data pack logos and world borders
+
+- Better Boss Bars; replaced by Enhanced Boss Bars
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Babies Forever
+- Beautify
+- Chunks Fade In
+- Create
+- Dave's Potioneering
+- Dungeon Difficulty
+- Easy Anvils
+- Entity Texture Features
+- Extended Drawers
+- Farming For Blockheads
+- Friends&Foes
+- Inventory Profiles Next
+- Iris
+- libIPN
+- KleeSlabs
+- LootJS
+- MC Dungeons Weapons
+- Mob Variants
+- Moog's Voyager Structures (MVS)
+- Moonlight
+- Mythic Mounts
+- Naturalist
+- Open Parties And Claims + Create Support
+- Paginated Advancements
+- Pehkui
+- Projectile Damage Attribute
+- PuzzlesLib
+- Recipe Book Is Pain
+- Repurposed Structures
+- ServerCore
+- Show Me Your Skin!
+- Simple Voice Chat
+- Sleep Tight
+- Sleep Warp
+- Structure Essentials
+- Suggestion Tweaker
+- Supplementaries
+- The Bumblezone
+- Traveler's Backpack
+- When Dungeons Arise!
+- Wizards
+- Xaero's Maps
+
+</details>
+
+<details><summary>Update 9 Changelog (v1.0.0.0).</summary>
 
 #### Note: This update mostly just brings every mod in the pack up-to-date.
 
@@ -104,6 +230,8 @@
 - XP Obelisk Additions
 
 - Repurposed Structures - Yung's Better Nether Fortress Compat Datapack
+
+</details>
 
 </details>
 
@@ -1204,4 +1332,4 @@ All of the above mods, that are included as unmodified jars, will from now on be
 
 </details>
 
-## Current version of Perfectly Splendid: v1.0.0.0
+## Current version of Perfectly Splendid: v1.0.1.0

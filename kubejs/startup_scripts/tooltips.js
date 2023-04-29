@@ -1,5 +1,7 @@
 // priority: 3
 
+// Just adds a fluff tooltip to the vanilla bundle
+
 ItemEvents.tooltip(tooltip => {
 
 	tooltip.addAdvanced('minecraft:bundle', (item, advanced, text) => {

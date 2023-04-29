@@ -107,7 +107,7 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 </details>
 
-<details><summary>Log Begone is not working in Update 6 and above.</summary>
+<details><summary>Log Begone is only partially working in Update 6 and above.</summary>
 
   **Status**: ❌ Reported.
 
@@ -134,6 +134,26 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
   **Severity**: Low. 
 
   **Workarounds**: You can enable a built-in Continuity resource pack called "glass pane culling fix", however, doing so will break culling for unconnected double stacked glass panes and similar blocks (see Continuity GitHub for pictures).
+
+</details>
+
+<details><summary>Using Waystones when mounted is buggy.</summary>
+
+  **Status**: ❌ Reported.
+
+  **Severity**: Medium. 
+
+  **Workarounds**: Dismount before you teleport. If you don't, your mount will stay behind and you will remain a bugged state until you crouch/dismount, which will teleport you back to the mount.
+
+</details>
+
+<details><summary>CF app can't download additional files.</summary>
+
+  **Status**: ❌ Reported.
+
+  **Severity**: Low. 
+
+  **Workarounds**: Currently, this doesn't cause any issues with my pack, but it might in the future, as I'm relying on QKL's additional core file to include the latest Kotlin libraries. For such cases simply download and drop this file into your mods folder: https://www.curseforge.com/minecraft/mc-mods/qkl/download/4490417. Or use a different launcher of your choice.
 
 </details>
 

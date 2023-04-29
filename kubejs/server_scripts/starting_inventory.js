@@ -1,6 +1,7 @@
 // priority: 7
 
-// Remove starting bloat
+// Remove starting inventory bloat
+
 PlayerEvents.loggedIn(event => {
 	// Check if the player is new
 	if (event.player.persistentData.firstLogin == null) {

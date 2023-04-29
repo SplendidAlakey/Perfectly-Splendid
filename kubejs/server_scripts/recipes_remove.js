@@ -1,5 +1,7 @@
 // priority: 5
 
+// Simply remove recipes for either being duplicate or broken
+
 ServerEvents.recipes(event => {
 	
 	const output = [
@@ -21,14 +23,6 @@ ServerEvents.recipes(event => {
 	"blockus:polished_tuff_slab",
 	"blockus:polished_tuff",
 	"blockus:polished_tuff_stairs",
-	"blockus:mossy_deepslate_bricks",
-	"blockus:mossy_deepslate_brick_stairs",
-	"blockus:mossy_deepslate_brick_slab",
-	"blockus:mossy_deepslate_brick_wall",
-	"aurorasdeco:mossy_deepslate_bricks",
-	"aurorasdeco:mossy_deepslate_brick_stairs",
-	"aurorasdeco:mossy_deepslate_brick_slab",
-	"aurorasdeco:mossy_deepslate_brick_wall",
 	"#aurorasdeco:sleeping_bags",
 	"#aurorasdeco:shelves",
 	"aurorasdeco:seat_rest/betternether/nether_reed",
@@ -253,7 +247,20 @@ ServerEvents.recipes(event => {
 	"#travelersbackpack:sleeping_bags",
 	"charm:gold_bars",
 	/^aurorasdeco:stump\/connectedblocks\/.*$/,
-	"bigextras:endless_rod"
+	"bigextras:endless_rod",
+	"#supplementaries:item_shelves",
+	"artifacts:everlasting_beef",
+	"artifacts:eternal_steak",
+	"artifacts:feral_claws",
+	"artifacts:fire_gauntlet",
+	/^stoneworks:mossy_deepslate_.*$/,
+	/^stoneworks:mossy_cobbled_deepslate_.*$/,
+	"stoneworks:mossy_cobbled_deepslate",
+	/^minekea:.*mossy_basalt_.*$/,
+	/^aurorasdeco:mossy_deepslate_.*$/,
+	/^blockus:mossy_deepslate_.*$/,
+	/^stoneworks:mossy_tuff_.*$/,
+	/^stoneworks:mossy_calcite_.*$/
 	];
 	
 	output.forEach((output) => {

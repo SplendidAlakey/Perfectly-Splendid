@@ -1,8 +1,10 @@
 // priority: 9
 
 REIEvents.groupEntries((event) => {
+	
+// Group stuff by name
 
-	// Group Mineakea blocks together by type
+// Group Mineakea blocks together by type
 
 	event.groupItems("minekea:rei_groups/minekea_beams", "Minekea Beams", [
 		/^minekea:building\/beams\/.*$/
@@ -76,7 +78,7 @@ REIEvents.groupEntries((event) => {
 		/^minekea:tools\/.*$/
 	]);
 	
-	// Group spawn eggs together
+// Group spawn eggs together
 	
 	event.groupItems("perfectly_splendid:rei_groups/spawn_eggs", "Spawn Eggs", [
 		/^.*spawn_egg.*$/,
@@ -86,7 +88,7 @@ REIEvents.groupEntries((event) => {
 		'supplementaries:red_merchant_spawn_egg'
 	]);
 	
-	// Group Macaw's mods' blocks together by mod
+// Group Macaw's mods' blocks together by mod
 	
 	event.groupItems("mcwroofs:rei_groups/macaws_roofs", "Macaw's Roofs", [
 		/^mcwroofs:.*$/
@@ -124,7 +126,7 @@ REIEvents.groupEntries((event) => {
 		/^mcwfurnitures:.*$/
 	]);
 	
-	// Group Dramatic Doors, Exline Doors, Chalk, Simple Copper Pipes, MultiBeds mods' blocks together by mod
+// Group Dramatic Doors, Exline Doors, Chalk, Simple Copper Pipes, MultiBeds mods' blocks together by mod
 	
 	event.groupItems("dramaticdoors:rei_groups/dramatic_doors", "Dramatic Doors", [
 		/^dramaticdoors:.*$/
@@ -146,7 +148,7 @@ REIEvents.groupEntries((event) => {
 		/^multibeds:.*$/
 	]);
 	
-	// Group Aurora's Decorations blocks by type
+// Group Aurora's Decorations blocks by type
 	
 	event.groupItems("aurorasdeco:rei_groups/ad_seat_rests", "Aurora's Decorations Seat Rests", [
 		/^aurorasdeco:seat_rest\/.*$/
@@ -156,19 +158,7 @@ REIEvents.groupEntries((event) => {
 		/^aurorasdeco:sign_post\/.*$/
 	]);
 	
-	// Group some Supplementaries and Aurora's Decorations blocks by tag
-	
-	event.groupItemsByTag("supplementaries:rei_groups/hanging_signs", "Supplementaries Hanging Signs", "supplementaries:hanging_signs");
-	event.groupItemsByTag("supplementaries:rei_groups/sign_posts", "Supplementaries Sign Posts", "supplementaries:sign_posts");
-	event.groupItemsByTag("supplementaries:rei_groups/flags", "Supplementaries Flags", "supplementaries:flags");
-	event.groupItemsByTag("supplementaries:rei_groups/presents", "Supplementaries Presents", "supplementaries:presents");
-	event.groupItemsByTag("supplementaries:rei_groups/candle_holders", "Supplementaries Candle Holders", "supplementaries:candle_holders");
-	event.groupItemsByTag("aurorasdeco:rei_groups/stumps", "Aurora's Decorations Stumps", "aurorasdeco:stumps");
-	event.groupItemsByTag("aurorasdeco:rei_groups/small_log_piles", "Aurora's Decorations Small Log Piles", "aurorasdeco:small_log_piles");
-	event.groupItemsByTag("aurorasdeco:rei_groups/benches", "Aurora's Decorations Benches", "aurorasdeco:benches");
-	event.groupItemsByTag("aurorasdeco:rei_groups/pet_beds", "Aurora's Decorations Pet Beds", "aurorasdeco:pet_beds");
-	
-	// Group potions, arrows and enchanted books
+// Group potions, arrows and enchanted books
 	
 	const useNbt = ["potion", "enchanted_book", "splash_potion", "tipped_arrow", "lingering_potion"];
 
@@ -178,19 +168,19 @@ REIEvents.groupEntries((event) => {
 	event.groupSameItem(`perfectly_splendid:rei_groups/${namespace}/${path}`, item.getHoverName(), item);
 	});
 	
-	// Group botany pots together
+// Group botany pots together
 	
 	event.groupItems("botanypots:rei_groups/botany_pots", "Botany Pots", [
 		/^botanypots:.*$/
 	]);
 	
-	// Group carpets together
+// Group carpets together
 	
 	event.groupItems("perfectly_splendid:rei_groups/carpets", "Carpets", [
 		/^((?!pandamc_concreteplus)(?!.*_glass_.*).).*_carpet$/
 	]);
 	
-	// Group glass by mod and type; don't include Create glass
+// Group glass by mod and type; don't include Create glass
 	
 	event.groupItems("perfectly_splendid:rei_groups/glass_panes", "Glass Panes", [
 		/^((?!create).)*glass_pane.*$/,
@@ -210,67 +200,57 @@ REIEvents.groupEntries((event) => {
 		/^connectedblocks:.*_glass((?!_pane).)*$/
 	]);
 	
-	// Group concrete blocks together
+// Group concrete blocks together
 	
 	event.groupItems("perfectly_splendid:rei_groups/concrete_blocks", "Concrete Blocks", [
 		/^((?!botanypots)(?!mcwroofs)(?!minekea).).*concrete.*$/
 	]);
 	
-	// Group terracotta blocks together
+// Group terracotta blocks together
 	
 	event.groupItems("perfectly_splendid:rei_groups/terracotta_blocks", "Terracotta Blocks", [
 		/^((?!botanypots)(?!mcwroofs)(?!minekea)(?!handcrafted).).*terracotta.*$/
 	]);
 	
-	// Group Snowy Spirit glow lights, gumdrops and sleds together by tag
-	
-	event.groupItemsByTag("snowyspirit:rei_groups/glow_lights", "Snowy Spirit Glow Lights", "snowyspirit:glow_lights");
-	event.groupItemsByTag("snowyspirit:rei_groups/sleds", "Snowy Spirit Sleds", "snowyspirit:sleds");
-	event.groupItemsByTag("snowyspirit:rei_groups/gumdrops", "Snowy Spirit Gumdrops", "snowyspirit:gumdrops");
-	
-	// Group crafting benches together by tag
-	
-	event.groupItemsByTag("perfectly_splendid:rei_groups/crafting_benches", "Crafting Benches", "c:workbench");
-	
-	// Group grindstones together
+// Group grindstones together
 	
 	event.groupItems("perfectly_splendid:rei_groups/grindstones", "Grindstones", [
 		/^.*grindstone.*$/
 	]);
 	
-	// Group composters together
+// Group composters together
 	
 	event.groupItems("perfectly_splendid:rei_groups/composters", "Composters", [
 		/^.*composter.*$/
 	]);
 	
-	// Group sleeping bags together
+// Group sleeping bags together
 	
-	event.groupItems("perfectly_splendid:rei_groups/sleeping_bags", "Sleeping Bags and Hammocks", [
+	event.groupItems("comforts:rei_groups/sleeping_bags", "Sleeping Bags and Hammocks", [
 		/^.*sleeping_bag.*$/,
 		/^comforts:.*$/
 	]);
 	
-	// Group Enchanted Vertical Slabs together
+// Group Enchanted Vertical Slabs together
 	
 	event.groupItems("enchanted-vertical-slabs:rei_groups/vertical_slabs", "Enchanted Vertical Slabs", [
 		/^enchanted-vertical-slabs:.*$/,
 		/^evs-betterend:.*$/
 	]);
 	
-	// Group buttons together
+// Group buttons together
 	
 	event.groupItems("perfectly_splendid:rei_groups/buttons", "Buttons", [
 		/^.*button.*$/
 	]);
 	
-	// Group pressure plates together
+// Group pressure plates together
 	
 	event.groupItems("perfectly_splendid:rei_groups/pressure_plates", "Pressure Plates", [
 		/^.*pressure_plate.*$/
 	]);
 	
-	// Group Create blocks by type
+// Group Create blocks by type
 	
 	event.groupItems("create:rei_groups/create_decorative", "Create Decorative Blocks", [
 		/^create:.*cuckoo.*$/,
@@ -319,7 +299,9 @@ REIEvents.groupEntries((event) => {
 		/^create:.*diving.*$/,
 		/^create:.*crank.*$/,
 		/^create:.*linked_controller.*$/,
-		/^extendedgears:.*$/
+		/^extendedgears:.*$/,
+		/^railways:conductor_whistle$/,
+		/^railways:.*_cap$/
 	]);
 	
 	event.groupItems("create:rei_groups/create_generators", "Create Power Generators", [
@@ -403,7 +385,10 @@ REIEvents.groupEntries((event) => {
 		/^create:.*track.*$/,
 		/^create:.*schedule.*$/,
 		/^create:.*controls.*$/,
-		/^createdeco:.*_hull$/
+		/^createdeco:.*_hull$/,
+		/^railways:.*track.*$/,
+		/^railways:smokestack_.*$/,
+		/^railways:semaphore$/
 	]);
 	
 	event.groupItems("create:rei_groups/create_item_transport", "Create Item Transport", [
@@ -530,7 +515,7 @@ REIEvents.groupEntries((event) => {
 		/^create:.*dripstone$/
 	]);
 	
-	// Group Create Deco blocks by type
+// Group Create Deco blocks by type
 	
 	event.groupItems("createdeco:rei_groups/createdeco_worn_bricks", "Create Deco Worn Bricks", [
 		/^createdeco:((?!mossy).)*.worn.*$/,
@@ -698,7 +683,81 @@ REIEvents.groupEntries((event) => {
 		/^createdeco:zinc_sheet_slab_vert$/
 	]);
 	
-	// Group Handcrafted items together by tag
+// Group Backpacked backpack shelves together
+	
+	event.groupItems("backpacked:rei_groups/backpack_shelves", "Backpacked Shelves", [
+		/^backpacked:.*_shelf$/
+	]);
+	
+// Group Stoneworks blocks together
+	
+	event.groupItems("stoneworks:rei_groups/andesite_blocks", "Stoneworks Andesite", [
+		/^stoneworks:.*andesite.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/andesite_blocks", "Stoneworks Basalt", [
+		/^stoneworks:.*basalt.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/blackstone_blocks", "Stoneworks Blackstone", [
+		/^stoneworks:.*blackstone.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/calcite_blocks", "Stoneworks Calcite", [
+		/^stoneworks:.*calcite.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/deepslate_blocks", "Stoneworks Deepslate", [
+		/^stoneworks:.*deepslate.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/diorite_blocks", "Stoneworks Diorite", [
+		/^stoneworks:.*diorite.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/end_stone_blocks", "Stoneworks End Stone", [
+		/^stoneworks:.*end_stone.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/granite_blocks", "Stoneworks Granite", [
+		/^stoneworks:.*granite.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/netherrack_blocks", "Stoneworks Netherrack", [
+		/^stoneworks:.*netherrack.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/nether_brick_blocks", "Stoneworks Nether Brick", [
+		/^stoneworks:.*nether_brick.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/prismarine_blocks", "Stoneworks Prismarine", [
+		/^stoneworks:.*prismarine.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/purpur_blocks", "Stoneworks Purpur", [
+		/^stoneworks:.*purpur.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/quartz_blocks", "Stoneworks Quartz", [
+		/^stoneworks:.*quartz.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/sandstone_blocks", "Stoneworks Sandstone", [
+		/^stoneworks:.*sandstone.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/stone_blocks", "Stoneworks Stone", [
+		/^stoneworks:((?!sand)(?!end)(?!black).)*stone.*$/
+	]);
+	
+	event.groupItems("stoneworks:rei_groups/tuff_blocks", "Stoneworks Tuff", [
+		/^stoneworks:.*tuff.*$/
+	]);
+	
+// Group stuff by tag
+	
+// Group Handcrafted items together by tag
 	
 	event.groupItemsByTag("handcrafted:rei_groups/handcrafted_cushions", "Handcrafted Cushions", "handcrafted:cushions");
 	event.groupItemsByTag("handcrafted:rei_groups/handcrafted_sheets", "Handcrafted Sheets", "handcrafted:sheets");
@@ -723,9 +782,31 @@ REIEvents.groupEntries((event) => {
 	event.groupItemsByTag("handcrafted:rei_groups/handcrafted_trophies", "Handcrafted Trophies", "handcrafted:trophies");
 	event.groupItemsByTag("handcrafted:rei_groups/handcrafted_trophies", "Handcrafted Trophies", "handcrafted:statues");
 	
-	// Group Backpacked backpack shelves together
+// Group some Supplementaries and Aurora's Decorations blocks by tag
 	
-	event.groupItems("backpacked:rei_groups/backpack_shelves", "Backpacked Shelves", [
-		/^backpacked:.*_shelf$/
-	]);
+	event.groupItemsByTag("supplementaries:rei_groups/hanging_signs", "Supplementaries Hanging Signs", "supplementaries:hanging_signs");
+	event.groupItemsByTag("supplementaries:rei_groups/sign_posts", "Supplementaries Sign Posts", "supplementaries:sign_posts");
+	event.groupItemsByTag("supplementaries:rei_groups/flags", "Supplementaries Flags", "supplementaries:flags");
+	event.groupItemsByTag("supplementaries:rei_groups/presents", "Supplementaries Presents", "supplementaries:presents");
+	event.groupItemsByTag("supplementaries:rei_groups/candle_holders", "Supplementaries Candle Holders", "supplementaries:candle_holders");
+	event.groupItemsByTag("supplementaries:rei_groups/sacks", "Supplementaries Sacks", "supplementaries:sacks");
+	event.groupItemsByTag("aurorasdeco:rei_groups/stumps", "Aurora's Decorations Stumps", "aurorasdeco:stumps");
+	event.groupItemsByTag("aurorasdeco:rei_groups/small_log_piles", "Aurora's Decorations Small Log Piles", "aurorasdeco:small_log_piles");
+	event.groupItemsByTag("aurorasdeco:rei_groups/benches", "Aurora's Decorations Benches", "aurorasdeco:benches");
+	event.groupItemsByTag("aurorasdeco:rei_groups/pet_beds", "Aurora's Decorations Pet Beds", "aurorasdeco:pet_beds");
+	
+// Group Sleep Tight hammocks together
+
+	event.groupItemsByTag("sleep_tight:rei_groups/hammocks", "Sleep Tight Hammocks", "sleep_tight:hammocks");
+	
+// Group Snowy Spirit glow lights, gumdrops and sleds together by tag
+	
+	event.groupItemsByTag("snowyspirit:rei_groups/glow_lights", "Snowy Spirit Glow Lights", "snowyspirit:glow_lights");
+	event.groupItemsByTag("snowyspirit:rei_groups/sleds", "Snowy Spirit Sleds", "snowyspirit:sleds");
+	event.groupItemsByTag("snowyspirit:rei_groups/gumdrops", "Snowy Spirit Gumdrops", "snowyspirit:gumdrops");
+	
+// Group crafting benches together by tag
+	
+	event.groupItemsByTag("perfectly_splendid:rei_groups/crafting_benches", "Crafting Benches", "c:workbench");
+	
 });

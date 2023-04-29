@@ -1,7 +1,9 @@
 // priority: 4
 
-// Listen to item tag event
+// Adds both item and block tags to items/blocks for better intermod compatibility
+
 ServerEvents.tags('item', event => {
+	
 	// Get the #c:wooden_chests tag collection and add BN chests to it
 		event.add('c:wooden_chests', 'betternether:crimson_chest');
 		event.add('c:wooden_chests', 'betternether:warped_chest');
@@ -193,4 +195,10 @@ ServerEvents.tags('block', event => {
 		event.add('minecraft:logs', /^expandeddelight:.*_log$/);
 		event.add('minecraft:logs_that_burn', /^expandeddelight:.*_log$/);
 		event.add('minecraft:completes_find_tree_tutorial', /^expandeddelight:.*_log$/);
+		
+	// Get the #c:provides_enchanting_power tag and add missing bookshelves to it
+		event.add('c:provides_enchanting_power', /^variant_bookshelves:.*$/);
+		
+	// Get the #c:bookshelves tag and add missing bookshelves to it
+		event.add('c:bookshelves', /^variant_bookshelves:.*$/);
 })

@@ -1,6 +1,6 @@
 // priority: 2
 
-// Removes limestone from Blockus
+// Removes limestone from Blockus, because Create already adds it
 
 WorldgenEvents.remove(event => {
 	event.removeOres((props) => {
