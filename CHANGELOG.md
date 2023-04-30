@@ -2,7 +2,7 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid_2.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 10 (unreleased) <br>
+<h1 align="center"> Perfectly Splendid Update 10 <br>
 
 #### Note: This update adds a few new resource packs. If you'd like for them to apply automatically, delete your options.txt (will also reset keybinds!)
 

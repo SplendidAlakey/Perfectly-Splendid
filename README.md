@@ -38,7 +38,7 @@ The pack is possible to install with any launcher, however, I can only fully sup
 <p>
 
 1. Install the 1.19.2 version of the game and make sure it works without any mods
-2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.8
+2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.10
 3. Navigate to https://www.curseforge.com/minecraft/mc-mods/qsl and download QSL, then put it into the .minecraft/mods folder. If such a folder doesn't exist, simply create one.
 4. Navigate to https://www.curseforge.com/minecraft/modpacks/perfectly-splendid, choose the latest version of the pack and scroll down until you see the list of included mods
 5. Download every mod, make sure to use the correct versions, and put them all into the mods folder (some mods must be a specific version, to make the process easier find a way to download mods automatically using the pack's zip, rather than manually)
@@ -86,14 +86,14 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 You can also try increasing your pagefile size, if you are on Windows and struggling with loading times. I'm using 40GB for other games' modpacks, but you can probably set it to something like 10-15GB for Minecraft.
 
-## Already tried Perfectly Splendid? Would like to report an issue or send feedback?
+## 💭 Already tried Perfectly Splendid? Would like to report an issue or send feedback?
 
 - If you encounter any issues with the pack or have a suggestion, open an issue on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/issues).
 - If you would like to ask a question, use the discussions tab on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions).
 
-## If you have more questions before installing I might've already answered some of them [here](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions/3)!
+## ❔ If you have more questions before installing I might've already answered some of them [here](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions/3)!
 
-### ⚠ Known issues
+### 📌 Known issues
 
 <details><summary>First ever launch "crashes" with an "internal error" message.</summary>
 
@@ -139,11 +139,11 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 <details><summary>Using Waystones when mounted is buggy.</summary>
 
-  **Status**: ❌ Reported.
+  **Status**: ✅ Fixed in the next release.
 
   **Severity**: Medium. 
 
-  **Workarounds**: Dismount before you teleport. If you don't, your mount will stay behind and you will remain a bugged state until you crouch/dismount, which will teleport you back to the mount.
+  **Workarounds**: Dismount before you teleport or update Waystones https://www.curseforge.com/minecraft/mc-mods/waystones-fabric/files/4513836.
 
 </details>
 
