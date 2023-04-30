@@ -167,6 +167,16 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 </details>
 
+<details><summary>Chunk generation can be extremely slow in U10.</summary>
+
+  **Status**: ✅ Fixed in the next release.
+
+  **Severity**: High. 
+
+  **Workarounds**: Update MVS - Moog's Voyager Structures https://www.curseforge.com/minecraft/mc-mods/moogs-voyager-structures/files/4514602.
+
+</details>
+
 
 **@Credits**: 
 
