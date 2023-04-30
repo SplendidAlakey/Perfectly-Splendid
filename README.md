@@ -157,6 +157,16 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 </details>
 
+<details><summary>Carry On keybind can't be properly changed.</summary>
+
+  **Status**: ❌ Reported.
+
+  **Severity**: Medium. 
+
+  **Workarounds**: You can change the keybind for a session, but it will get reset after a restart. Sadly, Carry On is simply made to be that way, as to avoid another issue. This is a problem for this pack, because of Improved Signs, but I'll try to figure something out in the future.
+
+</details>
+
 
 **@Credits**: 
 
