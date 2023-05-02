@@ -2,7 +2,7 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid_2.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 10.1 (unreleased) <br>
+<h1 align="center"> Perfectly Splendid Update 10.1 <br>
 
 #### Note: This is a small, but important update, that fixes the painfully slow chunkloading caused by MVS.
 
