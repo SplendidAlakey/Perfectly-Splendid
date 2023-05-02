@@ -73,6 +73,7 @@ ServerEvents.recipes(event => {
 	"runes:arcane_stone",
 	"runes:fire_stone",
 	"runes:frost_stone",
+	"runes:healing_stone",
 	/^wizards:.*$/,
 	"backpacked:backpack",
 	/^permanentsponges:.*$/
@@ -1638,7 +1639,7 @@ ServerEvents.recipes(event => {
 	S: 'minecraft:heart_of_the_sea'
 	});
 	
-		event.shaped('permanentsponges:magmatic_sponge', [
+	event.shaped('permanentsponges:magmatic_sponge', [
 	'NNN',
 	'NLN',
 	'NNN'
@@ -1666,6 +1667,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('runes:arcane_stone', ['conjuring:gem_socket', 'mcda:gemstone_purple']);
 	event.shapeless('runes:fire_stone', ['conjuring:gem_socket', 'mcda:gemstone_red']);
 	event.shapeless('runes:frost_stone', ['conjuring:gem_socket', 'mcda:gemstone_white']);
+	event.shapeless('runes:healing_stone', ['conjuring:gem_socket', 'mcda:gemstone_green']);
 	
 // Make Permanent Sponges recipes more late game
 

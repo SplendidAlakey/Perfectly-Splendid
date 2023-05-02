@@ -127,6 +127,16 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 </details>
 
+<details><summary>Graveyard Biomes are way too bright with shaders.</summary>
+
+  **Status**: ❌ Not reported.
+
+  **Severity**: Low. 
+
+  **Workarounds**: Again, just disable shaders, when in those biomes.
+
+</details>
+
 <details><summary>Glass pane culls incorrectly with connected glass pane blocks.</summary>
 
   **Status**: ✅ Intended.
@@ -137,16 +147,6 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 </details>
 
-<details><summary>Using Waystones when mounted is buggy.</summary>
-
-  **Status**: ✅ Fixed in the next release.
-
-  **Severity**: Medium. 
-
-  **Workarounds**: Dismount before you teleport or update Waystones https://www.curseforge.com/minecraft/mc-mods/waystones-fabric/files/4513836.
-
-</details>
-
 <details><summary>CF app can't download additional files.</summary>
 
   **Status**: ❌ Reported.
@@ -154,26 +154,6 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
   **Severity**: Low. 
 
   **Workarounds**: Currently, this doesn't cause any issues with my pack, but it might in the future, as I'm relying on QKL's additional core file to include the latest Kotlin libraries. For such cases simply download and drop this file into your mods folder: https://www.curseforge.com/minecraft/mc-mods/qkl/download/4490417. Or use a different launcher of your choice.
-
-</details>
-
-<details><summary>Carry On keybind can't be properly changed.</summary>
-
-  **Status**: ❌ Reported.
-
-  **Severity**: Medium. 
-
-  **Workarounds**: You can change the keybind for a session, but it will get reset after a restart. Sadly, Carry On is simply made to be that way, as to avoid another issue. This is a problem for this pack, because of Improved Signs, but I'll try to figure something out in the future.
-
-</details>
-
-<details><summary>Chunk generation can be extremely slow in U10.</summary>
-
-  **Status**: ✅ Fixed in the next release.
-
-  **Severity**: High. 
-
-  **Workarounds**: Update MVS - Moog's Voyager Structures https://www.curseforge.com/minecraft/mc-mods/moogs-voyager-structures/files/4514602.
 
 </details>
 

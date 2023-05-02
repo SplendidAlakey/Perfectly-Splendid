@@ -2,7 +2,59 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid_2.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 10 <br>
+<h1 align="center"> Perfectly Splendid Update 10.1 (unreleased) <br>
+
+#### Note: This is a small, but important update, that fixes the painfully slow chunkloading caused by MVS.
+
+### Changes:
+
+- Milk now removes Bad Omen again, as it should've been all the way back in U2.
+- Added a recipe and a trade for healing runes.
+- Fixed Carry On keybind not saving and not being bound to Left Shift by default.
+- Updated Dungeon Difficulty config; enables entity equipment scaling.
+- Excluded more non-configurable mods from ModMenu.
+- Iris is now included as a 3rd party mod.
+
+### Additions:
+
+- 
+
+### Removals: 
+
+- Controlling; redundant with Keymap; used to keep it for the vanilla controls screen, which I simply never use
+- FastAnim; breaks certain animations, e.g. Gliders', which I'm planning to include soon
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- BotanyPots
+- BotanyTrees
+- Cooking For Blockheads
+- CraftingTweaks
+- CraftPresence
+- Create: Steam 'n' Rails
+- Dungeon Difficulty
+- Fabrication
+- Iris
+- Joy Of Painting
+- libIPN
+- MVS - Moog's Voyager Structures
+- Runes
+- Simply Swords
+- Sleep Tight
+- Spell Engine
+- Spell Power Attribute
+- Supplementaries
+- Waystones
+- Wizards
+- Xaero's Maps
+
+- Ore Variants
+
+</details>
+
+<details><summary>Update 10 Changelog (v1.0.1.0).</summary>
 
 #### Note: This update adds a few new resource packs. If you'd like for them to apply automatically, delete your options.txt (will also reset keybinds!)
 
@@ -125,6 +177,8 @@
 - When Dungeons Arise!
 - Wizards
 - Xaero's Maps
+
+</details>
 
 </details>
 
@@ -1332,4 +1386,4 @@ All of the above mods, that are included as unmodified jars, will from now on be
 
 </details>
 
-## Current version of Perfectly Splendid: v1.0.1.0
+## Current version of Perfectly Splendid: v1.0.1.1
