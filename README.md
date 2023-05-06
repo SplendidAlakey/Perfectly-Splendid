@@ -157,6 +157,16 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 </details>
 
+<details><summary>Continuity doesn't work in U10+.</summary>
+
+  **Status**: ❌ Reported.
+
+  **Severity**: Low. 
+
+  **Workarounds**: Disable MindfulDarkness.
+
+</details>
+
 
 **@Credits**: 
 
