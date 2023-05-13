@@ -1,5 +1,8 @@
 {
   "1.2.3.4": {
     "changelog": "Test run of the modpack cheker\r\n\r\n### Bla\r\n\r\n# Very nice\r\n\r\n- Bullet\r\n- Points\r\n\r\n1. One\r\n2. Two\r\n\r\n- Bullet\r\n     - points\r\n\r\n**v1.2.3.4**"
+  },
+  "1.2.3.5": {
+    "changelog": "Another test"
   }
 }
