@@ -2,7 +2,187 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid_2.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 10.1 <br>
+<h1 align="center"> Perfectly Splendid Update 11 <br>
+
+#### Note: This update is recommended to play on a new save. You can continue playing on existing ones, though, but make a backup and read through all the changes to make sure you are OK continuing your save.
+
+##### TL;DR Variant Barrels removed Blockus and BetterNether barrels, a couple of mods were removed or replaced, Twigs was fully rewritten and the enchantment system was completely overhauled.
+
+### Changes:
+
+- Most gear can now hold on average only 2 enchantments, represented by enchantment capacity of 3 points. The most powerful/influencial enchantments add 2 points, the least powerful ones add 0.5. The better your gear is, material wise, the less enchantments it can hold. Mage gear can hold the most amount of enchantments with 4 points.
+- Some enchantments are now incompatible with one another, even if you have enough space for it, e.g. Unbreaking + Mending. Note: Unbreaking now literally makes items unbreakable, but weighs more than Mending.
+- Enabled Enchancement's enchanting table overhaul and single level mode; I'm keeping Goblin Traders for now, because they sell more, than just overenchanted gear, but might remove later.
+- Set `transparentBlocksNegateEnchantingFix` to true in Carpet Fixes to accomodate for Easy Magic removal.
+- Disabled `optimizedRounding` and `optimizedHypot` from Carpet Fixes.
+- Enabled `blackstoneButtonBreakSpeedFix`, `boatsStuckInDispensersFix` and `tileDropsAffectedByFloatingPointFix`, since they were fixed in 1.19.4.
+- Replaced iron sheet from MC Dungeons Armors with the Create version in all relevant recipes.
+- Replaced pure obsidian and bedrock recipes with Create washing, rather than combining 9 of each to avoid conflicts with Minekea's compressed blocks.
+- Made pure obsidian a valid nether portal block.
+- Added shapeless recipes for flowering azalea planks from flowering azalea wood and logs; technically overlaps with regular azalea planks, but shouldn't be a problem thanks to Polymorph.
+- Spawners can no longer be carried.
+- Traveler's Backpacks are now tiered and can be upgraded using tokens; your current packs will become diamond tiered by default and have the same exact amount of slots, as before.
+- Backpacked recipe now uses a diamond chest to make it more in line with Traveler's Backpack.
+- Added superior runecrafting recipes for all existing runes, using the Rune Crafting Table: using the same ingredients yields x2 more runes, using an advanced reagent yields x5.
+- Made the enchantments, that can be pre-applied to wizards' staves and wands advanced semi-random, rather than pre-selected.
+- Corrected enchantment groups for Wizards' enchantments, that I mistakenly put into weapon enchantments, rather than armour.
+- Disabled Promenade ducks, since Naturalist recently added them, too; you won't lose any existing ducks.
+- Drastically increased the distance at which all mobs get activated from 20 blocks to 4 chunks for most neutral/friendly mobs, to 8 chunks for villagers and hostile mobs, to 16 chunks for flying mobs. This will make mobs, that are further away from you to keep moving properly and looks nicer. Old settings were more performant, though, so if you'd like to go back, revert your ServerCore config.
+- Reduced Mythic Mount's moths spawn chances; reduced random chance from 15 to 5 and weight from 10 to 5.
+- Adjusted IPN sorting buttons in Rune Crating Table, Enchanting Table and Farmer's Delight crockpots.
+- Made Promenade biomes more common.
+- Made duckweed intermod craftable between Naturalist and Aurora's Decorations.
+- Added a recipe for Supplementaries golden gates.
+- Added a recipe for azalea crafting tables.
+- Naturalist fireflies can now be prevented from spawning with an amethyst magnum torch.
+- Fixed #minecraft:boats tag not working, due to a missing `bambooeverything:dry_bamboo_raft` boat.
+- Excluded a few more unobtainable items from Completionist's Index.
+- Slightly decreased the frequency of Mo' Structures structure spawns.
+- Disabled The Graveyard's Nightmare and moved out structure spawn settings to a datapack.
+- Projectile Damage Attribute now assigns default values to unspecified bows and crossbows.
+- Disabled verbose logging in BCLib config.
+- Updated BetterCombat config; a simple refresh to apply any updates.
+- Updated Dungeon Difficulty config; a simple refresh to apply any updates.
+- Updated Create config; a simple refresh to apply any updates.
+- Updated EnchantGiver config; a simple refresh to apply any updates.
+- Updated IPN config to disable Villaget/Wandering trader additions; might enable later after better testing.
+- Updated MC Dungeons Weapons config; a refresh to apply Dungeon Difficulty compat.
+- Updated No Chat Reports config; offset the server check icon to accomodate for Better Compatibility Checker.
+- Updated Open Parties and Claims config; a simple refresh to apply any updates.
+- Updated Simply Swords config; a simple refresh to apply any updates.
+- Updated Supplementaries config; a simple refresh to apply any updates.
+- Compacted recipe scripts, that replace certain blocks in recipes for intermod compatibility.
+- Removed some datapacks in favour of scripts for simplicity.
+- Fixed a typo in one of the loading tips.
+- Changed the default Rotation Locker keybind for H to Y, as to not conflict with MiniHUD.
+- Disabled ModMenu update checker.
+- Included a modpack update checker; works only when you press the button in the main menu, so no unwanted online checks; please ignore the incorrect bottom left corner information.
+
+### Additions:
+
+- Better Compatibility Checker
+- Better Statistics Screen
+- C2ME; from personal testing there are no issues, but if you suddenly have problems with chunk generation or something, feel free to disable this mod
+- Colorful Enchantments; does NOT replace Xali's Enchanted Books, only changes modded books not covered by it
+- Create Slice & Dice
+     - Added Slicer to the Create Machines REI group, and Sprinkler to Create Pipes REI group
+- Echo Chest
+- Equipment Compare
+     - Iceberg
+- ExtraSounds
+- Fluid Void Fading
+- Gourds Fix
+     - Statement Library
+- Highlighter
+- Know My Name!
+- KubeJS Create
+- Max Health Fix; was supposed to be included in U8, but I overlooked it
+- ModernFix
+- Modpack Manager
+     - Disabled everything, other than the update checker
+	 - Known issue: visual bug showing Fabric in the main menu instead of Quilt
+- Paladins & Priests
+     - Reworked wands and staves' recipes to be in line with Wizards
+	 - Reworked monks' trades to be in line with wizards'
+	 - Renamed duplicate claymores, instead of removing them, as to keep their unique abilities
+- Plenty Plates
+     - Collapsed REI entries into the pressure plates group
+- Spectrum
+     - Revelationary
+	 - Removed enchantments, that are too similar or exactly the same, as the ones we already have
+	 - Removed duplicate blocks from other mods
+- StepItUp; disabled by default in the config
+- Strategic Enchantments
+     - Please, refer to https://github.com/SplendidAlakey/Perfectly-Splendid/wiki/Enchantments
+- You're In Grave Danger
+     - Graves never expire, can be robbed after 10min
+	 
+- "Better End City" for Better End
+- New Title
+
+### Removals: 
+
+- DirTNT; ModernFix is partially incompatible with Stitch and since DirTNT is the only mod, that uses it, I made the decision to remove it; feel free to re-add it yourself, it will work, but faster texture loading from ModernFix will get disabled
+- DynamicFPS; for the past few updates the only feature I used was run GC when minimized, which is not recommended; and since reducing FPS when minimizing can cause significant slowdowns during the game's initial loading, I made the decision to remove the mod
+- Easy Magic; conflicts with my Enchancement config
+- Enchanting Infuser; made redundant by the overhauled enchanting table
+- Frame API; no longer needed by Twigs
+- Player Plates; made redundant by Plenty Plates
+     - Removed Player Plates translations fix resourcepack
+- Recursive Resources; broken on Quilt at the moment
+- Starter Structure; I really dislike how broken modded structures end up being; I'll bring the Bootcamp back when I figure out a better way to spawn it
+- Unversal Graves; replaced by YIGD for Traveler's Backpack compatibility
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Adorn
+- Amecs
+- Architect's Palette
+- Architectury
+- BetterCombat
+- BetterEnd
+- Block Runner
+- Blockus
+- BotanyTrees
+- Charm Of Undying
+- Colorful Azaleas
+- Create
+- Create Deco Fabric
+- Diagonal Fences
+- Dyed
+- Elytra Slot
+- Entity Model Features
+- Entity Texture Features
+- Extended Drawers
+- Fabrication
+- Friends&Foes
+- Inventory Profiles Next
+- Labels
+- libIPN
+- Log Begone
+- Luna Slimes
+- Macaw's Trapdoors
+- Magnum Torch
+- MC Dungeons Weapons
+- Mindful Darkness
+- Mob Variants
+- Moonlight
+- Naturalist
+- Omni-Hopper
+- Pehkui
+- Polymer
+- Projectile Damage Attribute
+- Recipe Book Is Pain
+- Runes
+- Savage Ender Dragon
+- Simple Copper Pipes
+- Simple Voice Chat
+- Simply Swords
+- Sleep Tight
+- Spell Engine
+- Spell Power Attribute
+- Stylish Effects
+- Supplementaries
+- Supplementaries Squared
+- The Bumblezone
+- The Graveyard
+- Tom's Simple Storage
+- Transmog
+- Traveler's Backpack
+- Twigs
+- Variant Barrels
+- Variant Bookshelves
+- Wizards
+- Xaero's Maps
+
+- Chests Reimagined
+- Torches Reimagined
+
+</details>
+
+<details><summary>Update 10 Changelog (v1.0.1.1).</summary>
 
 #### Note: This is a small, but important update, that fixes the painfully slow chunkloading caused by MVS.
 
@@ -51,6 +231,8 @@
 - Xaero's Maps
 
 - Ore Variants
+
+</details>
 
 </details>
 
@@ -1386,4 +1568,4 @@ All of the above mods, that are included as unmodified jars, will from now on be
 
 </details>
 
-## Current version of Perfectly Splendid: v1.0.1.1
+## Current version of Perfectly Splendid: v1.1.0.0

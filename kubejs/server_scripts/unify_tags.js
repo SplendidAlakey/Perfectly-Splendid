@@ -105,6 +105,14 @@ ServerEvents.tags('item', event => {
 		event.add('minecraft:leaves', /^charm:ebony_leaves$/);
 		event.add('minecraft:completes_find_tree_tutorial', /^charm:ebony_leaves$/);
 		event.add('another_furniture:planter_box_placeables', /^charm:ebony_leaves$/);
+		
+	// Remove the #minecraft:boats tag from the fake dry bamboo raft, just in case
+		event.removeAll('bambooeverything:dry_bamboo_raft');
+
+	// Get the #c:ores tag and add missing ores to it
+		event.add('c:ores', "expandeddelight:salt_ore");
+		event.add('c:ores', "expandeddelight:deepslate_salt_ore");
+		
 });
 
 ServerEvents.tags('block', event => {
@@ -199,6 +207,32 @@ ServerEvents.tags('block', event => {
 	// Get the #c:provides_enchanting_power tag and add missing bookshelves to it
 		event.add('c:provides_enchanting_power', /^variant_bookshelves:.*$/);
 		
-	// Get the #c:bookshelves tag and add missing bookshelves to it
-		event.add('c:bookshelves', /^variant_bookshelves:.*$/);
+	// Get the #c:nether_pframe tag collection and add more obsidian blocks to it
+		event.add('c:nether_pframe', /^betternether:.*_obsidian$/);
+		event.add('c:nether_pframe', /^betterend:.*_obsidian$/);
+		event.add('c:nether_pframe', /^blockus:.*_obsidian$/);
+		event.add('c:nether_pframe', "bedrockbreakers:pure_obsidian");
+
+	// Get the #c:ores tag and add missing ores to it
+		event.add('c:ores', "expandeddelight:salt_ore");
+		event.add('c:ores', "expandeddelight:deepslate_salt_ore");
+
+	// Get the #enchancement:end_ores tag and add missing ores to it
+		event.add('enchancement:end_ores', "betterend:ender_ore");
+		event.add('enchancement:end_ores', "betterend:amber_ore");
+		event.add('enchancement:end_ores', "betterend:thallasium_ore");
+
+	// Get the #enchancement:nether_ores tag and add missing ores to it
+		event.add('enchancement:nether_ores', "betternether:cincinnasite_ore");
+		event.add('enchancement:nether_ores', "betternether:nether_ruby_ore");
+		event.add('enchancement:nether_ores', "betternether:nether_lapis_ore");
+		event.add('enchancement:nether_ores', "betternether:nether_redstone_ore");
+
+	// Get the #c:farmer_plantable_on tag and add missing ores to it
+		event.add('c:farmer_plantable_on', "farmingforblockheads:fertilized_farmland_healthy");
+		event.add('c:farmer_plantable_on', "farmingforblockheads:fertilized_farmland_healthy_stable");
+		event.add('c:farmer_plantable_on', "farmingforblockheads:fertilized_farmland_rich");
+		event.add('c:farmer_plantable_on', "farmingforblockheads:fertilized_farmland_rich_stable");
+		event.add('c:farmer_plantable_on', "farmingforblockheads:fertilized_farmland_stable");
+		
 })

@@ -1,4 +1,5 @@
 {
+	"replace": true, 
 	"structures": [
 		{
 			"structure": "friendsandfoes:beekeeper_hut",

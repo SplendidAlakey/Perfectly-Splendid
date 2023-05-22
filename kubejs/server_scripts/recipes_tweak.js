@@ -14,20 +14,9 @@ ServerEvents.recipes(event => {
 	"customportals:gate_rune",
 	"dragonloot:dragon_bow",
 	"dragonloot:dragon_crossbow",
-	"twigs:polished_calcite_bricks",
-	"twigs:polished_calcite_brick_slab",
-	"twigs:polished_calcite_brick_stairs",
-	"twigs:polished_calcite_brick_wall",
-	"blockus:polished_tuff_pressure_plate",
-	"blockus:polished_tuff_button",
-	"twigs:polished_tuff_bricks",
-	"twigs:polished_tuff_brick_slab",
-	"twigs:polished_tuff_brick_stairs",
-	"twigs:polished_tuff_brick_wall",
 	"moretotems:explosive_totem_of_undying",
 	"moretotems:stinging_totem_of_undying",
 	"moretotems:teleporting_totem_of_undying",
-	"twigs:stripped_bamboo_table",
 	"variantbarrels:stripped_bamboo_barrel",
 	"minecraft:bundle",
 	"aurorasdeco:sturdy_stone",
@@ -37,18 +26,6 @@ ServerEvents.recipes(event => {
 	"charm:azalea_barrel",
 	"charm:azalea_bookshelf",
 	"charm:azalea_bookcase",
-	"minecraft:oak_chest_boat",
-	"minecraft:spruce_chest_boat",
-	"minecraft:birch_chest_boat",
-	"minecraft:jungle_chest_boat",
-	"minecraft:acacia_chest_boat",
-	"minecraft:dark_oak_chest_boat",
-	"minecraft:mangrove_chest_boat",
-	"aurorasdeco:azalea_chest_boat",
-	"aurorasdeco:jacaranda_chest_boat",
-	"blockus:white_oak_chest_boat",
-	"blockus:bamboo_chest_boat",
-	"blockus:charred_chest_boat",
 	"immersive_aircraft:hull",
 	"immersive_aircraft:engine",
 	"immersive_aircraft:boiler",
@@ -70,13 +47,19 @@ ServerEvents.recipes(event => {
 	"charm:netherite_bars",
 	/^ecologics:((?!moss)(?!.*_moss)(?!moss_.*)(?!flowering)(?!.*_flowering)(?!flowering_.*).).*$/,
 	"runes:crafting_altar",
-	"runes:arcane_stone",
-	"runes:fire_stone",
-	"runes:frost_stone",
-	"runes:healing_stone",
 	/^wizards:.*$/,
 	"backpacked:backpack",
-	/^permanentsponges:.*$/
+	/^permanentsponges:.*$/,
+	/^paladins:.*_wand$/,
+	/^paladins:.*_staff$/,
+	"variantcraftingtables:azalea_crafting_table",
+	"travelersbackpack:iron_tier_upgrade",
+	"travelersbackpack:gold_tier_upgrade",
+	"travelersbackpack:diamond_tier_upgrade",
+	"travelersbackpack:netherite_tier_upgrade",
+	"mcda:iron_plate",
+	"bedrockbreakers:pure_obsidian",
+	"bedrockbreakers:pure_bedrock"
 	];
 	
 	output.forEach((output) => {
@@ -172,80 +155,6 @@ ServerEvents.recipes(event => {
 	C: 'minecraft:comparator',
 	R: 'minecraft:repeater',
 	G: 'mcda:gemstone_red'
-	});
-	
-// Add compatibility recipes between Twigs, Aurora's Decorations and Blockus
-	
-	event.shaped('4x twigs:polished_calcite_bricks', [
-	'CC ',
-	'CC ',
-	'   '
-  ], {
-	C: 'aurorasdeco:polished_calcite'
-	});
-	
-	event.shaped('6x twigs:polished_calcite_brick_slab', [
-	'CCC',
-	'   ',
-	'   '
-  ], {
-	C: 'aurorasdeco:polished_calcite'
-	});
-	
-	event.shaped('4x twigs:polished_calcite_brick_stairs', [
-	'C  ',
-	'CC ',
-	'CCC'
-  ], {
-	C: 'aurorasdeco:polished_calcite'
-	});
-	
-	event.shaped('6x twigs:polished_calcite_brick_wall', [
-	'CCC',
-	'CCC',
-	'   '
-  ], {
-	C: 'aurorasdeco:polished_calcite'
-	});
-	
-	event.shaped('blockus:polished_tuff_pressure_plate', [
-	'TT ',
-	'   ',
-	'   '
-  ], {
-	T: 'aurorasdeco:polished_tuff'
-	});
-	
-	event.shaped('4x twigs:polished_tuff_bricks', [
-	'TT ',
-	'TT ',
-	'   '
-  ], {
-	T: 'aurorasdeco:polished_tuff'
-	});
-	
-	event.shaped('6x twigs:polished_tuff_brick_slab', [
-	'TTT',
-	'   ',
-	'   '
-  ], {
-	T: 'aurorasdeco:polished_tuff'
-	});
-	
-	event.shaped('4x twigs:polished_tuff_brick_stairs', [
-	'T  ',
-	'TT ',
-	'TTT'
-  ], {
-	T: 'aurorasdeco:polished_tuff'
-	});
-	
-	event.shaped('6x twigs:polished_tuff_brick_wall', [
-	'TTT',
-	'TTT',
-	'   '
-  ], {
-	T: 'aurorasdeco:polished_tuff'
 	});
 	
 // Add compatibility recipes between Comforts and Traveler's Backpack; Added tags for chests in Traveler's Backpack recipes
@@ -487,7 +396,7 @@ ServerEvents.recipes(event => {
 	
 // Compatibility recipes between Twigs, Blockus and Bamboo Everything
 	
-	event.shaped('twigs:stripped_bamboo_table', [
+	event.shaped('variantcraftingtables:stripped_bamboo_crafting_table', [
 	'SSS',
 	'P P',
 	'P P'
@@ -661,263 +570,6 @@ ServerEvents.recipes(event => {
 	P: 'minecraft:pink_wool',
 	M: 'minecraft:magenta_wool',
 	L: 'minecraft:purple_wool'
-	});
-	
-// Add wooden chests tag to most recipes that use vanilla chests
-	
-	event.shaped('toms_storage:ts.trim', [
-	'PSP',
-	'SCS',
-	'PSP'
-  ], {
-	P: '#minecraft:planks',
-	S: 'minecraft:stick',
-	C: '#c:wooden_chests'
-	});
-	
-	event.shaped('toms_storage:ts.storage_terminal', [
-	'PRP',
-	'CSG',
-	'PRP'
-  ], {
-	P: '#minecraft:planks',
-	S: 'minecraft:glowstone',
-	C: '#c:wooden_chests',
-	R: 'minecraft:comparator',
-	G: 'minecraft:glass'
-	});
-	
-	event.shaped('toms_storage:ts.open_crate', [
-	'PSP',
-	'PCP',
-	'PTP'
-  ], {
-	P: '#minecraft:planks',
-	S: 'minecraft:stick',
-	C: '#c:wooden_chests',
-	T: '#minecraft:wooden_trapdoors'
-	});
-	
-	event.shaped('toms_storage:ts.inventory_proxy', [
-	'PTP',
-	'TCT',
-	'PTP'
-  ], {
-	P: '#minecraft:planks',
-	C: '#c:wooden_chests',
-	T: '#minecraft:wooden_trapdoors'
-	});
-	
-	event.shaped('toms_storage:ts.inventory_cable_connector', [
-	' QP',
-	'ICE',
-	' DP'
-  ], {
-	P: '#minecraft:planks',
-	Q: 'minecraft:quartz',
-	C: '#c:wooden_chests',
-	I: 'toms_storage:ts.inventory_cable',
-	E: 'minecraft:ender_pearl',
-	D: 'minecraft:diamond'
-	});
-	
-	event.shaped('toms_storage:ts.inventory_cable', [
-	'SPS',
-	'TCT',
-	'SPS'
-  ], {
-	P: '#minecraft:planks',
-	S: 'minecraft:stick',
-	C: '#c:wooden_chests',
-	T: '#minecraft:wooden_trapdoors'
-	});
-	
-	event.shaped('aurorasdeco:copper_hopper', [
-	'I I',
-	'ICI',
-	' I '
-  ], {
-	C: '#c:wooden_chests',
-	I: 'minecraft:copper_ingot'
-	});
-	
-	event.shaped('extraalchemy:potion_bag', [
-	' B ',
-	'LCL',
-	'LLL'
-  ], {
-	C: '#c:wooden_chests',
-	B: 'minecraft:glass_bottle',
-	L: '#c:leathers'
-	});
-	
-	event.shaped('extended_drawers:single_drawer', [
-	'LPL',
-	'PCP',
-	'LPL'
-  ], {
-	C: '#c:wooden_chests',
-	P: '#minecraft:planks',
-	L: '#minecraft:logs'
-	});
-	
-	event.shaped('extended_drawers:quad_drawer', [
-	'LCL',
-	'CPC',
-	'LCL'
-  ], {
-	C: '#c:wooden_chests',
-	P: '#minecraft:planks',
-	L: '#minecraft:logs'
-	});
-	
-	event.shaped('extended_drawers:double_drawer', [
-	'LPL',
-	'CPC',
-	'LPL'
-  ], {
-	C: '#c:wooden_chests',
-	P: '#minecraft:planks',
-	L: '#minecraft:logs'
-	});
-	
-	event.shaped('bagofholding:leather_bag_of_holding', [
-	'SLS',
-	'LCL',
-	'WLW'
-  ], {
-	C: '#c:wooden_chests',
-	L: '#minecraft:leathers',
-	S: '#minecraft:string',
-	W: '#minecraft:wool'
-	});
-	
-	event.shaped('minecraft:oak_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'minecraft:oak_boat'
-	});
-	
-	event.shaped('minecraft:spruce_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'minecraft:spruce_boat'
-	});
-	
-	event.shaped('minecraft:birch_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'minecraft:birch_boat'
-	});
-	
-	event.shaped('minecraft:jungle_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'minecraft:jungle_boat'
-	});
-	
-	event.shaped('minecraft:acacia_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'minecraft:acacia_boat'
-	});
-	
-	event.shaped('minecraft:dark_oak_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'minecraft:dark_oak_boat'
-	});
-	
-	event.shaped('minecraft:mangrove_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'minecraft:mangrove_boat'
-	});
-	
-	event.shaped('aurorasdeco:azalea_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'aurorasdeco:azalea_boat'
-	});
-	
-	event.shaped('aurorasdeco:jacaranda_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'aurorasdeco:jacaranda_boat'
-	});
-	
-	event.shaped('blockus:white_oak_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'blockus:white_oak_boat'
-	});
-	
-	event.shaped('blockus:bamboo_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'blockus:bamboo_boat'
-	});
-	
-	event.shaped('blockus:charred_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'blockus:charred_boat'
-	});
-	
-	event.shaped('charm:ebony_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'charm:ebony_boat'
-	});
-	
-// Add tags to barrels in Drink Beer recipes
-	
-	event.shaped('drinkbeer:beer_barrel', [
-	'BI ',
-	'   ',
-	'   '
-  ], {
-	B: '#c:wooden_barrels',
-	I: 'minecraft:iron_ingot'
 	});
 	
 // Add a recipe for Leka's Call Bell
@@ -1226,70 +878,17 @@ ServerEvents.recipes(event => {
 	
 // Add recipes for flowering azalea items from Ecologics, using Aurora's Decorations wood; add a sandcastle recipe
 	
-	event.shaped('ecologics:flowering_azalea_chest_boat', [
-	'CB ',
-	'   ',
-	'   '
-  ], {
-	C: '#c:wooden_chests',
-	B: 'ecologics:flowering_azalea_boat'
-	});
-	
 	event.shaped('ecologics:sandcastle', [
 	' T ',
 	'SHS',
 	'SSS'
   ], {
 	S: 'minecraft:sand',
-	H: 'twigs:sea_shell',
+	H: '#twigs:seashells',
 	T: 'minecraft:stick'
 	});
-	
-	event.shaped('snowyspirit:ecologics/sled_flowering_azalea', [
-	'PPS',
-	'SSS',
-	'   '
-  ], {
-	P: 'ecologics:flowering_azalea_planks',
-	S: 'minecraft:stick'
-	});
-	
-	event.shaped('supplementaries:ecologics/hanging_sign_flowering_azalea', [
-	'NSN',
-	'PPP',
-	'PPP'
-  ], {
-	P: 'ecologics:flowering_azalea_planks',
-	S: 'minecraft:stick',
-	N: 'minecraft:iron_nugget'
-	});
-	
-	event.shaped('dramaticdoors:tall_eco_flowering_azalea_door', [
-	'D  ',
-	'D  ',
-	'D  '
-  ], {
-	D: 'ecologics:flowering_azalea_door'
-	});
-	
-	event.shaped('variant_bookshelves:block/flowering_azalea_bookshelf', [
-	'PPP',
-	'BBB',
-	'PPP'
-  ], {
-	P: 'ecologics:flowering_azalea_planks',
-	B: 'minecraft:book'
-	});
-	
-	event.shaped('variantcraftingtables:flowering_azalea_crafting_table', [
-	'PP ',
-	'PP ',
-	'   '
-  ], {
-	P: 'ecologics:flowering_azalea_planks'
-	});
 
-// Tweak Runes recipes to be gated behind netherite
+// Tweak Wizards recipes to be gated behind netherite
 
 	event.shaped('runes:crafting_altar', [
 	'GHG',
@@ -1621,9 +1220,9 @@ ServerEvents.recipes(event => {
 	event.shaped('backpacked:backpack', [
 	'LLL',
 	'RCR',
-	'LCL'
+	'LRL'
   ], {
-	C: '#c:wooden_chests',
+	C: 'tokenablefurnaces:diamond_chest_item',
 	L: 'minecraft:leather',
 	R: '#supplementaries:ropes'
 	});
@@ -1648,37 +1247,120 @@ ServerEvents.recipes(event => {
 	L: 'extrasponges:wet_lava_sponge'
 	});
 	
+// Make Paladins & Priests' wands crafting recipes to be on par with Wizards'
+
+	event.shaped('paladins:acolyte_wand', [
+	' WW',
+	' TW',
+	'S  '
+  ], {
+	T: 'minecraft:string',
+	W: 'minecraft:stick',
+	S: 'betterend:leather_wrapped_stick'
+	});
+	
+	event.shaped('paladins:holy_wand', [
+	'  M',
+	' G ',
+	'S  '
+  ], {
+	G: 'create:golden_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_green'
+	});
+	
+	event.shaped('paladins:netherite_holy_wand', [
+	'  M',
+	' G ',
+	'S  '
+  ], {
+	G: 'createdeco:netherite_sheet',
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_green'
+	});
+	
+	event.shaped('paladins:holy_staff', [
+	' GM',
+	' RG',
+	'S  '
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_green',
+	G: 'minecraft:gold_ingot',
+	R: 'minecraft:blaze_rod'
+	});
+	
+	event.shaped('paladins:netherite_holy_staff', [
+	'NGM',
+	'NRG',
+	'SNN'
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_green',
+	G: 'minecraft:gold_ingot',
+	R: 'minecraft:blaze_rod',
+	N: 'createdeco:netherite_sheet'
+	});
+	
+	event.shaped('paladins:ruby_holy_staff', [
+	' RM',
+	' IR',
+	'S  '
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	M: 'mcda:gemstone_green',
+	I: 'betternether:cincinnasite_ingot',
+	R: 'betternether:nether_ruby'
+	});
+	
+// Add a recipe for Supplemetaries' golden gates
+
+	event.shaped('supplementaries:gold_gate', [
+	'NIN',
+	'NIN',
+	'   '
+  ], {
+	N: 'minecraft:gold_nugget',
+	I: 'minecraft:gold_ingot'
+	});
+	
+// Add recipes for azalea crafting tables
+
+	event.shaped('variantcraftingtables:azalea_crafting_table', [
+	'PP ',
+	'PP ',
+	'   '
+  ], {
+	P: 'aurorasdeco:azalea_planks'
+	});
+	
 // Shapeless
 
 // Add compatibility recipes between Twigs, Aurora's Decorations and Blockus
 
 	event.shapeless('blockus:polished_tuff_button', ['aurorasdeco:polished_tuff']);
 	
-// Add wooden chests tag to most recipes that use vanilla chests
-	
-	event.shapeless('minecraft:trapped_chest', ['#c:wooden_chests', 'minecraft:tripwire_hook']);
-	
 // Add recipes for flowering azalea items from Ecologics, using Aurora's Decorations wood
 	
 	event.shapeless('supplementaries:ecologics/sign_post_flowering_azalea', ['ecologics:flowering_azalea_sign']);
-	
-// Tweak Runes recipes to be gated behind netherite
-	
-	event.shapeless('runes:arcane_stone', ['conjuring:gem_socket', 'mcda:gemstone_purple']);
-	event.shapeless('runes:fire_stone', ['conjuring:gem_socket', 'mcda:gemstone_red']);
-	event.shapeless('runes:frost_stone', ['conjuring:gem_socket', 'mcda:gemstone_white']);
-	event.shapeless('runes:healing_stone', ['conjuring:gem_socket', 'mcda:gemstone_green']);
+	event.shapeless('4x ecologics:flowering_azalea_planks', ['aurorasdeco:flowering_azalea_log']);
+	event.shapeless('4x ecologics:flowering_azalea_planks', ['aurorasdeco:flowering_azalea_wood']);
 	
 // Make Permanent Sponges recipes more late game
 
 	event.shapeless('permanentsponges:aqueous_sponge_on_a_stick', ['minecraft:stick', 'permanentsponges:aqueous_sponge']);
 	event.shapeless('permanentsponges:magmatic_sponge_on_a_stick', ['minecraft:stick', 'permanentsponges:magmatic_sponge']);
 	
+// Allow intermod crafting duckweed
+
+	event.shapeless('naturalist:duckweed', ['aurorasdeco:duckweed']);
+	event.shapeless('aurorasdeco:duckweed', ['naturalist:duckweed']);
+	
 // Smelting
 
 // Switch up the recipe for cracked polished basalt bricks, because of duplicates
 
-	event.smelting('blockus:cracked_polished_basalt_bricks', 'twigs:polished_basalt_bricks');
+	event.smelting('blockus:cracked_polished_basalt_bricks', 'spectrum:basalt_bricks');
 	
 // Smithing
 	
@@ -1700,6 +1382,13 @@ ServerEvents.recipes(event => {
 	event.smithing('tokenablefurnaces:netherite_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:omnitoken_item');
 	event.smithing('tokenablefurnaces:amethyst_bundle_item', '#charm:colored_bundles', 'tokenablefurnaces:omnitoken_item');
 	
+// Change default upgrade recipes from Traveler's Backpack to utilize upgrade tokens, instead
+
+	event.smithing('travelersbackpack:iron_tier_upgrade', 'travelersbackpack:blank_upgrade', 'tokenablefurnaces:iron_token_item');
+	event.smithing('travelersbackpack:gold_tier_upgrade', 'travelersbackpack:blank_upgrade', 'tokenablefurnaces:gold_token_item');
+	event.smithing('travelersbackpack:diamond_tier_upgrade', 'travelersbackpack:blank_upgrade', 'tokenablefurnaces:diamond_token_item');
+	event.smithing('travelersbackpack:netherite_tier_upgrade', 'travelersbackpack:blank_upgrade', 'tokenablefurnaces:netherite_token_item');
+	
 // Stonecutting
 
 // Add compatibility recipes between Twigs, Aurora's Decorations, Architect's Palette and Blockus
@@ -1712,10 +1401,7 @@ ServerEvents.recipes(event => {
 	event.stonecutting('2x twigs:polished_tuff_brick_slab', 'aurorasdeco:polished_tuff');
 	event.stonecutting('twigs:polished_tuff_brick_stairs', 'aurorasdeco:polished_tuff');
 	event.stonecutting('twigs:polished_tuff_brick_wall', 'aurorasdeco:polished_tuff');
-	event.stonecutting('architects_palette:basalt_tile_vertical_slab', 'twigs:polished_basalt_bricks');
-	event.stonecutting('2x blockus:polished_basalt_brick_slab', 'twigs:polished_basalt_bricks');
-	event.stonecutting('blockus:polished_basalt_brick_stairs', 'twigs:polished_basalt_bricks');
-	event.stonecutting('blockus:polished_basalt_brick_wall', 'twigs:polished_basalt_bricks');
+	event.stonecutting('architects_palette:basalt_tile_vertical_slab', 'spectrum:basalt_bricks');
 	
 // Add stonecutter recipes for Mossier Deepslate blocks
 
@@ -1745,5 +1431,33 @@ ServerEvents.recipes(event => {
 	event.stonecutting('mossierdeepslate:algae_mud_brick_stairs', 'mossierdeepslate:algae_mud_bricks');
 	event.stonecutting('2x mossierdeepslate:algae_mud_brick_slab', 'mossierdeepslate:algae_mud_bricks');
 	event.stonecutting('mossierdeepslate:algae_mud_brick_wall', 'mossierdeepslate:algae_mud_bricks');
+	
+// Bulk input replacement
+
+// Replace iron plates with iron sheet
+
+	event.replaceInput({input:'mcda:iron_plate'},'mcda:iron_plate','create:iron_sheet');
+	
+// Make Ecologics' recipes use Aurora's Decorations wood
+
+	event.replaceInput({input:'ecologics:flowering_azalea_wood'},'ecologics:flowering_azalea_wood','aurorasdeco:flowering_azalea_wood');
+	event.replaceInput({input:'ecologics:flowering_azalea_log'},'ecologics:flowering_azalea_log','aurorasdeco:flowering_azalea_log');
+	
+// Make recipes, that use chests, use all wooden chests, instead of just the vanilla one
+	
+	event.replaceInput({input:'minecraft:chest'},'minecraft:chest','#c:wooden_chests');
+	event.replaceInput({input:'minecraft:barrel'},'minecraft:barrel','#c:wooden_barrels');
+	
+// Add compatibility recipes between Twigs, Aurora's Decorations and Blockus
+
+	event.replaceInput({input:'twigs:polished_calcite'},'twigs:polished_calcite','aurorasdeco:polished_calcite');
+	event.replaceInput({input:'blockus:polished_tuff'},'blockus:polished_tuff','aurorasdeco:polished_tuff');
+
+// Create splashing
+
+// Make pure obsidian and bedrock recipes use splashing
+
+	event.recipes.create.splashing('bedrockbreakers:pure_obsidian', 'minecraft:obsidian');
+	event.recipes.create.splashing('bedrockbreakers:pure_bedrock', 'minecraft:bedrock');
 	
 });

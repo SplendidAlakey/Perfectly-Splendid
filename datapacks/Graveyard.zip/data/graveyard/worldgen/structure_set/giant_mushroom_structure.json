@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "structures": [
+    {
+      "structure": "graveyard:giant_mushroom",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 365012356,
+    "spacing": 95,
+    "separation": 80
+  }
+}

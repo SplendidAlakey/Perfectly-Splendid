@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "structures": [
+    {
+      "structure": "graveyard:large_graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 304812394,
+    "spacing": 420,
+    "separation": 400
+  }
+}

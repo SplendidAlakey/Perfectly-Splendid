@@ -358,7 +358,8 @@ REIEvents.groupEntries((event) => {
 		/^create:.*interface.*$/,
 		/^create:.*nozzle.*$/,
 		/^create:.*fan.*$/,
-		/^create:.*meter.*$/
+		/^create:.*meter.*$/,
+		/^sliceanddice:slicer$/
 	]);
 	
 	event.groupItems("create:rei_groups/create_redstone", "Create Redstone", [
@@ -400,7 +401,8 @@ REIEvents.groupEntries((event) => {
 	
 	event.groupItems("create:rei_groups/create_pipes", "Create Pipes", [
 		/^create:.*pipe.*$/,
-		/^create:.*valve.*$/
+		/^create:.*valve.*$/,
+		/^sliceanddice:sprinkler$/
 	]);
 	
 	event.groupItems("create:rei_groups/create_storage", "Create Storage", [

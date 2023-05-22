@@ -260,7 +260,28 @@ ServerEvents.recipes(event => {
 	/^aurorasdeco:mossy_deepslate_.*$/,
 	/^blockus:mossy_deepslate_.*$/,
 	/^stoneworks:mossy_tuff_.*$/,
-	/^stoneworks:mossy_calcite_.*$/
+	/^stoneworks:mossy_calcite_.*$/,
+	"variantcraftingtables:azalea_crafting_table2",
+	"aurorasdeco:calcite_slab",
+	"minekea:building/walls/calcite",
+	"aurorasdeco:calcite_stairs",
+	"minekea:building/slabs/polished_basalt",
+	"blockus:polished_basalt_pillar",
+	"blockus:chiseled_polished_basalt",
+	"minekea:building/stairs/polished_basalt",
+	"aurorasdeco:polished_basalt_wall",
+	"blockus:polished_basalt_brick_slab",
+	"blockus:polished_basalt_brick_stairs",
+	"blockus:polished_basalt_brick_wall",
+	"twigs:polished_basalt_bricks",
+	"aurorasdeco:polished_calcite",
+	"aurorasdeco:polished_calcite_slab",
+	"aurorasdeco:polished_calcite_stairs",
+	"aurorasdeco:polished_calcite_wall",
+	"stoneworks:polished_calcite",
+	"stoneworks:polished_calcite_slab",
+	"stoneworks:polished_calcite_stairs",
+	"stoneworks:polished_calcite_wall"
 	];
 	
 	output.forEach((output) => {

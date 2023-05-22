@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "structures": [
     {
       "structure": "dungeons_arise:aviary",
