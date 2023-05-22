@@ -182,7 +182,7 @@
 
 </details>
 
-<details><summary>Update 10 Changelog (v1.0.1.1).</summary>
+<details><summary>Update 10.1 Changelog (v1.0.1.1).</summary>
 
 #### Note: This is a small, but important update, that fixes the painfully slow chunkloading caused by MVS.
 
