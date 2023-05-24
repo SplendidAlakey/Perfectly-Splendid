@@ -86,8 +86,6 @@ Prism users may also tick "Skip Java compatibility checks", if using Adoptium JD
 
 You can also try increasing your pagefile size, if you are on Windows and struggling with loading times. I'm using 40GB for other games' modpacks, but you can probably set it to something like 10-15GB for Minecraft.
 
-Starting with Update 11, I'm also including C2ME, which helps tremendously with chunkloading times, but it is disabled by default as a precaution. Only use it if you really struggle with chunkloading and don't mind a little risk.
-
 ## 💭 Already tried Perfectly Splendid? Would like to report an issue or send feedback?
 
 - If you encounter any issues with the pack or have a suggestion, open an issue on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/issues).
@@ -159,13 +157,13 @@ Starting with Update 11, I'm also including C2ME, which helps tremendously with 
 
 </details>
 
-<details><summary>Main menu credits on the bottom left show Fabric instead of Quilt.</summary>
+<details><summary>Main menu credits on the bottom left show Fabric instead of Quilt in U11.</summary>
 
-  **Status**: ❌ Reported.
+  **Status**: ✅ Fixed in the next release.
 
   **Severity**: Low. 
 
-  **Workarounds**: Disable Modpack Manager. I'm using it for update checking only. The actual loader is still Quilt.
+  **Workarounds**: Update or disable Modpack Manager. I'm using it for update checking only. The actual loader is still Quilt.
 
 </details>
 
