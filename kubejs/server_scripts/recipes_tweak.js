@@ -1334,6 +1334,18 @@ ServerEvents.recipes(event => {
 	P: 'aurorasdeco:azalea_planks'
 	});
 	
+// Add recipes for ivory arrows
+
+	event.shaped('adventurez:ivory_arrow', [
+	'I  ',
+	'S  ',
+	'F  '
+  ], {
+	S: 'betterend:leather_wrapped_stick',
+	F: 'minecraft:feather',
+	I: 'blockus:marble'
+	});
+	
 // Shapeless
 
 // Add compatibility recipes between Twigs, Aurora's Decorations and Blockus

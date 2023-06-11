@@ -67,7 +67,7 @@ The lower your RAM, the longer it will take for the game to load and generate ch
 
 Recommended JVM flags (add -Xmx and -Xms, if you don't use Prism or MMC):
 ```
--XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3  -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:GCTimeRatio=99 -XX:+UseLargePages -XX:LargePageSizeInBytes=2m
+-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -Dgraal.CompilerConfiguration=enterprise
 ```
 In order to fully utilise these flags, you have to be using GraalVM as your game's JDK. You can find the download links [here](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks#graalvm-enterprise-edition). You want to grab the Java 17 one.
 The flags were taken from [this](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) guide. You can read the full thing and explanation for the flags there.
@@ -147,23 +147,23 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 </details>
 
-<details><summary>CF app can't download additional files.</summary>
+<details><summary>Spawn eggs aren't grouped in REI.</summary>
 
   **Status**: ❌ Reported.
 
   **Severity**: Low. 
 
-  **Workarounds**: Currently, this doesn't cause any issues with my pack, but it might in the future, as I'm relying on QKL's additional core file to include the latest Kotlin libraries. For such cases simply download and drop this file into your mods folder: https://www.curseforge.com/minecraft/mc-mods/qkl/download/4490417. Or use a different launcher of your choice.
+  **Workarounds**: Disable Inspecio.
 
 </details>
 
-<details><summary>Main menu credits on the bottom left show Fabric instead of Quilt in U11.</summary>
+<details><summary>Sometimes the saving world screen gets stuck.</summary>
 
-  **Status**: ✅ Fixed in the next release.
+  **Status**: 🔳 Not consistently reproducible.
 
   **Severity**: Low. 
 
-  **Workarounds**: Update or disable Modpack Manager. I'm using it for update checking only. The actual loader is still Quilt.
+  **Workarounds**: Feel free to just force close the game, if your console logging stopped at "Saving chunks", your world should be fully saved at this point. Or disable C2ME.
 
 </details>
 

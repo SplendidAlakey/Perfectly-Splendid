@@ -81,11 +81,7 @@ REIEvents.groupEntries((event) => {
 // Group spawn eggs together
 	
 	event.groupItems("perfectly_splendid:rei_groups/spawn_eggs", "Spawn Eggs", [
-		/^.*spawn_egg.*$/,
-		/^.*_spawn_egg.*$/,
-		/^.*spawn_egg_.*$/,
-		/^.*_spawn_egg_.*$/,
-		'supplementaries:red_merchant_spawn_egg'
+		'/spawn_egg/'
 	]);
 	
 // Group Macaw's mods' blocks together by mod
@@ -247,7 +243,9 @@ REIEvents.groupEntries((event) => {
 // Group pressure plates together
 	
 	event.groupItems("perfectly_splendid:rei_groups/pressure_plates", "Pressure Plates", [
-		/^.*pressure_plate.*$/
+		/^.*pressure_plate.*$/,
+		/^betternether:.*plate$/,
+		/^betterend:.*_plate$/
 	]);
 	
 // Group Create blocks by type

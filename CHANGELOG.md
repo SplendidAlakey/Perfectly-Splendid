@@ -2,7 +2,115 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid_2.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 11 <br>
+<h1 align="center"> Perfectly Splendid Update 12 <br>
+
+#### Note: `.quilt` folder has been replaced by `.cache` folder, feel free to delete the `.quilt` folder before or after updating.
+
+### Changes:
+
+- Disabled Naturalist's dragonflies, as Companions and Critters already adds them; also disabled fireflies in favour of Wondrous Wilds. If you kept any exiting ones in jars and such, those will stay.
+- Enabled sieges from It Takes A Pillage.
+- Enabled villager trade favourites in Inventory Profiles Next.
+- Added enchantment caps for knives - 3.
+- All curses are now incompatible with one another, so you can't spam curses on an item to extend its enchantability.
+- Updated Simply Swords config; adds a couple of new weapons.
+- Added BetterNether and BetterEnd pressure plates to the plates item group in REI, because of course they had to use unconventional names there, too :/
+- Moved tooltips.js out of `kubejs/startup_scripts` to `kubejs/client_scripts`; you might have to delete the old file manually (or the entire folder prior to updating).
+- Updated recommended JVM flags; if you used them - copy and paste the new ones. I simply recommended the wrong ones, instead of GraalVM EE specific, which isn't disastrous, just undesirable.
+- Updated Quilt Loader to 0.19.0.
+
+### Additions:
+
+- AdventureZ
+     - Removed some mobs, that already exist (deer etc.)
+	 - Removed duplicate items (gilded netherite)
+- Better Enchantment Boosting
+     - Bookshelves can now be placed 10 blocks away in any direction from the enchanting table for the particles to appear (note: the actual enchanting power is irrelevant in this pack)
+- Curses!
+     - Removed Curse of Death
+- Extra Enchantments and Curses
+     - Removed most enchantments, because my primary goal is to add more curses
+- Fabric Language Kotlin
+- Gazebos
+- Roughly Enough Resources
+     - This mod used to cause "Invalid Player Data" for all my worlds, but now it seems to be working just fine; if you do have such an error, though, know that it's this mod's fault
+	 - Note: on existing worlds a lot of stuff will show up empty on the graph until you actually generate some of it with the mod installed
+
+### Removals: 
+
+- Better Mount HUD; not needed with Leave My Bars Alone
+- Condensed Creative; since the pack is Survival oriented I see no point keeping this in; initially added anticipating a Jello update (to fix the Quilt incompatibility)
+- Quilt Kotlin Libraries; replaced by FLK; hard to maintain support for QKL, because CF is unable to download additional files; thankfully I don't use any QKL exclusive mods yet, so no player facing changes
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Adorn
+- Alternate Current
+- Architectury
+- BCLib
+- BetterEnd
+- BetterNether
+- Better Statistics Screen
+- Bookshelf
+- Chalk
+- Collective
+- CraftPresence
+- Create Slice & Dice
+- Critters and Companions
+- Dave's Potioneering
+- Dramatic Doors
+- Earth2Java
+- Enchanted Vertical Slabs
+- Extended Drawers
+- Grass Overhaul (Sod)
+- Immersive Aircraft
+- Integrated Stronghold
+- Inventory Profiles Next
+- Iris
+- libIPN
+- LootR
+- MC Dungeons Weapons
+- Mindful Darkness
+- ModernFix
+- Modpack Manager
+- Moonlight
+- Mutant Monsters
+- Naturalist
+- Nullscape
+- Omni-Hopper
+- Open Parties and Claims
+- OptiGUI
+- Paladins & Priests
+- Pehkui
+- Projectile Damage Attribute
+- Rebind Narrator
+- Roughly Enough Items
+- Simple Copper Pipes
+- Simple Voice Chat
+- Simply Swords
+- Sleep Tight
+- Spell Engine
+- Structure Essentials
+- Supplementaries
+- Supplementaries Squared
+- TerraBlender
+- Terralith
+- The Bumblezone
+- The Graveyard
+- Tom's Simple Storage
+- Transparent
+- Traveler's Backpack
+- VanitySlots
+- Wizards
+- Xaero's Maps
+
+- Repurposed Structures - Better Desert Temples Compat Datapack
+
+</details>
+
+<details><summary>Update 11 Changelog (v1.1.0.0).</summary>
 
 #### Note: This update is recommended to play on a new save. You can continue playing on existing ones, though, but make a backup and read through all the changes to make sure you are OK continuing your save.
 
@@ -179,6 +287,8 @@
 
 - Chests Reimagined
 - Torches Reimagined
+
+</details>
 
 </details>
 
@@ -1568,4 +1678,4 @@ All of the above mods, that are included as unmodified jars, will from now on be
 
 </details>
 
-## Current version of Perfectly Splendid: v1.1.0.0
+## Current version of Perfectly Splendid: v1.1.1.0

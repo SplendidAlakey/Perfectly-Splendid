@@ -13,7 +13,8 @@ body:
       description: What version of Perfectly Splendid are you playing on?
       multiple: false
       options:
-        - 
+        - -
+        - 1.1.1.0
         - 1.1.0.0
         - 1.0.1.1
         - 1.0.1.0
@@ -37,6 +38,7 @@ body:
       description: What launcher are you using?
       multiple: false
       options:
+        - -
         - Prism Launcher
         - Vanilla launcher
         - MultiMC
@@ -51,6 +53,7 @@ body:
       description: What OS are you on?
       multiple: false
       options:
+        - -
         - Windows
         - Linux
         - Mac

@@ -281,7 +281,15 @@ ServerEvents.recipes(event => {
 	"stoneworks:polished_calcite",
 	"stoneworks:polished_calcite_slab",
 	"stoneworks:polished_calcite_stairs",
-	"stoneworks:polished_calcite_wall"
+	"stoneworks:polished_calcite_wall",
+	/^adventurez:.*rhino.*$/,
+	/^adventurez:.*mammoth.*$/,
+	/^adventurez:.*iguana.*$/,
+	/^adventurez:.*venison.*$/,
+	"adventurez:stone_golem_helmet",
+	"adventurez:stone_golem_chestplate",
+	"adventurez:stone_golem_leggings",
+	"adventurez:stone_golem_boots"
 	];
 	
 	output.forEach((output) => {

@@ -10,4 +10,8 @@ LootJS.modifiers((event) => {
 	
 	event.addEntityLootModifier("minecraft:cow").removeLoot("artifacts:everlasting_beef");
 	
+	// Remove gilded netherite fragment drop from stone golems
+	
+	event.addEntityLootModifier("adventurez:stone_golem").removeLoot("adventurez:gilded_netherite_fragment");
+	
 });

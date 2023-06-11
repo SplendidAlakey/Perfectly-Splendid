@@ -3,7 +3,7 @@
 // Remove REI entries for deleted recipes.
 
 REIEvents.hide('item', event => {
-		event.hide([
+event.hide([
 	'extraalchemy:empty_vial',
 	'extraalchemy:breakable_potion',
 	'blockus:large_flower_pot',
@@ -360,7 +360,22 @@ REIEvents.hide('item', event => {
 	'stoneworks:polished_calcite_slab',
 	'stoneworks:polished_calcite_stairs',
 	'stoneworks:polished_calcite_wall',
-	'mcda:iron_plate'
-	])
+	'mcda:iron_plate',
+	'adventurez:spawn_blaze_guardian',
+	'adventurez:spawn_nightmare',
+	'adventurez:spawn_soul_reaper',
+	'adventurez:spawn_red_fungus',
+	'adventurez:spawn_brown_fungus',
+	'adventurez:spawn_deer',
+	/^adventurez:.*rhino.*$/,
+	/^adventurez:.*mammoth.*$/,
+	/^adventurez:.*iguana.*$/,
+	/^adventurez:.*venison.*$/,
+	"adventurez:stone_golem_helmet",
+	"adventurez:stone_golem_chestplate",
+	"adventurez:stone_golem_leggings",
+	"adventurez:stone_golem_boots",
+	"adventurez:gilded_netherite_fragment"
+	]);
 	
 })
