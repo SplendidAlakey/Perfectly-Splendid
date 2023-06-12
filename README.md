@@ -180,6 +180,5 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 - [Better Nether Map](https://modrinth.com/mod/better-nether-map) by Jummit
 - [Iris](https://modrinth.com/mod/iris) by IMS212
 - [Rotation Locker](https://modrinth.com/mod/rotationlocker) by Beefox
-- Test!
 
 <h1 align="center"> 🌈 Thank you for playing Perfectly Splendid! 🌈 </h1>
