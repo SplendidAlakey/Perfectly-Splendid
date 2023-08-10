@@ -1,8 +1,5 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
-  - name: Perfectly Splendid Q&A
-    url: https://github.com/SplendidAlakey/Perfectly-Splendid/discussions/3
-    about: Check this Q&A before asking any questions.
-  - name: Perfectly Splendid questions
-    url: https://github.com/SplendidAlakey/Perfectly-Splendid/discussions/
-    about: If you didn't find an answer to your question, either create a new discussion or make a comment in the Q&A thread.
+  - name: Perfectly Splendid F.A.Q.
+    url: https://github.com/SplendidAlakey/Perfectly-Splendid/wiki/F.A.Q.
+    about: Check this F.A.Q. before opening a blank issue.
