@@ -2,7 +2,164 @@
   <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/banners/Perfectly_Splendid_2.png" width="720"
 </p>
 
-<h1 align="center"> Perfectly Splendid Update 12 <br>
+<h1 align="center"> Perfectly Splendid Update 13 (unreleased) <br>
+
+## ATTENTION! The pack is (hopefully temporarily) discontinued, due to the fact, that CurseForge now hard requires me to only include mods, that are tagged as Quilt-compatible. That would require me to ask over 200 developers to add extra tags to their mods, which is practically impossible. Thank you everyone, who decided to check out Perfectly Splendid!
+
+##### You can use this file, if you really want to update, but be sure to add back shaders and 3rd party mods: https://github.com/SplendidAlakey/Perfectly-Splendid/releases/tag/1.1.2.0-reject
+
+##### I chose to disable Create: Extended Cogwheels and Flywheels for the time being, as they have yet to be updated to the newest Create version. This means if you used any of those blocks, you might want to either skip this update or replace the blocks with something else.
+
+##### Rice from Farmer's Delight has changed its ID, so it might disappear from your worlds. 
+
+##### Otherwise, this update just brings all the mods up-to-date.
+
+#### Note to Prism users (potentially other launchers, too; doesn't affect CF App): you will have to manually install Quilt Loader 0.19.2 after installing the pack.
+
+### Changes: 
+
+- Disabled Step It Up completely by default, instead of via the config, because it makes players unable to walk up stairs and slabs, when disabled via the config on start 💀
+- Disabled Improved Signs by default, because it causes crashes with Create contraptions, if they contain signs; feel free to re-enable the mod yourself, if you don't care about Create.
+- Disabled Create: Extended Cogwheels and Create: Extended Flywheels until they get updated.
+- LootR chests can no longer be carried.
+- No longer modifying Indium configs to allow for shadowy path blocks to work with Sodium, it's now taken care of properly by the mod, instead.
+- Updated When Dungeons Arise! datapack to include Bathhouse and Greenwood Pub, and exclude Giant Mushroom.
+- Updated Mob Variants config; just a format change.
+- Updated Dynamic Music config; had to be updated in order to be compatible with old worlds. You might have to delete `dynmus.json5` from the config folder manually.
+- Updated Kiwi Lib config; disabled overlapping telemetry toggle and NBT tooltips.
+- Updated recommended JVM flags - GraalVM EE has been superceded by Oracle GraalVM, no special flags are needed.
+- Updated Quilt loader to 0.19.2.
+
+### Additions: 
+
+- Cupboard; a library mod for Savage Ender Dragon
+- fix GPU memory leak
+- Mod-loading Screen
+- Redirectionor
+
+### Removals: 
+
+- JumpQuilt; no longer needed :)
+- SmoothBoot; somewhat conflicts with ModernFix by increasing the loading times by roughly 30s
+
+### Updated: 
+
+<details><summary>Updated all mods.</summary>
+
+- Alternate Current
+- Another Furniture
+- Armor Statues
+- Audio Player
+- Better Statistics Screen
+- Blockus
+- BotanyPots
+- C2ME
+- CarryOn
+- Charm Of Undying
+- Cloth Config
+- Collective
+- Companion
+- CraftingTweaks
+- CraftPresence
+- Create
+- Create Chunkloading
+- Create Deco Fabric
+- Create Slice & Dice
+- Create Steam & Rails
+- CreateFabric&REIBugFix
+- CreativeCore
+- Critters and Companions
+- Dave's Potioneering
+- Diagonal Fences
+- Dramatic Doors
+- Dungeon Difficulty
+- Dynamic Music
+- Emotecraft
+- Entity Model Features
+- Extended Drawers
+- Fabric Language Kotlin
+- Fabrication
+- Fancy Spore Blossom
+- Farmer's Delight
+- Farmer's Knives
+- Farming For Blockheads
+- Framework
+- Friends&Foes
+- Guard Villagers
+- Immersive Aircraft
+- Immersive Armors
+- Immersive Paintings
+- Inventory Profiles Next
+- Iris
+- JamLib
+- Just Mob Heads
+- Keymap
+- Kiwi
+- Know My Name!
+- KubeJS
+- KubeJS Create
+- LootJS
+- LootR
+- Macaw's Bridges
+- Macaw's Doors
+- Macaw's Lights
+- Macaw's Paths and Pavings
+- Macaw's Roofs
+- Macaw's Trapdoors
+- Magnum Torch
+- Max Health Fix
+- MC Dungeons Weapons
+- MidnightLib
+- Mob Variants
+- ModernFix
+- Modpack Manager
+- Moonlight
+- MoreMCMeta
+- Naturalist
+- Nullscape
+- OPAC Create Support
+- Open Parties and Claims
+- OptiGUI
+- Pehkui
+- Ping Wheel
+- Polymorph
+- PuzzlesLib
+- Raised
+- Recipe Book Is Pain
+- Reese's Sodium Options
+- Roughly Enough Items
+- Savage Ender Dragon
+- Simple Voice Chat
+- Sleep Tight
+- Soul Fire'd
+- Spectrum
+- Statement
+- Straw Statues
+- Structure Essentials
+- Suggestion Tweaker
+- Supplementaries
+- TerraBlender
+- Terralith
+- The Bumblezone
+- Tom's Simple Storage
+- Traveler's Backpack
+- Utility Belt
+- Variant Crafting Tables
+- Waystones
+- When Dungeons Arise!
+- Xaero's Maps
+- YUNG's Better Nether Fortresses
+
+- Enchanced Boss Bars
+- Ore Variants
+- Repurposed Structures - Yung's Better Nether Fortress Compat Datapack
+- Shield Corrections
+
+</details>
+
+### Previous changelogs: 
+
+<details><summary>Update 12 Changelog (v1.1.1.0).</summary>
 
 #### Note: `.quilt` folder has been replaced by `.cache` folder, feel free to delete the `.quilt` folder before or after updating.
 
@@ -107,6 +264,8 @@
 - Xaero's Maps
 
 - Repurposed Structures - Better Desert Temples Compat Datapack
+
+</details>
 
 </details>
 
@@ -1678,4 +1837,4 @@ All of the above mods, that are included as unmodified jars, will from now on be
 
 </details>
 
-## Current version of Perfectly Splendid: v1.1.1.0
+## Current version of Perfectly Splendid: v1.1.2.0

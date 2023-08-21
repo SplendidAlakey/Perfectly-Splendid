@@ -272,7 +272,6 @@ REIEvents.groupEntries((event) => {
 		/^create:.*window.*$/,
 		/^create:.*turntable.*$/,
 		/^create:.*.flywheel.*$/,
-		/^extendedflywheels:.*$/,
 		/^create:mysterious_cuckoo_clock$/,
 		/^createdeco:.*.door.*$/,
 		/^createdeco:.*.bars.*$/,
@@ -297,7 +296,6 @@ REIEvents.groupEntries((event) => {
 		/^create:.*diving.*$/,
 		/^create:.*crank.*$/,
 		/^create:.*linked_controller.*$/,
-		/^extendedgears:.*$/,
 		/^railways:conductor_whistle$/,
 		/^railways:.*_cap$/
 	]);

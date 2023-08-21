@@ -8,6 +8,8 @@
 <p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_4.webp" width="360">
 <img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/screens/main_5.webp" width="360"></p>
 
+## ATTENTION! Unfortunately, due to the way CurseForge currently handles modpacks, I am no longer able to maintain the pack. Prior to recent changes, it was possible to include files from any modloader to the pack, but now it has to be tagged as specifically supported by the modloader in question. Since it would require me to go around over 200 mods and ask people to tag their mods as Quilt-supported, I'm simply no longer going to update the pack until this change is reversed. It's quite disheartening, as I had big plans for the future of the pack, but it's completely unrealistic for me to ask over 200 devs to tag their mods as Quilt-compatible. Thank you everyone, who decided to check out Perfectly Splendid!
+
 ## 🔨 Installing the modpack
 
 The pack is possible to install with any launcher, however, I can only fully support 3 methods: Vanilla Launcher; CurseForge app; Prism Launcher.
@@ -38,7 +40,7 @@ The pack is possible to install with any launcher, however, I can only fully sup
 <p>
 
 1. Install the 1.19.2 version of the game and make sure it works without any mods
-2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.18.10
+2. Navigate to https://quiltmc.org/en/install/client/ and follow the instructions to install Quilt Loader 0.19.2
 3. Navigate to https://www.curseforge.com/minecraft/mc-mods/qsl and download QSL, then put it into the .minecraft/mods folder. If such a folder doesn't exist, simply create one.
 4. Navigate to https://www.curseforge.com/minecraft/modpacks/perfectly-splendid, choose the latest version of the pack and scroll down until you see the list of included mods
 5. Download every mod, make sure to use the correct versions, and put them all into the mods folder (some mods must be a specific version, to make the process easier find a way to download mods automatically using the pack's zip, rather than manually)
@@ -51,9 +53,9 @@ The pack is possible to install with any launcher, however, I can only fully sup
 <details><summary>Recommended JVM arguments</summary>
 <p>
 
-Using the recommended flags is not necessary, but it might significantly boost your performance, when generating new chunks and running garbage collection.
+Using my recommendations is not necessary, but it might significantly boost your performance, when generating new chunks and running garbage collection.
 
-The pack was tested on default Java installations shipped with vanilla launcher and CF app, as well as Adoptium JDK 17 and 19.
+The pack was tested on default Java installations shipped with vanilla launcher and CF app, as well as Adoptium JDK 17 and Oracle GraalVM 17.
 
 The pack was tested with default Java arguments provided by vanilla launcher and CF app.
 
@@ -65,47 +67,26 @@ The pack was tested with default Java arguments provided by vanilla launcher and
 
 The lower your RAM, the longer it will take for the game to load and generate chunks!
 
-Recommended JVM flags (add -Xmx and -Xms, if you don't use Prism or MMC):
-```
--XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -Dgraal.CompilerConfiguration=enterprise
-```
-In order to fully utilise these flags, you have to be using GraalVM as your game's JDK. You can find the download links [here](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks#graalvm-enterprise-edition). You want to grab the Java 17 one.
-The flags were taken from [this](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) guide. You can read the full thing and explanation for the flags there.
-Using GraalVM with the flags above **significantly** reduces the amount of time it takes for the game to load, as well as speeds up worldgen.
+I highly recommend using Oracle GraalVM as your Minecraft JVM: https://www.graalvm.org/. Using specifically this version significantly speeds up the initial game loading time, as well as chunk generation.
 
-Alternatively, if you are using a supported JDK (e.g. Eclipse Adoptium), then you can try ShenandoahGC (add -Xmx and -Xms, if you don't use Prism or MMC):
-```
--XX:+UseShenandoahGC -XX:MaxGCPauseMillis=50 -Xmn512M
-```
-These flags work well enough, if you don't want to use GraalVM. But the loading times will be considerably longer and chunks will take more time to generate.
+If using Oracle GraalVM - leave JVM flags **empty**! Only set up your RAM usage and you are good to go.
+In most other cases, letting JVM do its thing is the best option, as well. However, if you are willing to experiment with different flags, I recommend reading up on all the information in this guide: https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks.
 
-Prism users may also tick "Skip Java compatibility checks", if using Adoptium JDK 17 or 19.
+Prism users may also tick "Skip Java compatibility checks", if using any version of Java 17.
 
 </p>
 </details>
 
-You can also try increasing your pagefile size, if you are on Windows and struggling with loading times. I'm using 40GB for other games' modpacks, but you can probably set it to something like 10-15GB for Minecraft.
+Apart from choosing the best JVM for your system, you can also try increasing your pagefile size, if you are on Windows and struggling with loading times. I'm using 40GB for other games' modpacks, but you can probably set it to something like 10-15GB for Minecraft.
 
 ## 💭 Already tried Perfectly Splendid? Would like to report an issue or send feedback?
 
 - If you encounter any issues with the pack or have a suggestion, open an issue on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/issues).
-- If you would like to ask a question, use the discussions tab on [Perfectly Splendid GitHub](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions).
+- Feel free to ask any questions in the comment section.
 
-## ❔ If you have more questions before installing I might've already answered some of them [here](https://github.com/SplendidAlakey/Perfectly-Splendid/discussions/3)!
+## ❔ If you have more questions before installing I might've already answered some of them [here](https://github.com/SplendidAlakey/Perfectly-Splendid/wiki/F.A.Q.)!
 
 ### 📌 Known issues
-
-<details><summary>First ever launch "crashes" with an "internal error" message.</summary>
-
-  **Status**: ❌ Reported.
-
-  **Severity**: Low. 
-
-  **Workarounds**: Simply launch the game again. I think this is due to JumpQuilt technically being run on Forge to download Quilt. You don't need to report this to Quilt, as it says.
-  
-  <p align="center"><img src="https://github.com/SplendidAlakey/Perfectly-Splendid/blob/Perfectly-Splendid/images/extras/First_ever_crash.png" width="360"></p>
-
-</details>
 
 <details><summary>Log Begone is only partially working in Update 6 and above.</summary>
 
@@ -167,6 +148,16 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 
 </details>
 
+<details><summary>Prism launcher (potentially other 3rd party launchers, too) does not install Quilt loader automatically.</summary>
+
+  **Status**: ✅ Fixed in the next version of Prism.
+
+  **Severity**: Low. 
+
+  **Workarounds**: Simply install Quilt loader 0.19.2 yourself.
+
+</details>
+
 
 **@Credits**: 
 
@@ -179,6 +170,7 @@ You can also try increasing your pagefile size, if you are on Windows and strugg
 - [Babies Forever](https://modrinth.com/mod/roundaround-babies-forever) by Roundaround
 - [Better Nether Map](https://modrinth.com/mod/better-nether-map) by Jummit
 - [Iris](https://modrinth.com/mod/iris) by IMS212
+- [Mod Loading Screen](https://modrinth.com/mod/mod-loading-screen) by Gaming32
 - [Rotation Locker](https://modrinth.com/mod/rotationlocker) by Beefox
 
 <h1 align="center"> 🌈 Thank you for playing Perfectly Splendid! 🌈 </h1>
