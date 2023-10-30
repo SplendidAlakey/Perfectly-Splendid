@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betternether:stalagnate_bark"
+    },
+    "result": "betternether:stalagnate_stripped_bark",
+    "count": 1
+}

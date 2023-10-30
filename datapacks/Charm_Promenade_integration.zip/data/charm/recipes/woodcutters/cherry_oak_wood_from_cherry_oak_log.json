@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "promenade:cherry_oak_log"
-    },
-    "result": "promenade:cherry_oak_wood",
-    "count": 1
-}

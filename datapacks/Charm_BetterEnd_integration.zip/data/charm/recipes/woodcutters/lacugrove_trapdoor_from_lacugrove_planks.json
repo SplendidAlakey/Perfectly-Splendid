@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:lacugrove_planks"
-    },
-    "result": "betterend:lacugrove_trapdoor",
-    "count": 1
-}

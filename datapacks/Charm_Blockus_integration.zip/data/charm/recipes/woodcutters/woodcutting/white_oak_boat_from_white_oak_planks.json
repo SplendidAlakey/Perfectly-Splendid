@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "blockus:white_oak_planks"
+    },
+    "result": "blockus:white_oak_boat",
+    "count": 1
+}

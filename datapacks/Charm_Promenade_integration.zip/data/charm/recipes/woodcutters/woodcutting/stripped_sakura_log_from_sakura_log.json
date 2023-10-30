@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "promenade:sakura_log"
+    },
+    "result": "promenade:stripped_sakura_log",
+    "count": 1
+}

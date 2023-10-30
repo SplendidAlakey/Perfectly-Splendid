@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betternether:rubeus_planks"
-    },
-    "result": "betternether:rubeus_boat",
-    "count": 1
-}

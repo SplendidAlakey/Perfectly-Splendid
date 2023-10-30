@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betternether:anchor_tree_planks"
+    },
+    "result": "betternether:anchor_tree_trapdoor",
+    "count": 1
+}

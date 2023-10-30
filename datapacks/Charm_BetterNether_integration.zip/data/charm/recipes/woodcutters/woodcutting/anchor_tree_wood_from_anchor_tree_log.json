@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betternether:anchor_tree_log"
+    },
+    "result": "betternether:anchor_tree_bark",
+    "count": 1
+}

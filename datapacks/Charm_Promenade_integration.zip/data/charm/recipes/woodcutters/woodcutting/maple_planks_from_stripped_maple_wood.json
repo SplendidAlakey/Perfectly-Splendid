@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "promenade:stripped_maple_wood"
+    },
+    "result": "promenade:maple_planks",
+    "count": 4
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betternether:stalagnate_planks"
+    },
+    "result": "betternether:stalagnate_slab",
+    "count": 2
+}

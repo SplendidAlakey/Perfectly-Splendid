@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:dragon_tree_bark"
+    },
+    "result": "betterend:dragon_tree_planks",
+    "count": 4
+}

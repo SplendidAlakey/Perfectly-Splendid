@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "promenade:stripped_palm_log"
-    },
-    "result": "promenade:palm_planks",
-    "count": 4
-}

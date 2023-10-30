@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:helix_tree_stripped_bark"
-    },
-    "result": "betterend:helix_tree_planks",
-    "count": 4
-}

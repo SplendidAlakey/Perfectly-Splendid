@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:lucernia_planks"
-    },
-    "result": "betterend:lucernia_ladder",
-    "count": 1
-}

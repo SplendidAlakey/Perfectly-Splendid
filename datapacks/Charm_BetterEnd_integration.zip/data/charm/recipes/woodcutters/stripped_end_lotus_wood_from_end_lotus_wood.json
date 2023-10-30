@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:end_lotus_bark"
-    },
-    "result": "betterend:end_lotus_stripped_bark",
-    "count": 1
-}

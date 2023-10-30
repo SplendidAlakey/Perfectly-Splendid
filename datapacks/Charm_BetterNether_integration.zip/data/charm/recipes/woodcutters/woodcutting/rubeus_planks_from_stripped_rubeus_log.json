@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betternether:rubeus_stripped_log"
+    },
+    "result": "betternether:rubeus_planks",
+    "count": 4
+}

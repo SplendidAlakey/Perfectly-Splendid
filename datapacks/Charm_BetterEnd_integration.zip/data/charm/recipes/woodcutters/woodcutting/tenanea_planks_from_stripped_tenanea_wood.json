@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:tenanea_stripped_bark"
+    },
+    "result": "betterend:tenanea_planks",
+    "count": 4
+}

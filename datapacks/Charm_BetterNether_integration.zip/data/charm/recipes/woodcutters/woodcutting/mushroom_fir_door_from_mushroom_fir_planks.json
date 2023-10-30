@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betternether:mushroom_fir_planks"
+    },
+    "result": "betternether:mushroom_fir_door",
+    "count": 1
+}

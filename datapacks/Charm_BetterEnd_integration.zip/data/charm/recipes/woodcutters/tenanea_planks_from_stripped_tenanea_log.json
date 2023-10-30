@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:tenanea_stripped_log"
-    },
-    "result": "betterend:tenanea_planks",
-    "count": 4
-}

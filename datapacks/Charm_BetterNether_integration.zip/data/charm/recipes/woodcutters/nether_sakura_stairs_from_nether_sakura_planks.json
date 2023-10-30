@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betternether:nether_sakura_planks"
-    },
-    "result": "betternether:nether_sakura_stairs",
-    "count": 1
-}

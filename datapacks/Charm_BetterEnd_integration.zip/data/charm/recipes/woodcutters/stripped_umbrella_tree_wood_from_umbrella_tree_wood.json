@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:umbrella_tree_bark"
-    },
-    "result": "betterend:umbrella_tree_stripped_bark",
-    "count": 1
-}

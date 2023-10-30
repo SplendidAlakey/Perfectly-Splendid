@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:umbrella_tree_stripped_bark"
+    },
+    "result": "betterend:umbrella_tree_planks",
+    "count": 4
+}

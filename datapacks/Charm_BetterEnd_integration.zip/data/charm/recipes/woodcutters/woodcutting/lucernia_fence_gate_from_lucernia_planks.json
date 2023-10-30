@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:lucernia_planks"
+    },
+    "result": "betterend:lucernia_gate",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:helix_tree_log"
+    },
+    "result": "betterend:helix_tree_stripped_log",
+    "count": 1
+}

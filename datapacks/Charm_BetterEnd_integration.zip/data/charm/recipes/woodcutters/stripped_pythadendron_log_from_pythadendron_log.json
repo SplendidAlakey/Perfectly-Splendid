@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:pythadendron_log"
-    },
-    "result": "betterend:pythadendron_stripped_log",
-    "count": 1
-}

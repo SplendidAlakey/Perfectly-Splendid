@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:pythadendron_stripped_bark"
+    },
+    "result": "betterend:pythadendron_planks",
+    "count": 4
+}

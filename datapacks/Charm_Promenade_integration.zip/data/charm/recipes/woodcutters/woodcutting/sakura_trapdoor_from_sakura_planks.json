@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "promenade:sakura_planks"
+    },
+    "result": "promenade:sakura_trapdoor",
+    "count": 1
+}

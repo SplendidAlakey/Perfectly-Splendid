@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:pythadendron_log"
+    },
+    "result": "betterend:pythadendron_planks",
+    "count": 4
+}

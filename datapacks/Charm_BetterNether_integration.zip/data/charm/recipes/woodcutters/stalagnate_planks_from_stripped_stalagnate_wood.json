@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betternether:stalagnate_stripped_bark"
-    },
-    "result": "betternether:stalagnate_planks",
-    "count": 4
-}

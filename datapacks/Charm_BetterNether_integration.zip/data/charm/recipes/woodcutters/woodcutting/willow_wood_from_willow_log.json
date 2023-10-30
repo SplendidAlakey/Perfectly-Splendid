@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betternether:willow_log"
+    },
+    "result": "betternether:willow_bark",
+    "count": 1
+}

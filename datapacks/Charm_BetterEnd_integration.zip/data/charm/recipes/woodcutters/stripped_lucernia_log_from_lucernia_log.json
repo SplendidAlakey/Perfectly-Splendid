@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:lucernia_log"
-    },
-    "result": "betterend:lucernia_stripped_log",
-    "count": 1
-}

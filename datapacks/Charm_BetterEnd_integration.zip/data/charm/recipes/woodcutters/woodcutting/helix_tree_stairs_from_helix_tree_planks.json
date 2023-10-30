@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:helix_tree_planks"
+    },
+    "result": "betterend:helix_tree_stairs",
+    "count": 1
+}

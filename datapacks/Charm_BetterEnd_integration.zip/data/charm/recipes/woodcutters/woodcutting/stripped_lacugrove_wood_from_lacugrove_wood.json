@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:lacugrove_bark"
+    },
+    "result": "betterend:lacugrove_stripped_bark",
+    "count": 1
+}

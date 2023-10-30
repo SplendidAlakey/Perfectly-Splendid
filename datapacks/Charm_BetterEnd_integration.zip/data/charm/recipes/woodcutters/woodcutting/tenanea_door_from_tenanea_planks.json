@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:tenanea_planks"
+    },
+    "result": "betterend:tenanea_door",
+    "count": 1
+}

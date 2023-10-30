@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:pythadendron_planks"
-    },
-    "result": "betterend:pythadendron_fence",
-    "count": 1
-}

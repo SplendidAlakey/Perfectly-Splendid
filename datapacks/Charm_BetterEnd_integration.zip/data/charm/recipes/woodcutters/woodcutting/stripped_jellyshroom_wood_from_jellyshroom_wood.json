@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:jellyshroom_bark"
+    },
+    "result": "betterend:jellyshroom_stripped_bark",
+    "count": 1
+}

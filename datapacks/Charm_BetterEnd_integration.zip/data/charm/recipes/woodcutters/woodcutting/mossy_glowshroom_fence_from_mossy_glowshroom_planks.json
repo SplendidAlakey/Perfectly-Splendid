@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betterend:mossy_glowshroom_planks"
+    },
+    "result": "betterend:mossy_glowshroom_fence",
+    "count": 1
+}

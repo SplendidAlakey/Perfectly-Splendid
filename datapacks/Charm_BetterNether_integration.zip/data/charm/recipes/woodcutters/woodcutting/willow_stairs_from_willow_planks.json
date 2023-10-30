@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "betternether:willow_planks"
+    },
+    "result": "betternether:willow_stairs",
+    "count": 1
+}

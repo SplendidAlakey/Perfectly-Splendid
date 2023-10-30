@@ -1,8 +1,0 @@
-{
-    "type": "charm:woodcutting",
-    "ingredient": {
-        "item": "betterend:umbrella_tree_planks"
-    },
-    "result": "betterend:umbrella_tree_ladder",
-    "count": 1
-}

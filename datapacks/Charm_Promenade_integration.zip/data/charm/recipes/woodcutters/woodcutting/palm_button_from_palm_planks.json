@@ -1,0 +1,8 @@
+{
+    "type": "charmony:woodcutting",
+    "ingredient": {
+        "item": "promenade:palm_planks"
+    },
+    "result": "promenade:palm_button",
+    "count": 1
+}
