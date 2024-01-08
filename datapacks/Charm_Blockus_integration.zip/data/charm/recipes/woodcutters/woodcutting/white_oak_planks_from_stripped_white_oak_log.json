@@ -1,5 +1,5 @@
 {
-    "type": "charmony:woodcutting",
+    "type": "charm:woodcutting",
     "ingredient": {
         "item": "blockus:stripped_white_oak_log"
     },

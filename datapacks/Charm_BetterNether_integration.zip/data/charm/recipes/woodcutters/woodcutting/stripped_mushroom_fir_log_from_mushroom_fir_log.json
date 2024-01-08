@@ -1,5 +1,5 @@
 {
-    "type": "charmony:woodcutting",
+    "type": "charm:woodcutting",
     "ingredient": {
         "item": "betternether:mushroom_fir_log"
     },
